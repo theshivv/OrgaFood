@@ -1,0 +1,36 @@
+
+<resources>
+    <style name="Theme.Vegan" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/cay</item>
+    <item name="colorPrimaryVariant">@color/cay</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/teal_200</item>
+    <item name="colorSecondaryVariant">@color/teal_700</item>
+    <item name="colorOnSecondary">@color/cay</item>
+    <!-- Status bar color. -->
+    <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+    <!-- Customize your theme here. -->
+</style>
+
+
+    <style name = "NoActionBar" parent = "@android:style/Theme.Holo.Light">
+        <item name = "android:windowActionBar">false</item>
+        <item name = "android:windowNoTitle">true</item>
+    </style>
+
+<!--    <style name="Widget.Registration.TextView" parent="Widget.MaterialComponents.TextView">-->
+
+<!--        <item name="android:minHeight">@dimen/min_text_height</item>-->
+<!--        <item name="android:gravity">center_vertical</item>-->
+<!--        <item name="android:textAppearance">?attr/textAppearanceBody1</item>-->
+<!--    </style>-->
+
+    <style name="loginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#75cfb8</item>
+        <item name="boxStrokeWidth">3dp</item>
+    </style>
+
+
+</resources>
