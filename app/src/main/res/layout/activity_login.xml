@@ -86,10 +86,10 @@
                 android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.357"
+                app:layout_constraintHorizontal_bias="0.350"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.487" />
+                 />
 
             <Button
                 android:id="@+id/loginBtn"
@@ -100,10 +100,10 @@
                 android:text="@string/login"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.189"
+                app:layout_constraintHorizontal_bias="0.150"
                 app:layout_constraintStart_toEndOf="@+id/registerTextId"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.448" />
+                 />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
