@@ -70,29 +70,43 @@
         </com.google.android.material.textfield.TextInputLayout>
 
 
-        <Button
-            android:id="@+id/loginBtn"
-            android:layout_width="101dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="25dp"
-            android:backgroundTint="@color/cay"
-            android:text="@string/login"
-            android:tooltipText="@string/login"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
 
-            />
+            <Button
+                android:id="@+id/registerTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="23dp"
+                android:text="@string/signup"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.350"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                 />
 
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/registerTextId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/register"
-            android:textColor="@color/cay"
-            android:textSize="20sp">
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cay"
+                android:elevation="23dp"
+                android:text="@string/login"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.150"
+                app:layout_constraintStart_toEndOf="@+id/registerTextId"
+                app:layout_constraintTop_toTopOf="parent"
+                 />
 
-        </com.google.android.material.textview.MaterialTextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 
