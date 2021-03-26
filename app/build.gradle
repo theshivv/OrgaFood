@@ -10,7 +10,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.vegan"
+        applicationId "com.example.orgafood"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1

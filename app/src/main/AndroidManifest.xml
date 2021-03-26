@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vegan">
+    package="com.example.OrgaFood">
 
     <application
         android:allowBackup="true"
@@ -9,12 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vegan">
+        <activity android:name="com.example.OrgaFood.Activity.ui.detailsActivity"></activity>
         <activity
-            android:name=".Activity.bottomNevi"
-            android:label="@string/title_activity_bottom_nevi"></activity>
+            android:name="com.example.OrgaFood.Activity.ProductsActivity"
+            android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".Activity.ProductsActivity"
-            android:screenOrientation="portrait" >
+            android:name="com.example.OrgaFood.Activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.OrgaFood.Activity.login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.OrgaFood.Activity.IntroPopup"
+            android:screenOrientation="portrait">
+
+            <!-- android:theme="@style/AppTheme.NoActionBar" -->
+            <!--  -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,22 +32,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.RegisterActivity"
+            android:name="com.example.OrgaFood.Activity.MainActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".Activity.login"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Activity.IntroPopup"
-            android:screenOrientation="portrait">
 
-            <!-- android:theme="@style/AppTheme.NoActionBar" -->
-            <!--  -->
-
-        </activity>
-        <activity
-            android:name=".Activity.MainActivity"
-            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

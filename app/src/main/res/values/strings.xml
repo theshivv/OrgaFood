@@ -7,7 +7,7 @@
     <string name="login">Login</string>
     <string name="email">email</string>
     <string name="regis">regis</string>
-    <string name="signup">SignUp</string>
+
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="register"><u>Register</u></string>
@@ -19,6 +19,9 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="seller_name">Seller Name</string>
+    <string name="organic_food">Organic Food</string>
+    <string name="todo">TODO</string>
+    <string name="signup">SignUp</string>
 
 
 </resources>

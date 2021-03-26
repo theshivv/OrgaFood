@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "783825255742",
-    "project_id": "vlogin-ce068",
-    "storage_bucket": "vlogin-ce068.appspot.com"
+    "project_number": "413205623727",
+    "project_id": "orgafood-859fc",
+    "storage_bucket": "orgafood-859fc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:783825255742:android:4a40ee1198a615a545406f",
+        "mobilesdk_app_id": "1:413205623727:android:e48567b0c735c2e6cdb55a",
         "android_client_info": {
-          "package_name": "com.example.vegan"
+          "package_name": "com.example.orgafood"
         }
       },
       "oauth_client": [
         {
-          "client_id": "783825255742-j6kir9j3cbt95vp0db2q0u3vnvdv1ikc.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.vegan",
-            "certificate_hash": "cd3ae46e4d1b96d160d857a0e8d8edaee3961e83"
-          }
-        },
-        {
-          "client_id": "783825255742-jni6jdrnptbv592co38oekhjfjvnihv5.apps.googleusercontent.com",
+          "client_id": "413205623727-aglvihne94rv1b2kk6jt8hcks8j94l50.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAaPq9CmyST-GxzMmh5HaHCyu1XpDZDrcI"
+          "current_key": "AIzaSyDorA2JNrOEKuXbOBVMLTqBVIXMl5GXCeA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "783825255742-jni6jdrnptbv592co38oekhjfjvnihv5.apps.googleusercontent.com",
+              "client_id": "413205623727-aglvihne94rv1b2kk6jt8hcks8j94l50.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
