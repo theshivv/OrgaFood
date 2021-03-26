@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413205623727",
+    "project_id": "orgafood-859fc",
+    "storage_bucket": "orgafood-859fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413205623727:android:e48567b0c735c2e6cdb55a",
+        "android_client_info": {
+          "package_name": "com.example.orgafood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413205623727-aglvihne94rv1b2kk6jt8hcks8j94l50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDorA2JNrOEKuXbOBVMLTqBVIXMl5GXCeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413205623727-aglvihne94rv1b2kk6jt8hcks8j94l50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="splash_title_text">35sp</dimen>
+    <dimen name="button_baground_radius">20dp</dimen>
+    <dimen name="min_text_height">48dp</dimen>
+</resources>

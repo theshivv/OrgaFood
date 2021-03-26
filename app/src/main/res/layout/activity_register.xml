@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerBtnId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="inherit">
+        <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textField"
+            style="@style/loginTextInputLayoutStyle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:hint="@string/first_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.292">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/PersonName"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColorLink="#100F0F" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text2"
+            style="@style/loginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="@string/last_name"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textField"
+            app:layout_constraintVertical_bias="0.03">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/PersonsLastName"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text3"
+            style="@style/loginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="@string/email"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text2"
+            app:layout_constraintVertical_bias="0.03">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/EmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text4"
+            style="@style/loginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="@string/Password"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text3"
+            app:layout_constraintVertical_bias="0.03">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/button3"
+
+            android:layout_width="189dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/registerBtnId"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/cay"
+            android:text="@string/register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.537"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text4"
+            tools:ignore="NotSibling">
+
+        </Button>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
