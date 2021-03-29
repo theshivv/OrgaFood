@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.OrgaFood.Activity.Info.Product
 import com.example.OrgaFood.Activity.Info.constants
-import com.example.OrgaFood.Activity.ui.detailsActivity
+import com.example.OrgaFood.Activity.detailsActivity
 import com.example.OrgaFood.R
 import java.util.*
 
@@ -20,7 +20,8 @@ class dataAdapter(private val context: Context,
                   private val list: ArrayList<Product>
                   ): RecyclerView.Adapter<dataAdapter.dataViewHolder>() {
 
-class dataViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+class dataViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)   //passing the view in var itemView in Recycle view holder
+{
    val imageVie:ImageView= itemView.findViewById(R.id.item_image)
     val textView:TextView=itemView.findViewById(R.id.item_title)
     val price: TextView = itemView.findViewById(R.id.price)
@@ -45,7 +46,7 @@ class dataViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         holder.itemView.setOnClickListener{
             val intent = Intent(context, detailsActivity::class.java)
-            intent.putExtra(constants.EXTRA_PRODUCT_ID, currentItem.ProDid)
+            intent.putExtra(constants.EXTRA_PRODUCT_ID, currentItem.ProDid) //passing the selected product id and it's details to details activity
             context.startActivity((intent))
         }
     }

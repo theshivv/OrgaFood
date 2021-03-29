@@ -67,10 +67,13 @@ android:id="@+id/scrollViewD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add"
-        android:backgroundTint="#EDC648">
-
+        android:backgroundTint="#EDC648"
+        android:layout_gravity="center"
+        android:elevation="100dp"
+        android:shadowColor="#E69428">
+        
     </Button>
-
+        
 
 
 </LinearLayout>
