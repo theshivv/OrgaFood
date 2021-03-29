@@ -9,7 +9,7 @@ import com.example.OrgaFood.Activity.Info.constants
 import com.example.OrgaFood.Activity.ProductsActivity
 
 import com.example.OrgaFood.Activity.RegisterActivity
-import com.example.OrgaFood.Activity.ui.detailsActivity
+import com.example.OrgaFood.Activity.detailsActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
@@ -81,17 +81,23 @@ fun getProductsinfo(activity: Activity){
 }
 
 
-
+    // getting product details for detail activity
     fun getProductsDetails(activity: detailsActivity, productId: String){
         FS.collection((constants.PROD))
-            .document()
+            .document(productId) //getting the information of the product whose id is  pass from the activity
             .get()
             .addOnSuccessListener { document->
                 Log.e(activity.javaClass.simpleName, document.toString())
 
                 val product = document.toObject(Product::class.java)
                 if(product!=null){
+                    Log.d("Got the data",product.pName)
                     activity.getAllProDetails(product)
+
+                }
+                else{
+        Log.d("Empty doc",product.toString())
+
                 }
 
             }

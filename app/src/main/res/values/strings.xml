@@ -22,6 +22,8 @@
     <string name="organic_food">Organic Food</string>
     <string name="todo">TODO</string>
     <string name="signup">SignUp</string>
+    <string name="selected">Selected</string>
+    <string name="price_of_product">Price of Product</string>
 
 
 </resources>

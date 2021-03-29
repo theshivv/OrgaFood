@@ -9,10 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vegan">
-        <activity android:name="com.example.OrgaFood.Activity.ui.detailsActivity"></activity>
+        <activity android:name="com.example.OrgaFood.Activity.detailsActivity"></activity>
         <activity
             android:name="com.example.OrgaFood.Activity.ProductsActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.example.OrgaFood.Activity.RegisterActivity"
             android:screenOrientation="portrait" />
@@ -25,11 +31,7 @@
 
             <!-- android:theme="@style/AppTheme.NoActionBar" -->
             <!--  -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.OrgaFood.Activity.MainActivity"
