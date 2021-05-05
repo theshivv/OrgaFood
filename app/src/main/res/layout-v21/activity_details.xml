@@ -39,12 +39,13 @@ android:id="@+id/scrollViewD"
         android:textColor="@color/black">
 
     </TextView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/price_of_product"
         android:textColor="@color/black"
-       android:textSize="20sp" >
+        android:textSize="20sp">
 
     </TextView>
 
@@ -64,6 +65,7 @@ android:id="@+id/scrollViewD"
 
     </TextView>
     <Button
+        android:id="@+id/addButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add"

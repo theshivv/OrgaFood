@@ -24,6 +24,13 @@
     <string name="signup">SignUp</string>
     <string name="selected">Selected</string>
     <string name="price_of_product">Price of Product</string>
+    <string name="cart">Cart</string>
+    <string name="cart_is_empty">Cart is empty</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="delete">Delete</string>
+    <string name="_1">1</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
 
 
 </resources>
