@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle-java\\lib\\caches\\transforms-2\\files-2.1\\2558e054bff5cbefb917e9590c1b993e\\core-1.3.2\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,13,14,15,16,17,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,680,796,922,1048,1176,1348",
+                        "endLines": "2,3,4,5,13,14,15,16,19,24",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,791,917,1043,1171,1343,1695"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "363"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "368",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "675"
+                    }
+                }
+            ]
+        }
+    ]
+}

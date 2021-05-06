@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\drawable_secured_by_bg.xml.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\drawable\\secured_by_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\drawable_white_border_black_bg.xml.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\drawable\\white_border_black_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\drawable_green_button.xml.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\drawable\\green_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rzp.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\drawable-xxhdpi\\rzp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_rzp.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\drawable-xxxhdpi\\rzp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rzp.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\drawable-hdpi\\rzp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rzp.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\drawable-xhdpi\\rzp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rzp.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\drawable-mdpi\\rzp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

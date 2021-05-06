@@ -1,0 +1,4 @@
+#Thu May 06 12:47:14 IST 2021
+base.0=C\:\\Users\\Rishabh\\Downloads\\android-basics-kotlin-birthday-card-app-solution-master\\OrgaFood-cartActivity\\razorpay\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

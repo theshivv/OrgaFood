@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <FrameLayout
+        android:id="@+id/relalayid"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="18dp"
+            android:padding="6dp"
+            android:shadowColor="@color/gray"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@color/cay"
+            android:textSize="16sp" />
+        <TextView
+            android:id= "@+id/price"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="18dp"
+            android:padding="6dp"
+            android:shadowColor="@color/gray"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@color/cay"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/seller_name"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="18dp"
+            android:padding="6dp"
+            android:shadowColor="@color/gray"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@color/cay"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/addtocartbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="3dp"
+            android:backgroundTint="#EDC648"
+            android:elevation="100dp"
+            android:shadowColor="#E69428"
+            android:text="@string/add"
+            >
+
+        </Button>
+    </FrameLayout>
+
+</com.google.android.material.card.MaterialCardView>

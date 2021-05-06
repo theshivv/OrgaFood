@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Organic</string>
+    <string name="vegan">Vegan</string>
+    <string name="vegan_img">Vegan</string>
+    <string name="emailid">emailId</string>
+    <string name="Password">Password</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="regis">regis</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="register"><u>Register</u></string>
+    <string name="products_page">Products Page</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="add">add</string>
+    <string name="title_activity_bottom_nevi">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="seller_name">Seller Name</string>
+    <string name="organic_food">Organic Food</string>
+    <string name="todo">TODO</string>
+    <string name="signup">SignUp</string>
+    <string name="selected">Selected</string>
+    <string name="price_of_product">Price of Product</string>
+    <string name="cart">Cart</string>
+    <string name="cart_is_empty">Cart is empty</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="delete">Delete</string>
+    <string name="_1">1</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+
+
+</resources>

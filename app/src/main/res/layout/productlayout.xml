@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <FrameLayout
+        android:id="@+id/relalayid"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="190dp"
+            android:layout_height="274dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="91dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="18dp"
+            android:padding="1dp"
+            android:shadowColor="@color/gray"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@color/cay" />
+
+        <Button
+            android:id="@+id/addtocartbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="3dp"
+            android:backgroundTint="@color/cay"
+            android:text="@string/add">
+
+        </Button>
+    </FrameLayout>
+
+</com.google.android.material.card.MaterialCardView>
