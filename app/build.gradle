@@ -2,8 +2,15 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'com.google.gms.google-services'
+    // for  directly using the id of xml
+    id 'kotlin-android-extensions'
 }
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+
+
 
 android {
     compileSdkVersion 30
@@ -52,7 +59,7 @@ dependencies {
 
 //    implementation "androidx.recyclerview:recyclerview:1.1.0"
     // For control over item selection of both touch and mouse driven selection
-
+// for  directly using the id of xml
 
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"

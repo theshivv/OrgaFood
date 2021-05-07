@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <FrameLayout
+        android:id="@+id/relalayid"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cProductImg"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/cProductName"
+                android:layout_width="204dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="2dp"
+                android:padding="6dp"
+                android:shadowColor="@color/gray"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@color/cay"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cPrice"
+                android:layout_width="204dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="2dp"
+                android:padding="6dp"
+                android:shadowColor="@color/gray"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@color/cay"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cSellerName"
+                android:layout_width="204dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="2dp"
+                android:padding="6dp"
+                android:shadowColor="@color/gray"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@color/cay"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/incrementItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="#CCCCCC"
+                    android:text="+"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/NumberOfItems"
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/decrementItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#CCCCCC"
+                    android:text="-"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buyBtn"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#E69428"
+                android:elevation="100dp"
+                android:shadowColor="#EDC648"
+                android:text="@string/buy_now">
+
+            </Button>
+
+            <Button
+                android:id="@+id/deletItemFromCartBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:outlineProvider="bounds"
+                android:outlineSpotShadowColor="@color/black"
+                android:text="@string/delete"
+                android:textAlignment="center"
+                android:textColor="@color/black">
+
+            </Button>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</com.google.android.material.card.MaterialCardView>

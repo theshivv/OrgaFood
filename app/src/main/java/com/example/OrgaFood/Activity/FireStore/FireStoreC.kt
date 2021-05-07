@@ -3,8 +3,10 @@ package com.example.OrgaFood.Activity.FireStore
 import android.app.Activity
 import android.content.ContentValues.TAG
 import android.util.Log
+import com.example.OrgaFood.Activity.CartActivity
 import com.example.OrgaFood.Activity.Info.Product
 import com.example.OrgaFood.Activity.Info.User
+import com.example.OrgaFood.Activity.Info.cart
 import com.example.OrgaFood.Activity.Info.constants
 import com.example.OrgaFood.Activity.ProductsActivity
 
@@ -40,7 +42,7 @@ class FireStoreC {
         val currentU = FirebaseAuth.getInstance().currentUser
 
         var currentUid=""
-        if(currentUid!=null){
+        if(currentU!=null){
             currentUid = currentU.uid
         }
         return  currentUid
@@ -83,6 +85,7 @@ fun getProductsinfo(activity: Activity){
 
     // getting product details for detail activity
     fun getProductsDetails(activity: detailsActivity, productId: String){
+
         FS.collection((constants.PROD))
             .document(productId) //getting the information of the product whose id is  pass from the activity
             .get()
@@ -100,6 +103,41 @@ fun getProductsinfo(activity: Activity){
 
                 }
 
+            }
+    }
+
+
+
+//creating collection cart adding document with name as product's document
+    fun cart(activity: detailsActivity,addToCart :cart,addedPid:String)
+    {
+        FS.collection("cart").
+        document(addedPid).set(addToCart, SetOptions.merge())   // adding the documents and if already present then merge
+            .addOnSuccessListener {
+      activity.addSucc() // addSucc is just a toast message this function is created in details activity
+            }
+    }
+
+
+    //adding the cart item data into list fro using it in the recycle view
+    fun cartList(activity: Activity){
+        FS.collection("cart")
+            .whereEqualTo("userId",getCurrentUID()) //getting the cart item for particular user
+            .get()
+            .addOnSuccessListener {dataGet->
+                val cartArrayList : ArrayList<cart> = ArrayList() //creating  the list
+                for(data in  dataGet.documents)
+                {
+val cartItem = data.toObject(cart::class.java)!!
+                    cartItem.ProDid = data.id
+                    cartArrayList.add(cartItem)
+                }
+
+                when(activity){
+                    is CartActivity ->{
+activity.getCartItem(cartArrayList)
+                    }
+                }
             }
     }
 
