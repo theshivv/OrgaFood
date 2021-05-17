@@ -20,7 +20,7 @@ class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
-//var fnameL ="fname"
+var fnameL ="fname"
         var lastname = "lastname"
         var emailide = "emaid"
 
@@ -35,13 +35,13 @@ class ProfileActivity : AppCompatActivity() {
                 if (document != null) {
 
 
-                    Log.i("LOGGER", "First " + document.getString("fname"))
-                    Log.i("LOGGER", "LastRender " + document.getString("lname"))
-                    Log.i("LOGGER", "Born " + document.getString("email"))
-//                   fnameL = document.getString("fname").toString()
+//                    Log.i("LOGGER", "First " + document.getString("fname"))
+//                    Log.i("LOGGER", "LastRender " + document.getString("lname"))
+//                    Log.i("LOGGER", "Born " + document.getString("email"))
+                   fnameL = document.getString("fname").toString()
                     lastname = document.getString("lname") .toString()
                     emailide = document.getString("email").toString()
-                    findViewById<TextView>(R.id.lUserName).text = document.getString("fname").toString()
+                    findViewById<TextView>(R.id.lUserName).text =fnameL
                     findViewById<TextView>(R.id.lUserEmailId).text = emailide
                     findViewById<TextView>(R.id.lUserLastName).text = lastname
 

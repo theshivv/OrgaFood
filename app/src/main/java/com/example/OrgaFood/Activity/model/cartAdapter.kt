@@ -39,8 +39,6 @@ return cartViewHolder(cartV)
         Log.i("adapter cart",cartI.pName)
 
 
-
-
     }
     override fun getItemCount(): Int {
 

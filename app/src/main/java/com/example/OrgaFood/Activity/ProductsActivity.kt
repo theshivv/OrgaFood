@@ -34,10 +34,14 @@ FireStoreC().getProductsinfo(this)
 //        rcv.setHasFixedSize(true)
 //        Log.d(ContentValues.TAG, "${"ThisProducts page"+ plis.size} => ${plis.size}")
 
+
         var profile= findViewById<View>(R.id.profile)
         profile.setOnClickListener{
             startActivity(Intent(this,ProfileActivity ::class.java))
         }
+
+
+
 
 
    var img= findViewById<View>(R.id.cartImgId)
