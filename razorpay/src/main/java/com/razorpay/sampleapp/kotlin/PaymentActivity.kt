@@ -84,7 +84,6 @@ class PaymentActivity: Activity(), PaymentResultListener {
         Toast.makeText(this, "Payment Successfully Done!$razorpayPaymentId", Toast.LENGTH_SHORT).show()
 
     }
-//done
 
 }
 
