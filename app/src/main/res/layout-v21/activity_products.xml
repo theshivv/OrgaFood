@@ -14,7 +14,7 @@
         android:background="@color/cay"
         >
         <ImageView
-            android:id="@+id/profilep"
+            android:id="@+id/profile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_person_24"

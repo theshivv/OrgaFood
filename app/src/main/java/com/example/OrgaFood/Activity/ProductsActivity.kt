@@ -35,7 +35,7 @@ FireStoreC().getProductsinfo(this)
 //        Log.d(ContentValues.TAG, "${"ThisProducts page"+ plis.size} => ${plis.size}")
 
 
-        var profile= findViewById<View>(R.id.profilep)
+        var profile= findViewById<View>(R.id.profile)
         profile.setOnClickListener{
             startActivity(Intent(this,ProfileActivity ::class.java))
         }
@@ -50,7 +50,7 @@ FireStoreC().getProductsinfo(this)
 
 
 
-    fun successProduc(plist: ArrayList<Product>) {
+    fun successProduct(plist: ArrayList<Product>) {
 
         val rcv= findViewById<RecyclerView>(R.id.recycleView)
        rcv.adapter=dataAdapter(this,plist)
