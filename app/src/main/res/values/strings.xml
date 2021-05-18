@@ -31,6 +31,7 @@
     <string name="_1">1</string>
     <string name="decrement">-</string>
     <string name="increment">+</string>
+    <string name="profilep">profilep</string>
 
 
 </resources>

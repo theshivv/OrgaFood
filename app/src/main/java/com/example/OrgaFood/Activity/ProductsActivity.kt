@@ -35,7 +35,10 @@ FireStoreC().getProductsinfo(this)
 //        Log.d(ContentValues.TAG, "${"ThisProducts page"+ plis.size} => ${plis.size}")
 
 
-
+        var profile= findViewById<View>(R.id.profilep)
+        profile.setOnClickListener{
+            startActivity(Intent(this,ProfileActivity ::class.java))
+        }
 
    var img= findViewById<View>(R.id.cartImgId)
       img.setOnClickListener{
