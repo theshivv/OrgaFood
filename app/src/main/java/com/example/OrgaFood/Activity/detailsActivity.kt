@@ -52,11 +52,7 @@ addToC()
     fun getAllProDetails(product:Product) //call this function in FireStoreC and pass productDetails corresponding to the id that we pass in getProd() fun
     {
 
-
-
-
 producD = product
-
 
         Log.i("Product id idkd", product.pName)
    Glide.with(this).load(product.images).into(findViewById(R.id.dImage))

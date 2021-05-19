@@ -3,18 +3,20 @@ package com.example.OrgaFood.Activity.FireStore
 import android.app.Activity
 import android.content.ContentValues.TAG
 import android.util.Log
-import com.example.OrgaFood.Activity.*
+import com.example.OrgaFood.Activity.CartActivity
 import com.example.OrgaFood.Activity.Info.Product
 import com.example.OrgaFood.Activity.Info.User
 import com.example.OrgaFood.Activity.Info.cart
 import com.example.OrgaFood.Activity.Info.constants
+import com.example.OrgaFood.Activity.ProductsActivity
+
+import com.example.OrgaFood.Activity.RegisterActivity
+import com.example.OrgaFood.Activity.detailsActivity
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-
 
 class FireStoreC {
 
@@ -42,16 +44,8 @@ class FireStoreC {
         var currentUid=""
         if(currentU!=null){
             currentUid = currentU.uid
-            Log.d("GotCurrentUid", currentUid)
-            return  currentUid
         }
-        else {
-
-
-            return "Not Login"
-
-        }
-
+        return  currentUid
     }
 
 fun getProductsinfo(activity: Activity){
@@ -114,7 +108,6 @@ fun getProductsinfo(activity: Activity){
 
 
 
-
 //creating collection cart adding document with name as product's document
     fun cart(activity: detailsActivity,addToCart :cart,addedPid:String)
     {
@@ -147,55 +140,6 @@ activity.getCartItem(cartArrayList)
                 }
             }
     }
-
-//    fun getUserInfo(activity :ProfileActivity ){
-//        val docRef = FS.collection("users").document(getCurrentUID())
-//
-//        docRef.get()
-//            .addOnSuccessListener { document ->
-//                if (document != null) {
-//                    var id = getCurrentUID()
-//
-//                    Log.i(TAG,"ProfileIdIs",)
-//                    Log.d(TAG, "DocumentSnapshot dataProfile: ${document.data}")
-//
-//                    Log.i("LOGGER","First "+document.getString("fName"));
-//                    Log.i("LOGGER","LastNameRender "+document.getString("lname"));
-//                    val pdata = document.toObject(User::class.java)
-//                    if (pdata != null) {
-//                        Log.d(TAG, "DocumentSnapshot dataProfileFname: ${pdata.fname}")
-//                        activity.getInfoOfProfile(pdata)
-//                    }
-//                    else{
-//                        Log.d(TAG,"dataNOtFound")
-//                    }
-//
-//                } else {
-//                    Log.d(TAG, "No such documentFound")
-//                }
-//            }
-//            .addOnFailureListener { exception ->
-//                Log.d(TAG, "get failed withError ", exception)
-//            }
-
-
-//        val docRef: DocumentReference = FS.collection("users").document(getCurrentUID())
-//        docRef.get().addOnCompleteListener { task ->
-//            if (task.isSuccessful) {
-//                val document = task.result
-//                if (document != null) {
-//                    Log.i("LOGGER", "First " + document.getString("fname"))
-//                    Log.i("LOGGER", "LastRender " + document.getString("lname"))
-//                    Log.i("LOGGER", "Born " + document.getString("email"))
-//                    activity.getInfoOfProfile(document)
-//                } else {
-//                    Log.d("LOGGER", "No such document")
-//                }
-//            } else {
-//                Log.d("LOGGER", "get failed with ", task.exception)
-//            }
-//        }
-//    }
 
 
 

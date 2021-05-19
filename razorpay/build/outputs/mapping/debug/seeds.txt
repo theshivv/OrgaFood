@@ -1,0 +1,2920 @@
+com.razorpay.R$styleable: int ColorStateListItem_android_alpha
+com.razorpay.AnalyticsUtil: int sdkVersionCode
+com.razorpay.AnalyticsConstants: java.lang.String CHECKOUT_LOAD_DURATION
+com.razorpay.PaymentData: void setPaymentId(java.lang.String)
+com.razorpay.CheckoutActivity: CheckoutActivity()
+com.razorpay.SharedPreferenceUtil: android.content.SharedPreferences getStorageBridgePrefs(android.content.Context)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_INIT_END
+com.razorpay.ResponseObject: void setHeaders(java.util.Map)
+com.razorpay.CheckoutBridge$6: void unSecure()
+com.razorpay.sampleapp.R$id: int light
+com.razorpay.AdvertisingIdUtil$AdvertisingInterface
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void loadUrl(int,java.lang.String)
+com.razorpay.AnalyticsUtil: void trackEvent(com.razorpay.AnalyticsEvent,java.util.Map)
+com.razorpay.R$drawable: int notification_icon_background
+com.razorpay.CheckoutUtils$2: void onClick(android.content.DialogInterface,int)
+com.razorpay.Lumberjack: java.lang.String DEVICE_MANUFACTURER
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent SMS_PERMISSION_ALREADY_ASKED
+com.razorpay.CheckoutPresenterImpl: void onSubmit(java.lang.String)
+com.google.android.gms.common.api.internal.LifecycleCallback: com.google.android.gms.common.api.internal.LifecycleFragment getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.LifecycleActivity)
+com.razorpay.Lumberjack: java.lang.String getStringFromJsonObject(org.json.JSONObject,java.lang.String)
+com.razorpay.RzpAssist$3: RzpAssist$3(com.razorpay.RzpAssist)
+com.razorpay.PluginCheckoutBridge: void invokePopup(java.lang.String)
+com.razorpay.AnalyticsUtil: java.lang.String getKeyType(java.lang.String)
+com.razorpay.CheckoutBridge$4: void unSecure()
+com.razorpay.CheckoutInteractor: void invokePopup(java.lang.String)
+com.razorpay.sampleapp.R$id: int title
+com.razorpay.BaseUtils: java.lang.String getAppNameOfPackageName(java.lang.String,android.content.Context)
+com.razorpay.CryptLib: byte[] _key
+com.razorpay.RzpAssist$5: com.razorpay.RzpAssist this$0
+com.razorpay.sampleapp.R$string: int common_google_play_services_wear_update_text
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_dark_normal
+com.razorpay.CheckoutOptions: java.lang.String getOptionsWithoutImage()
+com.razorpay.AnalyticsConstants: java.lang.String SAFETY_NET_BASIC_INTEGRITY
+com.razorpay.R$styleable: int[] GradientColorItem
+com.razorpay.CheckoutPresenterImpl$10: java.lang.String val$resp
+com.razorpay.R$styleable: int FontFamilyFont_android_fontWeight
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_SUBMIT_START
+com.razorpay.CheckoutPresenterImpl: void handleCardSaving()
+com.razorpay.AnalyticsConstants: java.lang.String DENSITY
+com.razorpay.BaseCheckoutActivity: void makeWebViewVisible(int)
+com.razorpay.Checkout$Builder: com.razorpay.Checkout$Builder setImage(int)
+com.razorpay.RzpAssist: void enableMagic()
+com.razorpay.Checkout: int INTEGRATION_ONE
+com.razorpay.Config: java.lang.String mBackButtonPositiveText
+com.razorpay.R$color: int common_google_signin_btn_text_dark_focused
+com.razorpay.ConfigDroid: java.lang.String MAGIC_JS
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent WEB_VIEW_PRIMARY_TO_SECONDARY_SWITCH
+com.razorpay.CheckoutBridge$21: java.lang.String val$message
+com.razorpay.CheckoutBridge$1: com.razorpay.CheckoutBridge this$0
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void requestExtraAnalyticsData()
+com.razorpay.BaseConstants: java.lang.String RZP_PROGRESS_COLOR
+com.razorpay.RzpAssist$4: RzpAssist$4(com.razorpay.RzpAssist,java.lang.String)
+com.razorpay.CircularProgressView$8: void onAnimationUpdate(android.animation.ValueAnimator)
+com.razorpay.RzpAssist$5
+com.razorpay.AnalyticsConstants: java.lang.String SSL_ERROR
+com.razorpay.CheckoutBridge$WebViewSafeCheckCallback
+com.razorpay.CheckoutPresenterImpl$15$1: void onPositiveButtonClick()
+com.razorpay.sampleapp.R$attr: int coordinatorLayoutStyle
+com.razorpay.AnalyticsUtil: void trackEvent(com.razorpay.AnalyticsEvent,org.json.JSONObject)
+com.razorpay.Config: java.lang.String mBackButtonNegativeText
+com.razorpay.CheckoutPresenterImpl$4: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.CheckoutPresenterImpl$CheckoutView: android.webkit.WebView getWebView(int)
+com.razorpay.BaseUtils: java.lang.String getBatteryLevel(android.content.Context)
+com.razorpay.SmsAgent: com.razorpay.SmsReceiver smsBroadcastReceiver
+com.razorpay.BaseCheckoutOtpelfActivity
+com.razorpay.sampleapp.R$mipmap: int ic_launcher
+com.razorpay.AutoOtpConstants: AutoOtpConstants()
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_31
+com.razorpay.BaseConfig: void setOtpElfConfig(org.json.JSONObject)
+com.razorpay.sampleapp.R$id: int fill_horizontal
+com.razorpay.CheckoutPresenterImpl$1: void onReceive(android.content.Context,android.content.Intent)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_VERIFY_PAYMENT_EXCEPTION
+com.razorpay.AnalyticsProperty$Scope: com.razorpay.AnalyticsProperty$Scope ORDER
+com.razorpay.CheckoutConstants: java.lang.String PRELOAD_ABORT_DURATION
+com.razorpay.CheckoutBridge$6: void secure()
+com.razorpay.CheckoutPresenterImpl: void relay(java.lang.String)
+com.razorpay.PaymentData: java.lang.String getExternalWallet()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CALLING_EXTERNAL_WALLET_SELECTED
+com.razorpay.Checkout: void handleOnSuccess()
+com.razorpay.BaseUtils: java.util.HashSet getSetOfPackageNamesSupportingUpi(android.content.Context)
+com.razorpay.sampleapp.R$raw
+com.razorpay.AnalyticsProperty$Scope: AnalyticsProperty$Scope(java.lang.String,int)
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding: android.widget.RelativeLayout rootView
+com.razorpay.RzpAssist: long pageStartTime
+com.razorpay.BaseUtils$1: void run()
+com.razorpay.Config: java.lang.String getBackButtonNegativeText()
+com.razorpay.BuildConfig
+com.razorpay.CardSaving
+com.razorpay.AnalyticsConstants: java.lang.String CLICKED
+com.razorpay.CheckoutBridge: void isWebViewSafe(com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_CHOICE_PASSWORD_CLICKED
+com.razorpay.RzpAssist: org.json.JSONObject otpElfPreferences
+com.razorpay.AnalyticsConstants: java.lang.String CARDSAVING
+com.razorpay.R$styleable: int GradientColorItem_android_offset
+com.razorpay.BaseConfig: java.lang.String mOTPElfBaseEndPoint
+com.razorpay.CircularProgressView$4: CircularProgressView$4(com.razorpay.CircularProgressView)
+com.razorpay.CheckoutBridge$7: java.lang.String val$url
+com.razorpay.Config: java.lang.String getNativeLoaderColor()
+com.razorpay.Config: com.razorpay.Config sConfig
+com.razorpay.BaseConfig: boolean mSDKUpdateAlertEnabled
+com.razorpay.Checkout: void handleOnErrorViaReflection(int,java.lang.String)
+com.razorpay.RzpAssist: void onOtpParsed(java.lang.String)
+com.razorpay.CheckoutPresenterImpl: void showAlertDialog(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.CheckoutPresenterImpl$11
+com.razorpay.OtpElfCheckoutPresenterImpl: void addAnalyticsData(org.json.JSONObject)
+com.razorpay.CheckoutInteractor: void setAppToken(java.lang.String)
+com.razorpay.CheckoutPresenterImpl
+com.razorpay.sampleapp.R$id: int normal
+com.razorpay.Owl: java.lang.Object doInBackground(java.lang.Object[])
+com.razorpay.AnalyticsConstants: java.lang.String OTP_MANUAL_VIEW
+com.razorpay.sampleapp.R$id: int center_horizontal
+com.razorpay.AnalyticsConstants: java.lang.String GOOGLEPAY_CH_SOURCE
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_7
+com.razorpay.sampleapp.R$drawable: int notification_bg
+com.razorpay.sampleapp.R$styleable: int ColorStateListItem_alpha
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void showAlertDialog(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CARD_EXPIRY_YEAR
+com.razorpay.RZPProgressBar: void animateTo(int,int)
+com.razorpay.CheckoutPresenterImpl$9
+com.razorpay.OtpElfData$1: OtpElfData$1(com.razorpay.OtpElfData)
+com.razorpay.AnalyticsUtil: java.lang.CharSequence returnUndefinedIfNull(java.lang.CharSequence)
+com.razorpay.CircularProgressView$3: void onAnimationUpdate(android.animation.ValueAnimator)
+com.razorpay.R$string
+com.razorpay.CheckoutBridge$5: java.lang.String val$device_token
+com.razorpay.sampleapp.R$styleable: int SignInButton_colorScheme
+com.razorpay.R$id: int chronometer
+com.razorpay.sampleapp.R$dimen: int notification_action_icon_size
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CALLING_ON_SUCCESS
+com.razorpay.R$styleable: int GradientColor_android_centerColor
+com.razorpay.CheckoutPresenter: java.lang.String getProgressBarColor()
+com.razorpay.BaseConfig: void getAdvertisingIdFromUtil(android.content.Context)
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_endY
+com.razorpay.SharedPreferenceUtil: SharedPreferenceUtil()
+com.razorpay.CheckoutPresenter: void passPrefillToSegment()
+com.razorpay.AnalyticsConstants: java.lang.String SMS_RECIEVED
+com.razorpay.R$id: int right
+com.razorpay.sampleapp.R$dimen: int notification_content_margin_start
+com.razorpay.CheckoutPresenterImpl: android.content.BroadcastReceiver access$500(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.CheckoutPresenterImpl$CheckoutView: boolean isWebViewVisible(int)
+com.razorpay.PaymentData: java.lang.String getSignature()
+com.razorpay.RzpAssist: android.app.Activity access$100(com.razorpay.RzpAssist)
+com.razorpay.BaseCheckoutActivity: void onDestroy()
+com.razorpay.CacheEntry: CacheEntry(java.lang.String,long)
+com.razorpay.RZPProgressBar
+com.razorpay.AnalyticsConstants: java.lang.String MODEL
+com.razorpay.RZPProgressBar: java.lang.String color
+com.razorpay.RzpAssist: java.lang.String paymentId
+com.razorpay.R$dimen: R$dimen()
+com.razorpay.RZPProgressBar: int convertDPtoInt(int)
+com.razorpay.CheckoutPresenterImpl$16: java.lang.String val$data
+com.razorpay.BaseCheckoutActivity: void loadUrl(int,java.lang.String)
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding: ActivityPaymentBinding(android.widget.RelativeLayout,android.widget.Button)
+com.razorpay.sampleapp.R$attr: int fontVariationSettings
+com.razorpay.R$dimen: int compat_button_padding_vertical_material
+com.razorpay.AnalyticsConstants: java.lang.String LOCALE
+com.razorpay.sampleapp.R$style: int Widget_Support_CoordinatorLayout
+com.razorpay.Config: boolean isCardSavingBroadcastReceiverFlowEnabled()
+com.razorpay.AnalyticsConstants: java.lang.String MAGIC_SOURCE
+com.razorpay.RzpAssist: java.lang.String currentLoadingUrl
+com.razorpay.CircularProgressView$5
+com.razorpay.Lumberjack: void makePostRequest(org.json.JSONObject)
+com.razorpay.PluginCheckoutBridge$1: PluginCheckoutBridge$1(com.razorpay.PluginCheckoutBridge,java.lang.String)
+com.razorpay.sampleapp.R$styleable
+com.razorpay.sampleapp.R$attr: int fontProviderFetchStrategy
+com.razorpay.RzpAssist: void reset()
+com.razorpay.RzpAssist: org.json.JSONObject paymentData
+com.razorpay.CheckoutPresenterImpl: void access$600(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.sampleapp.R$attr: int layout_anchorGravity
+com.razorpay.CheckoutOptions: void logMerchantOptions()
+com.razorpay.CheckoutBridge$20: CheckoutBridge$20(com.razorpay.CheckoutBridge,java.lang.String,int)
+com.razorpay.BaseUtils: boolean hasFeature(android.content.Context,java.lang.String)
+com.razorpay.RazorpayExceptionHandler
+com.razorpay.AnalyticsConstants: java.lang.String DEVICE_MANUFACTURER
+com.razorpay.sampleapp.R$id: int text
+com.razorpay.CheckoutPresenterImpl$11: int val$width
+com.razorpay.CheckoutConstants: CheckoutConstants()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent FETCH_PREFERENCES_CALLED
+com.razorpay.CardSaving: void fetchDeviceTokenFromOtherAppsIfRequired(android.content.Context)
+com.razorpay.CheckoutPresenterImpl: java.lang.String payment_id
+com.razorpay.CheckoutUtils: java.lang.String getBase64FromCurrentAppsResource(android.app.Activity,int)
+com.razorpay.CircularProgressView: android.animation.AnimatorSet createIndeterminateAnimator(float)
+com.razorpay.ResourceUtils: int dpToPx(android.content.Context,int)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOMUI_INTERNAL_CALLBACK_ERROR_EXCEPTION
+com.razorpay.OtpElfData: java.lang.String access$102(com.razorpay.OtpElfData,java.lang.String)
+com.razorpay.OtpElfData$2: com.razorpay.OtpElfData this$0
+com.razorpay.Config
+com.razorpay.BaseConstants: int SMS_CONSENT_REQUEST
+com.razorpay.AnalyticsProperty$Scope: com.razorpay.AnalyticsProperty$Scope[] values()
+com.razorpay.sampleapp.R$drawable: int notification_template_icon_bg
+com.razorpay.Logger: void e(java.lang.String,java.lang.Throwable)
+com.razorpay.AndroidBug5497Workaround$1
+com.razorpay.CardSaving$1: CardSaving$1()
+com.razorpay.sampleapp.R$style: int TextAppearance_Compat_Notification_Title
+com.razorpay.BaseConstants
+com.razorpay.Lumberjack: void addPaymentProperty(java.lang.String,java.lang.Object)
+com.razorpay.Checkout: void trackOnActivityResultEvent(int,java.lang.String)
+com.razorpay.BaseConfig: org.json.JSONObject mMagicSettings
+com.razorpay.Config: java.lang.String getBackButtonAlertMessage()
+com.razorpay.sampleapp.R$drawable: int notification_action_background
+com.razorpay.SecondaryWebViewClient: com.razorpay.CheckoutPresenter presenter
+com.razorpay.CheckoutPresenterImpl$14
+com.razorpay.sampleapp.R$id: int rzp_securedpayments
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onError(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String PREFERENCES
+com.razorpay.BaseConstants: java.lang.String METADATA_PLUGIN_PREFIX
+com.razorpay.R$styleable: int LoadingImageView_imageAspectRatioAdjust
+com.razorpay.CheckoutPresenterImpl$11: com.razorpay.CheckoutPresenterImpl this$0
+androidx.lifecycle.SingleGeneratedAdapterObserver
+com.razorpay.CheckoutConstants: java.lang.String PUBLIC_CHECKOUT_URL
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void relay(java.lang.String)
+com.razorpay.Lumberjack: void addToBatch(org.json.JSONObject)
+com.razorpay.CheckoutPresenterImpl: org.json.JSONObject getOptionsForHandleMessage()
+com.razorpay.Checkout: void trackIntegrationType(int,int)
+com.razorpay.BaseConfig: java.lang.String mOTPElfVersionFileName
+com.razorpay.AnalyticsConstants
+com.razorpay.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+com.razorpay.Lumberjack: org.json.JSONObject getContextPayload()
+com.razorpay.R$attr: int keylines
+com.razorpay.CheckoutBridge$1: void unSecure()
+com.razorpay.BaseConfig: java.lang.String getMagicVersionUrl()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MULTIPLE_TOKEN_EVENT
+com.razorpay.SmsReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.razorpay.CheckoutPresenterImpl$17: int val$webViewType
+com.razorpay.BaseCheckoutActivity: java.lang.Object checkoutBridgeObject
+com.razorpay.sampleapp.R$string: int common_google_play_services_update_text
+com.razorpay.AnalyticsUtil: org.json.JSONObject getExtraAnalyticsPayload()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_PLUGIN_INTERNAL_CALLBACK_ERROR
+com.razorpay.R$id: int line3
+com.razorpay.Config: void setRetryConfig(org.json.JSONObject)
+com.razorpay.sampleapp.R$drawable: int common_full_open_on_phone
+com.razorpay.AnalyticsUtil: void reportError(java.lang.AbstractMethodError,java.lang.String,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PLUGIN_INTERNAL_CALLBACK_SUCCESS
+com.razorpay.CacheEntry: long expiryTime
+com.razorpay.BaseConstants: java.lang.String RZP_URL
+com.razorpay.BaseConstants: java.lang.String TLS_ERROR_MESSAGE
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_30
+com.razorpay.Config: boolean mCardSavingLocalEnabled
+com.razorpay.BaseCheckoutActivity: android.widget.RelativeLayout container
+com.razorpay.BaseUtils: java.lang.String makeErrorPayload(java.lang.String,java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void loadForm(java.lang.String)
+com.razorpay.CheckoutPresenterImpl: android.app.Activity activity
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_android_fontVariationSettings
+com.razorpay.RzpAssist: void onProgressChanged(int)
+com.razorpay.AnalyticsConstants: java.lang.String ANDROID
+com.razorpay.CheckoutBridge$17: CheckoutBridge$17(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_dark_focused
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_UPI_MERCHANT_PASSED_APP_LAUNCHED
+com.razorpay.BaseUtils: void checkForLatestVersion(android.content.Context,int)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent[] $VALUES
+com.razorpay.Logger: void i(java.lang.String,java.lang.Throwable)
+com.razorpay.Config: boolean isCardSavingSharedPreferencesFlowEnabled()
+com.razorpay.MagicData$2: void run(com.razorpay.ResponseObject)
+com.razorpay.AnalyticsConstants: java.lang.String PROCCESS_PAYMENT_PAYLAOD
+com.razorpay.CircularProgressView: android.content.Context context
+com.razorpay.AnalyticsConstants: java.lang.String ADVERTISING_ID
+com.razorpay.CheckoutBridge: void callNativeIntent(java.lang.String,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_PASSED_APP
+com.razorpay.CheckoutUtils: void showDialog(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.razorpay.CheckoutUtils$BackButtonDialogCallback)
+com.razorpay.sampleapp.R$id: int fill
+com.razorpay.BaseCheckoutActivity
+com.razorpay.AnalyticsUtil: java.lang.String localOrderId
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_21
+com.razorpay.PrimaryWebViewClient: void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)
+com.razorpay.Config: boolean mBackButtonAlertEnabled
+com.razorpay.R$color: int common_google_signin_btn_text_light_default
+androidx.core.graphics.drawable.IconCompat
+com.razorpay.CheckoutActivity: void destroy(int,java.lang.String)
+com.razorpay.AdvertisingIdUtil$AdvertisingInterface: android.os.IBinder binder
+com.razorpay.BaseUtils: java.lang.String getLocale()
+com.razorpay.RzpAssist: void setPaymentData(org.json.JSONObject)
+com.razorpay.BaseCheckoutActivity: void clearWebViewHistory(int)
+com.razorpay.CheckoutPresenterImpl$12: CheckoutPresenterImpl$12(com.razorpay.CheckoutPresenterImpl,org.json.JSONObject)
+com.google.android.gms.common.internal.ResolveAccountResponse: android.os.Parcelable$Creator CREATOR
+com.razorpay.BaseUtils: java.util.List getListOfAppsWhichHandleDeepLink(android.content.Context,java.lang.String)
+com.razorpay.Owl: com.razorpay.ResponseObject doInBackground(java.lang.String[])
+com.razorpay.R$id: int none
+com.razorpay.AnalyticsConstants: java.lang.String CARRIER
+com.razorpay.AdvertisingIdUtil$AdvertisingConnection: java.util.concurrent.LinkedBlockingQueue queue
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_startX
+com.razorpay.Config: int SDK_VERSION_CODE
+com.razorpay.CacheManager: void purge(java.lang.String)
+com.razorpay.CheckoutInteractor
+androidx.core.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+com.razorpay.BaseUtils: java.lang.Object getJsonValue(java.lang.String,org.json.JSONObject,java.lang.Object)
+com.razorpay.RZPProgressBar: android.content.Context context
+com.razorpay.sampleapp.R$bool
+com.razorpay.sampleapp.R$id: int start
+com.razorpay.BaseConfig: java.lang.String mCheckoutEndpoint
+com.razorpay.CheckoutPresenterImpl: void setDeviceToken(java.lang.String)
+com.razorpay.SharedPreferenceUtil: android.content.SharedPreferences getPrivatePrefs(android.content.Context)
+com.razorpay.CircularProgressView: android.animation.ValueAnimator startAngleRotate
+com.razorpay.BaseConfig: org.json.JSONObject getMagicSettings()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onActivityResultReceived(int,int,android.content.Intent)
+com.razorpay.CheckoutUtils: java.lang.String getUserContact(android.content.Context)
+com.razorpay.PluginCheckoutInteractor: void verifyGPayResponse(java.lang.String)
+com.razorpay.Checkout: void clearUserData(android.content.Context)
+com.razorpay.CheckoutBridge: void onfault(java.lang.String)
+com.razorpay.Checkout$2
+com.razorpay.AnalyticsConstants: java.lang.String MULTIPLE_TOKENS
+com.razorpay.CryptLib: byte[] _iv
+com.razorpay.BaseConfig: int mLatestSDKVersion
+com.razorpay.AdvertisingIdUtil$AdvertisingConnection: AdvertisingIdUtil$AdvertisingConnection(com.razorpay.AdvertisingIdUtil$1)
+com.razorpay.BaseUtils: java.lang.String getCellularNetworkProviderName(android.content.Context)
+com.razorpay.RZPProgressBar: void show(int)
+com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader: DynamiteModule$DynamiteLoaderClassLoader()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_TLS_ERROR
+com.razorpay.AnalyticsConstants: java.lang.String TIMER
+com.razorpay.sampleapp.R$integer: R$integer()
+com.razorpay.Lumberjack: void clearPaymentProperties()
+com.razorpay.BaseUtils: void updateLocalVersion(android.app.Activity,java.lang.String,java.lang.String)
+com.razorpay.R$string: int common_google_play_services_enable_title
+com.razorpay.CircularProgressView$4: void onAnimationCancel(android.animation.Animator)
+com.razorpay.CheckoutBridge: boolean isRegistered
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void showToast(java.lang.String,int)
+com.razorpay.RzpAssist$1: RzpAssist$1(com.razorpay.RzpAssist)
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_startY
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_CB_ONSUCCESS
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent FETCH_PREFERENCES_CACHE_MISS
+com.razorpay.sampleapp.R$layout: int rzp_loader
+com.razorpay.CheckoutOptions
+com.razorpay.AnalyticsConstants: java.lang.String ERROR_DESCRIPTION
+com.razorpay.CheckoutPresenterImpl: com.google.android.gms.tasks.Task loginOtpSmsTask
+com.google.android.gms.auth.api.signin.GoogleSignInOptions: android.os.Parcelable$Creator CREATOR
+com.razorpay.AutoOtpConstants: java.lang.String EXTRA_MESSAGE
+com.razorpay.CheckoutPresenterImpl$2: CheckoutPresenterImpl$2(com.razorpay.CheckoutPresenterImpl,java.lang.String)
+com.razorpay.RzpAssist: boolean otpRead
+com.razorpay.CheckoutBridge: com.razorpay.CheckoutInteractor interactor
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_PAYMENT_COMPLETE
+com.razorpay.AnalyticsUtil: void trackPageLoadEnd(java.lang.String,long)
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void handleCardSaving()
+com.razorpay.CircularProgressView$8
+com.razorpay.PrimaryWebChromeClient: void onProgressChanged(android.webkit.WebView,int)
+com.razorpay.AnalyticsConstants: java.lang.String MAGIC
+com.razorpay.CheckoutPresenterImpl: boolean access$002(com.razorpay.CheckoutPresenterImpl,boolean)
+com.razorpay.R$drawable: int googleg_disabled_color_18
+com.razorpay.MagicData: java.lang.String getMagicJs()
+com.razorpay.sampleapp.R$color
+com.razorpay.R$id: int light
+com.razorpay.CheckoutPresenterImpl: java.lang.String dashOptions
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent NATIVE_INTENT_ONACTIVITY_RESULT
+com.razorpay.CheckoutBridge$7: CheckoutBridge$7(com.razorpay.CheckoutBridge,java.lang.String,java.lang.String)
+com.razorpay.R$attr: int imageAspectRatioAdjust
+com.razorpay.CryptLib: java.lang.String generateRandomIV(int)
+com.razorpay.R$attr: int coordinatorLayoutStyle
+com.razorpay.AnalyticsEvent: java.lang.String constructEventName(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String SHOULD_SHOW_UPI_INTENT
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PROCESS_PAYMENT_CALLED
+com.razorpay.R$id
+com.razorpay.BaseConfig: int getLatestSDKVersionCode()
+com.razorpay.sampleapp.R$id: int action_text
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent PAGE_NOT_IDENTIFIED
+com.razorpay.CheckoutBridge$2: com.razorpay.CheckoutBridge this$0
+com.razorpay.R$drawable: int googleg_standard_color_18
+com.razorpay.ResourceUtils
+com.razorpay.BaseConfig: java.lang.String getMagicBaseEndPoint()
+com.razorpay.SecondaryWebChromeClient: SecondaryWebChromeClient(com.razorpay.CheckoutPresenter)
+com.razorpay.CheckoutPresenterImpl$7: CheckoutPresenterImpl$7(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.AnalyticsConstants: java.lang.String APP_TOKEN
+com.razorpay.Checkout: void handleActivityResult(android.app.Activity,int,int,android.content.Intent,com.razorpay.PaymentResultWithDataListener,com.razorpay.ExternalWalletListener)
+com.razorpay.BaseCheckoutActivity: int UPI_REQUEST_CODE
+com.razorpay.Checkout: android.webkit.WebView access$000()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: java.lang.String getProgressBarColor()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent PAGE_LOAD_FINISH
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_tileMode
+com.razorpay.R$styleable: int FontFamilyFont_android_fontVariationSettings
+com.razorpay.CheckoutPresenterImpl: void saveInstanceState(android.os.Bundle)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void backPressed(java.util.Map)
+com.razorpay.CircularProgressView: int convertDPtoInt(android.content.Context,int)
+com.razorpay.PrimaryWebChromeClient: PrimaryWebChromeClient(com.razorpay.CheckoutPresenter)
+com.razorpay.SmsAgent: com.razorpay.SmsAgent getSmsAgentInstance()
+com.razorpay.sampleapp.R$string: int common_google_play_services_enable_title
+com.razorpay.AnalyticsConstants: java.lang.String KEY
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding: android.widget.Button startpayment
+com.razorpay.PluginCheckoutBridge: void onCheckoutBackPress()
+com.razorpay.CheckoutBridge$3: void unSecure()
+com.razorpay.BaseUtils: boolean isCompatibleWithGooglePay
+com.razorpay.CheckoutPresenterImpl: void markPaymentCancelled()
+com.razorpay.CheckoutPresenter: void backPressed(java.util.Map)
+com.razorpay.Checkout: void abortPreloadIfRequired()
+com.razorpay.BaseConstants: int NETWORK_ERROR
+com.razorpay.OtpElfCheckoutPresenterImpl: OtpElfCheckoutPresenterImpl(android.app.Activity,com.razorpay.CheckoutPresenterImpl$CheckoutView)
+com.razorpay.OtpElfCheckoutPresenterImpl: void onProgressChanges(int,int)
+com.razorpay.R$drawable: int common_google_signin_btn_icon_dark
+com.razorpay.RzpAssist$2: com.razorpay.RzpAssist this$0
+com.razorpay.CheckoutBridge$4: CheckoutBridge$4(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.BaseConfig: java.lang.String CONFIG_JSON
+com.razorpay.CheckoutPresenterImpl: void executeWebViewCallback(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.sampleapp.R$style: int TextAppearance_Compat_Notification_Time
+com.razorpay.RazorpayExceptionHandler: java.lang.Thread$UncaughtExceptionHandler existingHandler
+com.razorpay.CircularProgressView$7: float val$maxSweep
+com.razorpay.CircularProgressView: float access$302(com.razorpay.CircularProgressView,float)
+com.razorpay.BaseConfig$1: void run(com.razorpay.ResponseObject)
+com.razorpay.R$attr: int fontVariationSettings
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CONTACT_PLUS_ERROR
+com.razorpay.CheckoutBridge$19: java.lang.String val$data
+com.razorpay.ConfigDroid: ConfigDroid()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onPageFinished(int,android.webkit.WebView,java.lang.String)
+com.razorpay.CircularProgressView: int animSwoopDuration
+com.razorpay.MagicBridge: com.razorpay.CheckoutInteractor interactor
+com.razorpay.BaseUtils: java.lang.String ipAddress
+com.razorpay.RzpAssist: void setSmsPermission(boolean)
+com.razorpay.CheckoutPresenterImpl: boolean isActivityCreated
+androidx.core.app.ComponentActivity: ComponentActivity()
+com.razorpay.SmsAgent: void registerForCallbacks(com.razorpay.SmsAgentInterface)
+com.razorpay.Lumberjack$1
+com.razorpay.CheckoutBridge$15
+com.razorpay.sampleapp.R$id: int tag_accessibility_heading
+com.razorpay.CheckoutInteractor: void sendDataToWebView(int,java.lang.String)
+com.razorpay.sampleapp.R$string: int common_google_play_services_update_button
+com.razorpay.sampleapp.R$id: int notification_background
+com.razorpay.StorageBridge: android.content.SharedPreferences preferences
+com.razorpay.CacheManager: boolean hasExpired(long)
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding: android.view.View getRoot()
+com.razorpay.CheckoutBridge$17: void unSecure()
+com.razorpay.PaymentResultWithDataListener: void onPaymentSuccess(java.lang.String,com.razorpay.PaymentData)
+com.razorpay.Owl: com.razorpay.Callback cb
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: com.razorpay.RzpPlugin extActiveRzpPluginInstance
+com.razorpay.OtpElfCheckoutPresenterImpl: boolean isSecondaryRzpAssistEnabled
+com.razorpay.sampleapp.R$style: int AppBaseTheme
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent WEB_VIEW_SECONDARY_TO_PRIMARY_SWITCH
+com.razorpay.CheckoutBridge$5: void unSecure()
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_dark_pressed
+com.razorpay.AnalyticsConstants: java.lang.String ALREADY_NOT_GRANTED
+com.razorpay.SharedPreferenceUtil: android.content.SharedPreferences getPublicPrefs(android.content.Context)
+com.razorpay.CheckoutUtils: org.json.JSONObject getAppExistenceDataInJson(android.content.Context,android.content.pm.ResolveInfo)
+com.razorpay.R$styleable: int FontFamilyFont_android_ttcIndex
+com.razorpay.sampleapp.R$dimen: int notification_large_icon_width
+com.razorpay.CircularProgressView$7: float val$start
+com.razorpay.R$color: int common_google_signin_btn_text_dark_pressed
+com.razorpay.BaseConstants: java.lang.String DEFAULT_SENDER
+com.razorpay.CircularProgressView: int getThickness()
+com.razorpay.AnalyticsConstants: java.lang.String SHOW_WEBVIEW
+com.razorpay.AnalyticsProperty: AnalyticsProperty(java.lang.String,com.razorpay.AnalyticsProperty$Scope)
+com.razorpay.R$string: int common_google_play_services_notification_channel_name
+com.razorpay.R$styleable: int FontFamilyFont_android_font
+com.razorpay.ResizeWidthAnimation
+com.razorpay.CheckoutBridge$9: com.razorpay.CheckoutBridge this$0
+com.razorpay.Owl: void onPostExecute(java.lang.Object)
+com.razorpay.OtpElfCheckoutPresenterImpl: void primaryWebviewPageFinished(java.lang.String,android.webkit.WebView)
+com.razorpay.sampleapp.R$id: int accessibility_action_clickable_span
+com.razorpay.AnalyticsEvent: java.lang.String eventName
+com.razorpay.RzpAssist: void setUseWideViewPort(boolean)
+com.razorpay.Checkout: void setFullScreenDisable(boolean)
+com.razorpay.CacheManager: java.io.File cacheDir
+com.razorpay.CheckoutBridge$11: CheckoutBridge$11(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.sampleapp.R$styleable: int LoadingImageView_imageAspectRatio
+com.google.android.gms.common.annotation.KeepName
+com.razorpay.CheckoutUtils$BackButtonDialogCallback
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void setUpAddOn()
+com.razorpay.CheckoutPresenterImpl$17
+com.razorpay.CheckoutBridge$17: void secure()
+com.razorpay.PaymentData: java.lang.String externalWallet
+com.razorpay.R$string: R$string()
+com.razorpay.CheckoutPresenterImpl$4
+com.razorpay.CircularProgressView
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent SMS_PERMISSION_ALREADY_NOT_GRANTED
+com.razorpay.BaseUtils: boolean hasPermission(android.content.Context,java.lang.String)
+com.razorpay.CheckoutPresenter: void fetchCondfig()
+com.razorpay.AutoOtpUtils: int getSmsPermissionAskedCount(android.content.Context)
+com.razorpay.Checkout: void handleExternalWalletSelected()
+com.razorpay.RZPProgressBar$1: com.razorpay.RZPProgressBar this$0
+com.razorpay.RZPProgressBar$2: RZPProgressBar$2(com.razorpay.RZPProgressBar)
+com.razorpay.AnalyticsConstants: java.lang.String TIMEZONE
+com.razorpay.RzpPluginRegisterCallback
+com.razorpay.sampleapp.R$string
+com.razorpay.sampleapp.R$string: int common_google_play_services_unknown_issue
+com.razorpay.sampleapp.R$id
+com.razorpay.BaseUtils: boolean $assertionsDisabled
+com.razorpay.BaseUtils$MyPhoneStateListener
+com.razorpay.CheckoutPresenterImpl$6: java.util.Map val$props
+com.google.android.gms.signin.internal.zaj: android.os.Parcelable$Creator CREATOR
+com.razorpay.Lumberjack: void addPropertyFromJSONObject(org.json.JSONObject,java.lang.String,com.razorpay.AnalyticsProperty$Scope)
+com.razorpay.RzpAssist: boolean hasOtpPermission
+com.razorpay.PaymentData: java.lang.String userEmail
+com.razorpay.CheckoutConstants: java.lang.String EXTRA_MESSAGE
+com.razorpay.CheckoutInteractor: void onComplete(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String SUCCESS
+com.razorpay.CryptLib$EncryptMode: com.razorpay.CryptLib$EncryptMode[] $VALUES
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PROCESS_SIGN_ENCRYPT_RESPONSE_EXCEPTION
+com.razorpay.AutoOtpConstants: java.lang.String NB_USERNAME
+com.razorpay.CircularProgressView: CircularProgressView(android.content.Context,android.util.AttributeSet)
+com.razorpay.CheckoutPresenterImpl$2: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.R$styleable: int[] LoadingImageView
+com.razorpay.R$styleable: int FontFamily_fontProviderPackage
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_dark_focused
+com.razorpay.BaseUtils: java.lang.String getScreenBrightness(android.content.Context)
+com.razorpay.SmsAgentInterface: void postSms(java.lang.String,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PAGE_LOAD_FINISH
+com.razorpay.BaseConstants: java.lang.String UNKNOWN
+com.razorpay.CheckoutPresenterImpl: void onCheckoutBackPress()
+com.razorpay.CheckoutBridge$3: void secure()
+com.razorpay.CheckoutInteractor: void onSubmit(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOMUI_METHOD_AMAZONPAY_PASSED
+com.razorpay.RzpAssist: void trackEvent(java.lang.String)
+com.razorpay.AnalyticsUtil: void postData()
+com.razorpay.PluginCheckoutBridge$1: java.lang.String val$data
+com.razorpay.CheckoutActivity: void showProgressBar(int)
+com.razorpay.CircularProgressView: int getColor()
+com.razorpay.Lumberjack: boolean getBooleanFromJsonObject(org.json.JSONObject,java.lang.String)
+com.razorpay.R$attr: int layout_insetEdge
+com.razorpay.CircularProgressView: boolean isIndeterminate
+com.razorpay.CheckoutPresenterImpl: android.content.BroadcastReceiver otpAutoReadBroadcast
+com.razorpay.CheckoutBridge$7: void unSecure()
+com.razorpay.R$attr: int ttcIndex
+com.razorpay.BaseUtils$3: void onResult(java.lang.String)
+com.razorpay.BaseConfig: org.json.JSONObject mOTPElfSettings
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_16
+com.razorpay.R$drawable: int common_google_signin_btn_text_dark_normal
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PAYMENT_COMPLETE
+com.razorpay.R$style: int CheckoutTheme
+com.google.android.gms.auth.api.signin.internal.SignInConfiguration: android.os.Parcelable$Creator CREATOR
+com.razorpay.CheckoutBridge$21: java.lang.String val$positiveButtonText
+com.razorpay.CheckoutBridge$20: com.razorpay.CheckoutBridge this$0
+com.razorpay.AnalyticsConstants: java.lang.String OTP_RESEND
+com.razorpay.CryptLib$EncryptMode: com.razorpay.CryptLib$EncryptMode[] values()
+com.razorpay.BaseUtils: java.lang.String PERMISSION_DISABLED
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_dark_disabled
+com.razorpay.PrimaryWebChromeClient
+com.razorpay.R$style: int TextAppearance_Compat_Notification_Time
+com.razorpay.sampleapp.R$dimen: int compat_button_padding_horizontal_material
+com.razorpay.sampleapp.R$styleable: int FontFamily_fontProviderQuery
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_PAYMENT_CALLBACK_CANCELLED
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_DESTROY
+com.razorpay.AnalyticsConstants: java.lang.String PAGE_LOAD_TIME
+com.razorpay.CheckoutPresenterImpl$3: CheckoutPresenterImpl$3(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.CheckoutBridge: void setMerchantOptions(java.lang.String)
+com.razorpay.R$string: int common_google_play_services_enable_text
+com.razorpay.CheckoutOptions: org.json.JSONObject options
+com.razorpay.CircularProgressView$7
+com.razorpay.sampleapp.R$style: int AppTheme
+com.razorpay.MagicBase: void setSmsPermission(boolean)
+com.razorpay.ResponseObject
+com.razorpay.MagicBase: java.lang.String lastSms
+com.razorpay.CheckoutBridge: void ondismiss(java.lang.String)
+com.razorpay.R$id: int time
+com.razorpay.R$id: int line1
+com.razorpay.PluginCheckoutInteractor: void processPayment(java.lang.String)
+com.razorpay.RZPProgressBar: RZPProgressBar(android.content.Context,android.view.ViewGroup)
+com.razorpay.R$integer: int google_play_services_version
+com.razorpay.CheckoutBridge$13: com.razorpay.CheckoutBridge this$0
+com.razorpay.AnalyticsUtil: java.lang.String getLocalOrderId()
+com.razorpay.CheckoutPresenter: void setCheckoutLoadStartAt()
+com.razorpay.BaseUtils: com.razorpay.NetworkType getDataNetworkType(android.content.Context)
+com.razorpay.SharedPreferenceUtil
+com.razorpay.BaseConfig: java.lang.String getCurrentConfigVersionTag(java.lang.String)
+com.razorpay.Lumberjack: void trackEvent(java.lang.String,java.util.Map)
+com.razorpay.AnalyticsProperty: AnalyticsProperty(int,com.razorpay.AnalyticsProperty$Scope)
+com.razorpay.BaseCheckoutActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])
+com.razorpay.AnalyticsConstants: java.lang.String EXTRACT
+com.razorpay.CircularProgressView$6: CircularProgressView$6(com.razorpay.CircularProgressView)
+com.razorpay.R$styleable: int GradientColor_android_startY
+com.razorpay.R$attr: int fontProviderPackage
+com.razorpay.R$dimen: int notification_small_icon_size_as_large
+com.razorpay.RzpAssist: void onPageStarted(android.webkit.WebView,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String WALLET
+com.razorpay.sampleapp.R$dimen: R$dimen()
+com.razorpay.R$attr: int fontProviderFetchStrategy
+com.razorpay.sampleapp.BuildConfig: java.lang.String BUILD_TYPE
+com.razorpay.CheckoutPresenterImpl: void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.Lumberjack: org.json.JSONObject getDeviceDataJson(android.content.Context)
+com.razorpay.AnalyticsConstants: java.lang.String SENDER
+com.razorpay.RzpAssist$5: RzpAssist$5(com.razorpay.RzpAssist,java.lang.String)
+com.razorpay.BaseUtils$3: org.json.JSONObject val$deviceParam
+com.razorpay.CheckoutBridge$4: com.razorpay.CheckoutBridge this$0
+com.razorpay.AnalyticsConstants: java.lang.String CALL
+com.razorpay.RZPProgressBar: int getThemeAccentColor()
+com.razorpay.CheckoutBridge: boolean isUserRegisteredOnUPI(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PWAIN_CALLBACK_MERCHANT_BACKEND_ERROR
+com.razorpay.AnalyticsConstants: java.lang.String PAYMENT
+com.razorpay.CircularProgressView: void setIndeterminate(boolean)
+com.razorpay.BaseUtils: void fetchIP(com.razorpay.RzpJSONCallback)
+com.razorpay.CoreConfig
+com.razorpay.AnalyticsConstants: java.lang.String ATTACHED
+com.razorpay.AnalyticsConstants: java.lang.String NETWORK_4G
+com.razorpay.CheckoutUtils: org.json.JSONObject isPackageInstalled(android.content.Context,java.lang.String)
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_ttcIndex
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_22
+com.razorpay.RzpAssist: void injectJs(java.lang.String)
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_dark_normal_background
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PROCESS_VERIFY_SIGNATURE_CALLED
+com.razorpay.CheckoutPresenterImpl$8: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.BaseConfig: org.json.JSONObject getConfig(android.content.Context,int)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PWAIN_CALLBACK_PAYMENT_VALIDATION_FAILURE
+com.razorpay.CheckoutUtils$2: com.razorpay.CheckoutUtils$BackButtonDialogCallback val$backButtonDialogCallback
+com.razorpay.Lumberjack: void clearEventData()
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_android_font
+com.razorpay.CheckoutBridge$20: void secure()
+com.razorpay.OtpElfCheckoutPresenterImpl: com.razorpay.RzpAssist primaryRzpAssist
+com.razorpay.BaseConstants: int INCOMPATIBLE_PLUGIN
+com.razorpay.Checkout: int checkoutImage
+com.razorpay.AdvertisingIdUtil$AdvertisingIdAsyncTask
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PWAIN_CALLBACK_NETWORK_UNAVAILABLE
+com.razorpay.BaseCheckoutActivity: void showToast(java.lang.String,int)
+com.razorpay.CheckoutBridge$13: void secure()
+com.razorpay.PluginCheckoutBridge: PluginCheckoutBridge(com.razorpay.PluginCheckoutInteractor,int)
+com.razorpay.CacheManager: void put(java.lang.String,java.lang.String,long)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_29
+com.razorpay.AnalyticsConstants: java.lang.String IS_ROMING
+com.razorpay.PaymentData: java.lang.String getOrderId()
+com.razorpay.AdvertisingIdUtil$AdvertisingInterface: java.lang.String getId()
+com.razorpay.sampleapp.BuildConfig: java.lang.String APPLICATION_ID
+com.razorpay.CheckoutBridge$20: void unSecure()
+com.razorpay.AnalyticsConstants: java.lang.String DEVICE_RESOLUTION
+com.razorpay.sampleapp.R$string: int common_signin_button_text
+com.razorpay.StorageBridge: void setInt(java.lang.String,int)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void setDimensions(int,int)
+com.razorpay.R$dimen: int compat_notification_large_icon_max_height
+com.razorpay.R$string: int common_google_play_services_unknown_issue
+com.razorpay.BaseConfig: void access$000(android.content.Context,java.lang.String)
+com.razorpay.BaseUtils: int getDisplayHeight(android.content.Context)
+com.razorpay.CoreConfig: com.razorpay.BaseConfig getInstance()
+com.razorpay.ResizeWidthAnimation: void applyTransformation(float,android.view.animation.Transformation)
+com.razorpay.sampleapp.R$attr: int fontProviderQuery
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_keylines
+com.razorpay.sampleapp.R$style: R$style()
+com.razorpay.AnalyticsUtil: java.lang.String localPaymentId
+com.razorpay.Checkout: boolean isMethodOverridden
+com.razorpay.R$attr: int layout_anchorGravity
+com.razorpay.R$drawable: int common_google_signin_btn_icon_light_focused
+com.razorpay.sampleapp.R$string: int common_google_play_services_install_title
+com.razorpay.MagicData: void checkForUpdates()
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_CB_HANDOVER
+com.razorpay.CheckoutBridge$18: void unSecure()
+com.razorpay.sampleapp.R$styleable: int ColorStateListItem_android_color
+com.google.android.gms.auth.api.signin.internal.GoogleSignInOptionsExtensionParcelable: android.os.Parcelable$Creator CREATOR
+com.razorpay.BaseConstants: java.lang.String METADATA_KEY
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_6
+com.razorpay.CheckoutPresenterImpl: void sendDataToWebView(int,java.lang.String)
+com.razorpay.BaseConstants: java.lang.String UPI_URL_SCHEMA
+com.razorpay.CacheManager: CacheManager()
+com.razorpay.CheckoutPresenterImpl$10: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.AnalyticsConstants: java.lang.String ALREADY_NOT_ASKED
+com.razorpay.BaseConfig: java.lang.String getVersionJSON()
+com.razorpay.BaseConfig: java.lang.String mUpdateSDKMsg
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent EXTERNAL_WALLET_SELECTED
+com.razorpay.CheckoutPresenterImpl$15$1: CheckoutPresenterImpl$15$1(com.razorpay.CheckoutPresenterImpl$15)
+com.razorpay.OtpElfCheckoutPresenterImpl: com.razorpay.RzpAssist secondaryRzpAssist
+com.razorpay.ResponseObject: java.lang.String getResponseResult()
+com.razorpay.CheckoutPresenter: void handleCardSaving()
+com.razorpay.R$attr: int circleCrop
+com.razorpay.AnalyticsConstants: java.lang.String TLS
+com.razorpay.R$drawable: int rzp_loader_circle
+com.razorpay.MagicData: java.lang.String versionKey
+com.razorpay.CircularProgressView$6: com.razorpay.CircularProgressView this$0
+com.razorpay.BaseUtils: java.lang.String getVersionedAssetName(java.lang.String,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String CALLIN_PROCESS_PAYMENT
+com.razorpay.AnalyticsConstants: java.lang.String PAYMENT_METHOD
+com.razorpay.SharedPreferenceUtil: java.lang.String NAME_PRIVATE
+com.razorpay.SmsAgent
+com.razorpay.Checkout$Builder: com.razorpay.Checkout$Builder disableFullscreen(boolean)
+com.razorpay.CheckoutPresenterImpl: void access$200(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.sampleapp.R$style: int Widget_Compat_NotificationActionText
+com.razorpay.CheckoutBridge$14: com.razorpay.CheckoutBridge this$0
+com.razorpay.RzpAssist: boolean isRazorpayOtpReceived
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CARD_VALIDITY_ERROR
+com.razorpay.CheckoutBridge$10: java.lang.String val$data
+com.razorpay.CheckoutBridge: void callNativeIntent(java.lang.String)
+com.razorpay.BaseUtils: java.lang.String getAppBuildType(android.content.Context)
+com.razorpay.sampleapp.R$attr: int layout_keyline
+com.razorpay.Lumberjack: boolean hasPermission(android.content.Context,java.lang.String)
+com.razorpay.CryptLib: java.lang.String md5(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_NATIVE_INTENT_ONACTIVITY_RESULT
+com.razorpay.AnalyticsConstants: java.lang.String UPI
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_SHOULD_SHOW_UPI_INTENT_METHOD
+com.razorpay.CheckoutConstants: java.lang.String RAZORPAY_URL
+com.razorpay.CheckoutBridge$4: void secure()
+com.razorpay.CheckoutPresenterImpl: void onError(java.lang.String)
+com.razorpay.BaseUtils: java.lang.String nanoTimeToSecondsString(long,int)
+com.razorpay.R$id: int normal
+com.razorpay.AppSignatureHelper
+com.razorpay.BaseCheckoutActivity: void onActivityResult(int,int,android.content.Intent)
+android.support.v4.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+com.razorpay.CheckoutConstants
+com.razorpay.sampleapp.kotlin.PaymentActivity: void startPayment()
+com.razorpay.BaseUtils$2: void onResponse(org.json.JSONObject)
+com.razorpay.SharedPreferenceUtil: void setProtectedValue(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent FETCH_PREFERENCES_CALL_SUCCESS
+com.razorpay.sampleapp.R$drawable: int rzp_poweredby
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_dark_normal_background
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOMUI_INTERNAL_CALLBACK_ERROR
+com.razorpay.CheckoutBridge$6: CheckoutBridge$6(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String AMAZONPAY_SOURCE
+com.razorpay.sampleapp.R$string: int common_google_play_services_update_title
+com.razorpay.R$drawable: int notification_action_background
+com.razorpay.AnalyticsUtil: java.lang.String getStackTrace(java.lang.Throwable)
+com.razorpay.CheckoutInteractor: void toast(java.lang.String,int)
+com.razorpay.CheckoutPresenterImpl: boolean setOptions(android.os.Bundle,boolean)
+com.razorpay.sampleapp.R$styleable: int FontFamily_fontProviderFetchTimeout
+com.razorpay.sampleapp.R$style: int TextAppearance_Compat_Notification_Line2
+com.razorpay.RzpAssist: boolean access$202(com.razorpay.RzpAssist,boolean)
+com.razorpay.AnalyticsConstants: java.lang.String NOW_GRANTED
+com.razorpay.R$integer: int status_bar_notification_info_maxnum
+com.razorpay.CheckoutPresenterImpl$10: CheckoutPresenterImpl$10(com.razorpay.CheckoutPresenterImpl,java.lang.String)
+com.razorpay.CheckoutOptions: org.json.JSONObject getPrefill()
+com.razorpay.R$style
+com.razorpay.AnalyticsConstants: AnalyticsConstants()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PLUGIN_CALLING_PROCESS_PAYMENT_EXCEPTION
+com.razorpay.CheckoutPresenterImpl$13
+com.razorpay.AutoOtpConstants: java.lang.String EXTRA_SENDER
+com.razorpay.AnalyticsConstants: java.lang.String FAILURE
+com.razorpay.CheckoutPresenterImpl: void access$100(com.razorpay.CheckoutPresenterImpl,java.lang.String)
+com.razorpay.ConfigDroid: java.lang.Integer MAGIC_VERSION_CODE
+com.razorpay.RzpPlugin: com.razorpay.RzpPluginCompatibilityResponse isCompatible(java.lang.String,int,java.lang.String)
+com.razorpay.CircularProgressView: float getProgress()
+com.razorpay.SmsAgent: void sendSmsPermissionCallBack(boolean)
+com.razorpay.CheckoutBridge$20: int val$duration
+com.razorpay.CheckoutPresenterImpl$CheckoutView
+com.razorpay.Lumberjack: java.lang.String sdkType
+com.razorpay.AnalyticsConstants: java.lang.String START
+com.razorpay.AutoOtpUtils: void incrementSmsPermissionAskedCount(android.content.Context)
+com.razorpay.BaseConfig: boolean mLumberJackEnabled
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_PAYMENT_CALLBACK_SUCCESS
+com.razorpay.sampleapp.R$id: int right
+com.razorpay.R$drawable: int notification_bg_normal
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_Layout_layout_keyline
+com.razorpay.CircularProgressView$3: CircularProgressView$3(com.razorpay.CircularProgressView)
+com.razorpay.BaseUtils: java.lang.String getRandomString()
+com.razorpay.R$styleable: int[] SignInButton
+com.razorpay.SecondaryWebChromeClient: com.razorpay.CheckoutPresenter presenter
+com.razorpay.R$attr: int statusBarBackground
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_SET_PAGE_TYPE
+com.razorpay.AnalyticsConstants: java.lang.String CB_VERIFY_SIGNATURE
+com.google.android.gms.signin.internal.zah: android.os.Parcelable$Creator CREATOR
+com.razorpay.R$styleable: int ColorStateListItem_android_color
+com.razorpay.BaseConstants: java.lang.String RZP_PAYMENTS_ENDPOINT
+com.razorpay.sampleapp.R$string: int common_google_play_services_enable_button
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_9
+com.razorpay.RZPProgressBar$2
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_light_focused
+com.razorpay.BaseConfig: java.lang.String getCheckoutEndpoint()
+com.razorpay.PrimaryWebViewClient: PrimaryWebViewClient(com.razorpay.CheckoutPresenter)
+com.razorpay.CheckoutPresenterImpl: void onError(org.json.JSONObject)
+com.razorpay.AutoReadOtpHelper: AutoReadOtpHelper(android.app.Activity)
+com.razorpay.BaseConfig: void setBaseConfig(org.json.JSONObject)
+com.razorpay.sampleapp.R$styleable: int GradientColorItem_android_offset
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CARD_CVV_LENGTH
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PAGE_LOAD_START
+com.razorpay.sampleapp.R$id: int all
+com.razorpay.Checkout
+com.google.android.gms.common.Feature: android.os.Parcelable$Creator CREATOR
+com.razorpay.R$attr: int alpha
+com.razorpay.BaseConfig: java.lang.String mConfigEndpoint
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_15
+com.razorpay.AnalyticsConstants: java.lang.String TASK
+com.razorpay.BaseUtils: java.lang.String installedApps(android.content.Context)
+com.razorpay.CheckoutPresenter: void onPageFinished(int,android.webkit.WebView,java.lang.String)
+com.razorpay.CheckoutPresenterImpl$16: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.sampleapp.R$id: int line1
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PLUGIN_INTERNAL_CALLBACK_ERROR_EXCEPTION
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_light_focused
+android.support.v4.app.RemoteActionCompatParcelizer
+com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+com.razorpay.R$style: int TextAppearance_Compat_Notification_Info
+com.razorpay.sampleapp.R$string: int common_google_play_services_install_text
+com.razorpay.RazorpayExceptionHandler: RazorpayExceptionHandler(android.content.Context,java.lang.Thread$UncaughtExceptionHandler)
+com.razorpay.AnalyticsConstants: java.lang.String DEVICE_SIZE
+com.razorpay.sampleapp.R$styleable: int FontFamily_fontProviderFetchStrategy
+com.razorpay.CheckoutPresenterImpl: void onProgressChanges(int,int)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_CHOICE_OTP_CLICKED
+com.razorpay.BaseConfig: BaseConfig()
+com.razorpay.AutoOtpConstants: java.lang.String SMS_PROCESSED_EVENT
+com.razorpay.sampleapp.R$styleable: int[] CoordinatorLayout_Layout
+com.razorpay.CheckoutBridge$8
+com.razorpay.R$styleable: int GradientColor_android_centerX
+com.razorpay.Config: java.lang.Boolean mRetryEnabled
+com.razorpay.RzpAssist: java.lang.String lastSms
+com.google.android.gms.common.internal.zzb: android.os.Parcelable$Creator CREATOR
+com.razorpay.SecondaryWebViewClient: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_10
+com.razorpay.sampleapp.R$styleable: int GradientColorItem_android_color
+com.razorpay.R$id: int dark
+com.razorpay.CircularProgressView: void setColor(int)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_PROCESS_PAYMENT_CALLED
+com.razorpay.CheckoutOptions: java.lang.Object get(java.lang.String)
+com.razorpay.Checkout$Builder: boolean builderDisableFullScreen
+com.razorpay.AnalyticsConstants: java.lang.String PAGE_FINISH
+com.razorpay.AndroidBug5497Workaround: void possiblyResizeChildOfContent()
+com.razorpay.BaseConfig: int mSmsPermissionMaxAskCount
+com.razorpay.AnalyticsUtil: java.lang.String sdkVersion
+com.razorpay.CheckoutPresenterImpl$17: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.CheckoutConstants: java.lang.String RAZORPAY_FUND_ACCOUNT_ID
+com.razorpay.R$styleable: int GradientColor_android_endY
+com.razorpay.BaseCheckoutActivity: android.webkit.WebViewClient secondaryWebViewClient
+com.razorpay.MagicBase: void postSms(java.lang.String,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String NETWORK
+com.razorpay.AutoOtpUtils
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void setPaymentID(java.lang.String)
+com.razorpay.sampleapp.R$color: R$color()
+com.razorpay.RZPProgressBar$2: void onAnimationStart(android.view.animation.Animation)
+com.razorpay.CheckoutUtils: java.lang.String getMerchantOptions(android.content.Context,java.lang.String)
+com.razorpay.CheckoutPresenterImpl: boolean isAllowRotation()
+com.razorpay.sampleapp.R$string: int common_google_play_services_install_button
+com.razorpay.Lumberjack: float SCREEN_DENSITY
+com.razorpay.CacheManager: boolean hasExpired(java.lang.String)
+com.razorpay.AnalyticsUtil: void setLocalOrderId(java.lang.String)
+com.razorpay.Lumberjack: void trackPage(java.lang.String,java.lang.String)
+com.razorpay.CheckoutConstants: java.lang.String APP_TOKEN
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CARD_EXPIRTY_DIGITS
+android.support.v4.graphics.drawable.IconCompatParcelizer
+androidx.lifecycle.CompositeGeneratedAdaptersObserver
+com.razorpay.R$dimen: int notification_right_side_padding_top
+com.razorpay.R$bool: int isTablet
+com.razorpay.RZPProgressBar$1: RZPProgressBar$1(com.razorpay.RZPProgressBar)
+com.razorpay.CheckoutPresenterImpl: com.razorpay.CheckoutPresenterImpl$CheckoutView view
+com.razorpay.BaseUtils: java.security.cert.Certificate getX509Certificate(android.net.http.SslCertificate)
+com.razorpay.BaseCheckoutActivity: android.webkit.WebViewClient primaryWebViewClient
+com.razorpay.Checkout: void invokeMethod(java.lang.reflect.Method,java.lang.Object[])
+com.razorpay.Checkout: int EXTERNAL_WALLET
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PROCESS_SIGN_ENCRYPT_RESPONSE_CALLED
+com.razorpay.CheckoutPresenter: void setUpAddOn()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_OTP_SHOW
+com.razorpay.CacheEntry
+com.razorpay.AnalyticsUtil: java.lang.CharSequence MERCHANT_APP_VERSION
+com.razorpay.CircularProgressView$8: CircularProgressView$8(com.razorpay.CircularProgressView)
+com.razorpay.SecondaryWebViewClient: void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)
+com.razorpay.CacheManager: void expireKey(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_USE_OTP_CLICKED
+com.razorpay.CheckoutBridge$20: java.lang.String val$message
+com.razorpay.AnalyticsConstants: java.lang.String AMAZONPAY_PASSED
+com.razorpay.CheckoutPresenterImpl$14: int val$duration
+com.razorpay.R$styleable: int FontFamily_fontProviderQuery
+com.razorpay.AdvertisingIdUtil: java.lang.String access$100()
+com.razorpay.BaseUtils: int getNetworkType(android.content.Context)
+com.razorpay.AnalyticsConstants: java.lang.String FLOW
+com.razorpay.RZPProgressBar$2: void onAnimationRepeat(android.view.animation.Animation)
+com.razorpay.AppSignatureHelper: java.util.ArrayList getAppSignatures()
+com.razorpay.AnalyticsConstants: java.lang.String HEIGHT
+com.razorpay.BaseUtils: java.lang.String getWifiSSID(android.content.Context)
+com.razorpay.ResourceUtils: int getRzpAssistVersionCode()
+com.razorpay.R$layout: int rzp_magic_base
+com.razorpay.BuildConfig: java.lang.String BUILD_TYPE
+com.razorpay.CheckoutBridge$21: CheckoutBridge$21(com.razorpay.CheckoutBridge,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.Checkout: com.razorpay.PaymentData paymentData
+com.razorpay.sampleapp.R$attr: int fontProviderAuthority
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_endColor
+com.razorpay.AnalyticsUtil: boolean isAnalyticsInitialized
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_HARD_BACK_PRESSED
+com.razorpay.Owl: void onPostExecute(com.razorpay.ResponseObject)
+com.razorpay.CardSaving: void setDeviceToken(android.content.Context,java.lang.String)
+com.razorpay.BaseUtils: java.util.HashMap getAllPluginsFromManifest(android.content.Context)
+com.razorpay.AnalyticsConstants: java.lang.String CUSTOM_APP_CHOOSER
+com.razorpay.OtpElfData
+com.razorpay.CheckoutPresenterImpl: com.razorpay.CheckoutOptions getCheckoutOptions()
+com.razorpay.BaseUtils: java.lang.String getScreenOffTimeout(android.content.Context)
+com.razorpay.OtpElfData$2
+com.razorpay.sampleapp.R$id: int startpayment
+com.razorpay.sampleapp.R$id: int rzp_theMainMagicView
+com.razorpay.PrimaryWebViewClient: void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)
+com.razorpay.BaseUtils: void setCompatibleWithGooglePay(boolean)
+com.razorpay.BaseConstants: int TLS_ERROR
+com.razorpay.RzpJSONCallback: void onResponse(org.json.JSONObject)
+com.razorpay.AnalyticsConstants: java.lang.String CACHE_HIT
+com.razorpay.BaseConfig: void setAdvertisingId(android.content.Context,java.lang.String)
+com.razorpay.R$styleable: int GradientColor_android_endColor
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_25
+com.razorpay.BaseUtils: org.json.JSONObject access$000(javax.net.ssl.HttpsURLConnection)
+com.razorpay.CheckoutActivity: android.webkit.WebView getWebView(int)
+com.razorpay.CheckoutPresenterImpl$2: void run()
+com.razorpay.AnalyticsConstants: java.lang.String DEVICE
+com.razorpay.CheckoutPresenterImpl: long preloadCompleteDuration
+com.razorpay.R$styleable: int ColorStateListItem_alpha
+com.razorpay.CheckoutPresenterImpl: void callNativeIntent(java.lang.String,java.lang.String)
+com.razorpay.CheckoutActivity: void loadData(int,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$id: int forever
+com.razorpay.Config: boolean IS_MAGIC_ENABLED
+com.razorpay.sampleapp.R$drawable: int notification_bg_low_pressed
+com.razorpay.CheckoutBridge$21: void unSecure()
+com.razorpay.BaseCheckoutActivity: BaseCheckoutActivity()
+com.razorpay.AnalyticsConstants: java.lang.String CELLULAR
+com.razorpay.R$id: int rzp_securedpayments
+com.razorpay.R$style: int Widget_Compat_NotificationActionContainer
+com.razorpay.CheckoutBridge$9: void secure()
+com.razorpay.BaseUtils: java.util.ArrayList jsonStringArrayToArrayList(org.json.JSONArray)
+com.razorpay.sampleapp.R$raw: R$raw()
+com.razorpay.sampleapp.R$styleable: int[] SignInButton
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_12
+com.razorpay.AnalyticsConstants: java.lang.String SELECTED
+com.razorpay.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+com.razorpay.Checkout$Builder: Checkout$Builder()
+com.razorpay.sampleapp.R$drawable: int white_border_black_bg
+com.razorpay.R$styleable: int GradientColor_android_endX
+com.razorpay.sampleapp.R$string: int common_google_play_services_updating_text
+com.razorpay.StorageBridge: float getFloat(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String ALREADY_ASKED
+com.razorpay.CheckoutPresenterImpl: void sendQueuedMessagesToCheckout()
+com.razorpay.RzpAssist: android.webkit.WebView webview
+com.razorpay.R$drawable: int notification_bg_low_pressed
+com.razorpay.CheckoutPresenterImpl: com.razorpay.MagicBase magicBase
+com.razorpay.R$attr: int layout_anchor
+com.razorpay.PaymentResultWithDataListener: void onPaymentError(int,java.lang.String,com.razorpay.PaymentData)
+com.razorpay.BaseConfig
+com.razorpay.R$attr: R$attr()
+com.razorpay.AnalyticsConstants: java.lang.String INTENT
+com.razorpay.BaseUtils: void enableJavaScriptInWebView(android.webkit.WebView)
+com.razorpay.AnalyticsConstants: java.lang.String CHECKOUT_PAGE_FINISH
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onSubmit(java.lang.String)
+com.razorpay.R$attr: int colorScheme
+com.razorpay.AnalyticsConstants: java.lang.String RESULT_TO_RECEIVED
+com.razorpay.sampleapp.R$id: int none
+com.razorpay.BaseUtils: java.lang.String getBase64FromOtherAppsResource(android.content.Context,java.lang.String)
+com.razorpay.sampleapp.R$drawable: int rzp_name_logo
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_centerY
+com.razorpay.CircularProgressView: float access$202(com.razorpay.CircularProgressView,float)
+com.razorpay.AutoOtpUtils: org.json.JSONObject createStatsPayload(boolean)
+com.razorpay.MagicData$1
+com.razorpay.CircularProgressView: boolean isIndeterminate()
+com.razorpay.CheckoutPresenterImpl$16: CheckoutPresenterImpl$16(com.razorpay.CheckoutPresenterImpl,int,java.lang.String)
+com.razorpay.CheckoutPresenterImpl: long checkoutLoadStartAt
+com.razorpay.sampleapp.R$attr: int statusBarBackground
+com.razorpay.SecondaryWebViewClient: void onPageFinished(android.webkit.WebView,java.lang.String)
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding: com.razorpay.sampleapp.databinding.ActivityPaymentBinding inflate(android.view.LayoutInflater)
+com.razorpay.CheckoutOptions: void prefillContact(java.lang.String)
+com.razorpay.CoreConfig: CoreConfig()
+com.razorpay.Config: int getRetryMaxCount()
+com.razorpay.Checkout: void handleOnError(int,java.lang.String)
+com.razorpay.R$string: int common_open_on_phone
+com.razorpay.Checkout: java.lang.String EVENT_CALLBACK_DNE
+android.support.v4.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+com.razorpay.SharedPreferenceUtil: android.content.SharedPreferences$Editor getPublicEditor(android.content.Context)
+com.razorpay.R$drawable: int common_google_signin_btn_text_dark_normal_background
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent SMS_PERMISSION_NOW_DENIED
+com.razorpay.AnalyticsConstants: java.lang.String PERMISSION_SMS
+com.razorpay.CheckoutPresenterImpl: void isWebViewSafeOnUI(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_5
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_ANY
+com.razorpay.Lumberjack: java.lang.Object getValueFromJsonObject(org.json.JSONObject,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String WIFI
+com.razorpay.Lumberjack: org.json.JSONObject getScreenDataJson()
+com.razorpay.CheckoutBridge$15: java.lang.String val$response
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent WEB_VIEW_JS_ERROR
+com.razorpay.R$color: int common_google_signin_btn_text_dark
+com.razorpay.CardSaving: java.lang.String getAppToken(android.content.Context)
+com.razorpay.AnalyticsConstants: java.lang.String IP_ADDRESS
+com.razorpay.RazorpayExceptionHandler$1: void run()
+com.razorpay.R$dimen: int compat_button_inset_horizontal_material
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MERCHANT_EXTERNAL_WALLET_SELECTED_CALLED
+com.razorpay.MagicBase: android.webkit.WebView webView
+com.razorpay.RZPProgressBar$1
+com.razorpay.AnalyticsConstants: java.lang.String DEPRECATED
+com.razorpay.NetworkType: NetworkType(java.lang.String,int,java.lang.String)
+com.razorpay.AddOnPresenter: void onPageFinished(int,android.webkit.WebView,java.lang.String)
+com.razorpay.R$styleable: int FontFamilyFont_font
+com.razorpay.Owl: Owl(com.razorpay.Callback)
+com.razorpay.BaseUtils: java.lang.String getSystemFontSize(android.content.Context)
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_tint
+com.razorpay.BaseConfig: void setPermissionConfig(org.json.JSONObject)
+com.razorpay.R$styleable: int FontFamilyFont_android_fontStyle
+com.razorpay.R$drawable: int rzp_border
+com.razorpay.CircularProgressView: float currentProgress
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_INTERNAL_CALLBACK_SUCCESS
+com.razorpay.CheckoutPresenterImpl$13: CheckoutPresenterImpl$13(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.R$id: int info
+com.razorpay.CircularProgressView: float actualProgress
+com.razorpay.CheckoutConstants: java.lang.String DISABLE_FULL_SCREEN
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_CUSTOM_APP_CHOOSER_SHOWN
+com.razorpay.Owl: com.razorpay.Owl method(java.lang.String)
+com.razorpay.sampleapp.R$attr
+com.razorpay.sampleapp.R$attr: int fontProviderFetchTimeout
+com.razorpay.PaymentData
+com.razorpay.sampleapp.R$id: int standard
+com.razorpay.sampleapp.R$drawable: int notification_bg_normal
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_2
+com.razorpay.AnalyticsConstants: java.lang.String DEVICE_TOKEN_SOURCE_SINGLE
+com.razorpay.R$layout: int notification_template_icon_group
+com.razorpay.R$string: int common_google_play_services_update_text
+com.razorpay.AnalyticsConstants: java.lang.String CELLULAR_NETWORK_TYPE
+com.razorpay.CheckoutPresenterImpl$6
+com.razorpay.CheckoutBridge$16: void secure()
+com.razorpay.R$id: R$id()
+com.razorpay.CheckoutOptions: void prefillEmail(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String ERROR_EXCEPTION
+com.razorpay.Logger: void v(java.lang.String,java.lang.Throwable)
+com.razorpay.RazorpayExceptionHandler: android.content.Context context
+com.razorpay.sampleapp.R$drawable: int secured_by_bg
+com.razorpay.AnalyticsConstants: java.lang.String OTP_MANUAL_USE
+com.razorpay.BaseCheckoutActivity: void createContainer()
+com.razorpay.sampleapp.R$dimen: int notification_small_icon_background_padding
+com.razorpay.Lumberjack: void destroy()
+com.razorpay.AdvertisingIdUtil$AdvertisingIdAsyncTask: java.lang.String doInBackground(java.lang.Void[])
+com.razorpay.CheckoutPresenterImpl$16: int val$webViewType
+com.razorpay.CheckoutInteractor: void showAlertDialog(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.R$id: int action_divider
+com.razorpay.CheckoutUtils: java.lang.String addParamToUrl(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.RZPProgressBar: void animateToEnd(int)
+com.razorpay.OtpElfCheckoutPresenterImpl: void setPaymentID(java.lang.String)
+com.razorpay.BaseConfig$2: BaseConfig$2(android.content.Context)
+com.razorpay.PrimaryWebChromeClient: com.razorpay.CheckoutPresenter presenter
+com.razorpay.CircularProgressView: void setMaxProgress(float)
+com.razorpay.CircularProgressView: CircularProgressView(android.content.Context,android.util.AttributeSet,int)
+com.razorpay.BaseConfig: boolean isOTPElfEnabled
+com.razorpay.AnalyticsConstants: java.lang.String LOADED
+com.razorpay.R$styleable: int CoordinatorLayout_keylines
+com.razorpay.R$raw
+com.razorpay.sampleapp.R$integer: int google_play_services_version
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_24
+com.razorpay.Lumberjack: boolean isLumberjackInitialized
+com.razorpay.CheckoutOptions: void put(java.lang.String,java.lang.Object)
+com.razorpay.BaseConstants: java.lang.String BHIM_PACKAGE_NAME
+com.razorpay.AnalyticsConstants: java.lang.String AMAZONPAY_CH_SOURCE
+com.razorpay.Checkout$1: long pageStartAt
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent PRELOAD_START
+com.razorpay.AndroidBug5497Workaround: int usableHeightPrevious
+com.razorpay.R$dimen: int notification_large_icon_height
+com.razorpay.BaseUtils: java.lang.String getScreenBrightnessMode(android.content.Context)
+com.razorpay.BaseConfig: java.lang.String getOtpelfJsFromFile(android.content.Context,int)
+com.razorpay.AnalyticsConstants: java.lang.String EVENTS
+com.razorpay.sampleapp.R$attr: int keylines
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void makeWebViewVisible(int)
+com.razorpay.AnalyticsConstants: java.lang.String NAME
+com.razorpay.Lumberjack: int SCREEN_HEIGHT
+androidx.lifecycle.LiveData$LifecycleBoundObserver
+com.razorpay.sampleapp.R$styleable: int[] CoordinatorLayout
+com.razorpay.CheckoutConstants: java.lang.String RAZORPAY_SIGNATURE
+com.razorpay.BaseConfig: void access$100(android.content.Context,java.lang.String)
+com.razorpay.CheckoutBridge$3: CheckoutBridge$3(com.razorpay.CheckoutBridge)
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+com.razorpay.AnalyticsConstants: java.lang.String EXCEPTION
+com.razorpay.CheckoutPresenterImpl$8
+com.razorpay.AnalyticsConstants: java.lang.String SDK
+com.razorpay.AnalyticsProperty: java.lang.Object value
+com.razorpay.BaseUtils: java.lang.String getKeyId(android.content.Context)
+com.razorpay.CheckoutConstants: java.lang.String CARD_SAVING_TOKEN_SOURCE
+com.razorpay.PaymentResultListener
+com.razorpay.AnalyticsUtil: java.lang.String getLocalPaymentId()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void toast(java.lang.String,int)
+com.razorpay.R$drawable: int common_google_signin_btn_text_dark
+com.razorpay.R$dimen: int notification_subtext_size
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding: com.razorpay.sampleapp.databinding.ActivityPaymentBinding bind(android.view.View)
+com.razorpay.AnalyticsConstants: java.lang.String CONTEXT
+com.razorpay.CheckoutPresenterImpl: boolean isPaymentSuccessful
+com.razorpay.R$style: int TextAppearance_Compat_Notification_Title
+com.razorpay.CheckoutPresenterImpl$1
+com.razorpay.CheckoutBridge$6: com.razorpay.CheckoutBridge this$0
+com.razorpay.R$color: int notification_action_color_filter
+com.razorpay.CheckoutOptions: boolean shouldSendHashForSms()
+com.razorpay.AnalyticsConstants: java.lang.String PAYMENT_CANCELLED
+com.razorpay.RZPProgressBar: android.view.View progressBar
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_GET_APPS_SUPPORTING_UPI_CALLBACK
+com.razorpay.sampleapp.R$drawable: R$drawable()
+com.razorpay.CheckoutConstants: java.lang.String EXTERNAL_WALLET
+com.razorpay.AnalyticsConstants: java.lang.String RESET
+com.razorpay.CircularProgressView$2: com.razorpay.CircularProgressView this$0
+com.razorpay.CheckoutBridge$12
+com.razorpay.AnalyticsConstants: java.lang.String PRIMARY_TO_SECONDARY
+com.razorpay.CircularProgressView$5: void onAnimationUpdate(android.animation.ValueAnimator)
+com.razorpay.CheckoutBridge$WebViewSafeCheckCallback: void secure()
+com.razorpay.R$attr: int layout_keyline
+com.razorpay.CheckoutUtils: org.json.JSONObject getIntentDataInJson(android.content.Context,android.content.pm.ResolveInfo)
+com.razorpay.CheckoutPresenterImpl: void enableAddon(org.json.JSONObject)
+com.razorpay.CheckoutBridge: void showAlertDialog(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.CheckoutPresenterImpl$13: void run()
+com.razorpay.CheckoutBridge$10: com.razorpay.CheckoutBridge this$0
+com.razorpay.CheckoutBridge$12: CheckoutBridge$12(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.sampleapp.R$attr: int fontWeight
+com.razorpay.ResourceUtils: boolean isTablet(android.content.Context)
+com.razorpay.Lumberjack: void addOrderProperty(java.lang.String,java.lang.Object)
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_disabled
+androidx.fragment.app.FragmentState: android.os.Parcelable$Creator CREATOR
+com.razorpay.BaseUtils: java.lang.String getFileFromInternal(android.app.Activity,java.lang.String,java.lang.String)
+com.razorpay.CheckoutBridge: void isWebViewSafeOnUI(com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.AnalyticsConstants: java.lang.String CALL_SUCCESS
+com.razorpay.AnalyticsUtil: void reportUncaughtException(java.lang.Throwable)
+com.razorpay.CheckoutInteractor: void onDismiss()
+com.razorpay.Checkout: java.lang.String key
+com.razorpay.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+com.razorpay.sampleapp.R$styleable: int[] GradientColorItem
+com.razorpay.CardSaving: java.lang.String getCorrectDeviceTokenFromInfoListAndSave(android.content.Context,org.json.JSONArray)
+com.razorpay.AnalyticsConstants: java.lang.String TIME_SHAVED_OFF
+com.razorpay.PluginCheckoutBridge$1: void secure()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onPageStarted(int,android.webkit.WebView,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String CONTACT
+com.razorpay.BaseConfig: java.lang.String mLumberjackKey
+com.razorpay.Checkout: void access$100()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void sendOtpPermissionCallback(boolean)
+com.razorpay.CheckoutPresenterImpl$15: java.lang.String val$negativeButtonText
+com.razorpay.CheckoutPresenterImpl$8: void onFinish()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CARD_SAVING_START
+com.razorpay.R$drawable: int notification_tile_bg
+com.razorpay.sampleapp.R$id: int dialog_button
+com.razorpay.NetworkType: java.lang.String getNetworkTypeName()
+com.razorpay.CircularProgressView: float access$100(com.razorpay.CircularProgressView)
+com.razorpay.RzpInternalCallback: void onPaymentSuccess(java.lang.String)
+com.razorpay.SmsAgentInterface
+com.razorpay.sampleapp.R$id: int rzp_innerbox
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_OTP_EXTRACT
+com.razorpay.CheckoutConstants: java.lang.String BODY
+com.razorpay.sampleapp.R$attr: int scopeUris
+com.razorpay.CheckoutPresenterImpl$12: void run()
+com.razorpay.CheckoutActivity: void addJavascriptInterfaceToPrimaryWebview(java.lang.Object,java.lang.String)
+com.razorpay.Checkout$Builder: java.lang.String builderKey
+com.razorpay.sampleapp.R$id: int notification_main_column_container
+com.razorpay.BaseConfig: void setUpdateSDKConfig(org.json.JSONObject)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void callNativeIntent(java.lang.String,java.lang.String)
+com.razorpay.CircularProgressView: float maxProgress
+com.razorpay.AnalyticsUtil: int MERCHANT_APP_BUILD
+com.razorpay.MagicData$1: MagicData$1(com.razorpay.MagicData)
+com.razorpay.AnalyticsConstants: java.lang.String PROCCESS_PAYMENT
+com.razorpay.sampleapp.R: R()
+com.razorpay.BaseUtils$MyPhoneStateListener: BaseUtils$MyPhoneStateListener()
+com.razorpay.R$dimen: int notification_top_pad_large_text
+com.google.android.gms.common.api.Scope: android.os.Parcelable$Creator CREATOR
+com.razorpay.PluginOtpElfCheckoutPresenterImpl$1: void onPaymentError(int,java.lang.String)
+com.razorpay.AdvertisingIdUtil$AdvertisingConnection: boolean retrieved
+com.razorpay.Checkout: Checkout()
+com.razorpay.AnalyticsConstants: java.lang.String WIFI_SSID
+com.razorpay.RzpPlugin: void isRegistered(android.content.Context)
+com.razorpay.AnalyticsConstants: java.lang.String CACHE_MISS
+com.razorpay.R$attr: int buttonSize
+com.razorpay.sampleapp.R$id: int bottom
+com.razorpay.CardSavingCallback
+com.razorpay.CheckoutBridge$10
+com.razorpay.Lumberjack: org.json.JSONObject addGlobalProperties(org.json.JSONObject)
+com.razorpay.Lumberjack: java.lang.String NETWORK_CELLULAR_TYPE
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: boolean isUserRegisteredOnUPI(java.lang.String)
+androidx.versionedparcelable.ParcelImpl
+android.support.v4.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+com.razorpay.R$dimen
+androidx.fragment.app.BackStackState: android.os.Parcelable$Creator CREATOR
+com.razorpay.R$styleable: int FontFamilyFont_fontWeight
+com.razorpay.RzpTokenReceiver
+com.razorpay.Checkout$Builder: int builderCheckoutImage
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_gradientRadius
+com.razorpay.CheckoutPresenter: void onProgressChanges(int,int)
+com.razorpay.RzpPluginCompatibilityResponse: boolean isCompatible
+com.razorpay.BaseConfig: int getSmsPermissionMaxAskCount()
+com.razorpay.sampleapp.R$layout
+com.razorpay.CheckoutPresenterImpl: CheckoutPresenterImpl(android.app.Activity,com.razorpay.CheckoutPresenterImpl$CheckoutView)
+com.razorpay.R$drawable: int rzp_name_logo
+com.razorpay.CircularProgressView: float INDETERMINANT_MIN_SWEEP
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_SOFT_BACK_PRESSED
+com.razorpay.R$id: int action_image
+com.razorpay.CheckoutActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])
+com.razorpay.AnalyticsConstants: java.lang.String ALREADY_GRANTED_BY_MERCHANT
+com.razorpay.RzpInternalCallback
+com.razorpay.Lumberjack: java.lang.String filterUrl(java.lang.String)
+com.razorpay.ConfigDroid: java.lang.String SECURE_PREF_KEY
+com.razorpay.R$string: int common_signin_button_text_long
+com.razorpay.AnalyticsProperty: AnalyticsProperty(boolean,com.razorpay.AnalyticsProperty$Scope)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onProgressChanges(int,int)
+com.razorpay.AnalyticsUtil: void reset()
+com.razorpay.CryptLib$EncryptMode
+com.razorpay.AnalyticsConstants: java.lang.String UPI_APPS_PREFERENCE
+com.razorpay.Checkout$2: void onProgressChanged(android.webkit.WebView,int)
+com.razorpay.AnalyticsConstants: java.lang.String DEVICE_ID
+com.razorpay.sampleapp.R$attr: int layout_insetEdge
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: boolean isExtRzpPluginActive
+com.razorpay.CheckoutBridge$14: void secure()
+com.razorpay.BaseConstants: java.lang.String VALIDATION_EMAIL_FAILED
+com.razorpay.ExternalWalletListener: void onExternalWalletSelected(java.lang.String,com.razorpay.PaymentData)
+com.razorpay.R$dimen: int notification_media_narrow_margin
+com.razorpay.RzpPlugin: void processPayment(java.lang.String,org.json.JSONObject,android.app.Activity,com.razorpay.RzpInternalCallback)
+com.razorpay.CircularProgressView: void startAnimation()
+com.razorpay.CheckoutInteractor: boolean isUserRegisteredOnUPI(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MERCHANT_ON_ERROR_CALLED
+com.razorpay.AnalyticsConstants: java.lang.String SDK_COUNT
+com.razorpay.sampleapp.R$drawable: int rzp_border
+com.razorpay.R$id: int top
+com.razorpay.CheckoutPresenter: boolean isAllowRotation()
+com.razorpay.PrimaryWebViewClient: void onPageFinished(android.webkit.WebView,java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void setAppToken(java.lang.String)
+com.razorpay.CheckoutUtils$1: CheckoutUtils$1(com.razorpay.CheckoutUtils$BackButtonDialogCallback)
+com.razorpay.AnalyticsUtil: void init(android.content.Context,java.lang.String)
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding: com.razorpay.sampleapp.databinding.ActivityPaymentBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)
+com.razorpay.MagicBase: MagicBase(android.app.Activity,android.webkit.WebView)
+com.razorpay.PaymentData: void setExternalWallet(java.lang.String)
+com.razorpay.sampleapp.BuildConfig: boolean DEBUG
+com.razorpay.sampleapp.R$dimen: int notification_big_circle_margin
+com.razorpay.AnalyticsConstants: java.lang.String NOW_DENIED
+com.razorpay.PluginCheckoutBridge$1: com.razorpay.PluginCheckoutBridge this$0
+com.razorpay.BaseCheckoutActivity: void loadDataWithBaseURL(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$style: int TextAppearance_Compat_Notification
+com.razorpay.CircularProgressView$6
+com.razorpay.AnalyticsConstants: java.lang.String AMOUNT
+com.razorpay.CheckoutInteractor: void relay(java.lang.String)
+com.razorpay.R$id: int auto
+com.razorpay.CheckoutInteractor: void isWebViewSafeOnUI(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+androidx.core.app.RemoteActionCompat
+com.razorpay.CheckoutBridge: void ondismiss()
+com.razorpay.AnalyticsConstants: java.lang.String WARNING
+com.razorpay.R$styleable: int LoadingImageView_imageAspectRatio
+com.razorpay.CheckoutPresenterImpl$17: CheckoutPresenterImpl$17(com.razorpay.CheckoutPresenterImpl,int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.Checkout$2: Checkout$2()
+com.razorpay.AdvertisingIdUtil: AdvertisingIdUtil()
+com.razorpay.BaseUtils: boolean isMerchantAppDebuggable(android.content.Context)
+com.razorpay.R$layout: R$layout()
+com.razorpay.sampleapp.R$dimen: int compat_button_padding_vertical_material
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent SMS_PERMISSION_NOW_GRANTED
+androidx.loader.app.LoaderManagerImpl$LoaderViewModel
+com.razorpay.Lumberjack: void saveEventsToPreferences(android.content.Context)
+com.razorpay.CheckoutBridge$5: CheckoutBridge$5(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.BaseConfig$1: BaseConfig$1(android.content.Context)
+com.razorpay.Config: void setNativeLoaderConfig(org.json.JSONObject)
+com.razorpay.sampleapp.R$id: int action_image
+com.razorpay.AnalyticsUtil: void reportError(java.lang.Exception,java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$attr: R$attr()
+com.razorpay.CheckoutPresenterImpl$2
+com.razorpay.CircularProgressView: void onAttachedToWindow()
+com.razorpay.sampleapp.R$attr: int ttcIndex
+com.razorpay.sampleapp.R$id: int tag_accessibility_pane_title
+com.razorpay.CheckoutPresenterImpl: boolean isMagic
+com.razorpay.R$raw: R$raw()
+com.razorpay.R$dimen: int notification_action_text_size
+com.razorpay.BaseUtils: void setWebViewSettings(android.content.Context,android.webkit.WebView,boolean)
+com.razorpay.R$drawable: int notification_template_icon_low_bg
+com.razorpay.R$dimen: int notification_right_icon_size
+com.razorpay.Checkout$1: void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)
+com.razorpay.CheckoutBridge: void onCheckoutBackPress()
+com.razorpay.CheckoutPresenterImpl: boolean allowRotation
+com.razorpay.Lumberjack: void addFilteredPropertiesFromPayload(org.json.JSONObject)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PROCESS_VERIFY_SIGNATURE_INTERNAL_SUCCESS_CALLED
+com.razorpay.sampleapp.R$styleable: R$styleable()
+com.razorpay.CircularProgressView: void onDraw(android.graphics.Canvas)
+com.razorpay.Config: void setBankButtonConfig(org.json.JSONObject)
+com.razorpay.CheckoutConstants: java.lang.String CHECKOUT_EMAIL
+com.razorpay.sampleapp.R
+com.razorpay.BaseConfig: boolean isConfigEnabled()
+com.razorpay.CheckoutBridge$7: java.lang.String val$packageName
+com.razorpay.CheckoutPresenterImpl: void requestOtpPermission()
+com.razorpay.OTP: java.lang.String bank
+com.razorpay.CheckoutActivity: void onBackPressed()
+com.razorpay.Checkout: long access$300()
+com.razorpay.R$id: int icon
+com.razorpay.AnalyticsUtil: java.lang.String sdkType
+com.razorpay.RZPProgressBar: android.view.ViewGroup container
+com.razorpay.AdvertisingIdUtil$AdvertisingIdAsyncTask: java.lang.Object doInBackground(java.lang.Object[])
+com.razorpay.ResizeWidthAnimation: ResizeWidthAnimation(android.view.View,int)
+com.razorpay.CheckoutBridge: void relay(java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onDismiss()
+com.razorpay.CheckoutPresenterImpl$9: java.lang.String val$errorParam
+com.razorpay.BaseConfig: java.lang.String getLumberjackSdkIdentifier()
+com.razorpay.BaseConfig: void setCheckoutEndPoint(java.lang.String)
+com.razorpay.R$dimen: int notification_main_column_padding_top
+com.razorpay.CheckoutConstants: java.lang.String CARD_SAVING_BROADCAST_ACTION
+com.razorpay.RzpAssist$1: com.razorpay.RzpAssist this$0
+com.razorpay.RzpAssist$4: void run()
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void checkSmsPermission()
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CURRENCY_ERROR
+com.razorpay.BaseUtils: java.lang.String getVersionFromJsonString(java.lang.String,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String BACK_ALERT
+com.razorpay.AnalyticsConstants: java.lang.String NULL
+com.razorpay.R$styleable: int GradientColor_android_startColor
+com.razorpay.Config: Config()
+com.razorpay.Lumberjack
+com.razorpay.sampleapp.R$dimen: int notification_top_pad_large_text
+com.razorpay.BaseUtils: java.lang.String getRingtoneHash(android.content.Context)
+com.razorpay.R$styleable: int SignInButton_scopeUris
+com.razorpay.PaymentData: PaymentData()
+com.razorpay.sampleapp.R$id: int auto
+com.razorpay.R$string: int common_google_play_services_update_title
+com.razorpay.BaseUtils: java.lang.String getAndroidId(android.content.Context)
+com.razorpay.PrimaryWebViewClient: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
+com.razorpay.R$id: int blocking
+com.razorpay.CheckoutPresenterImpl: void requestExtraAnalyticsData()
+com.razorpay.OtpElfCheckoutPresenterImpl: void onRequestPermissionsResult(int,java.lang.String[],int[])
+com.razorpay.CheckoutBridge: void onload()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl$1: void onPaymentSuccess(java.lang.String)
+com.razorpay.BaseConstants: int BASE_REQUEST_CODE_INTENT
+com.razorpay.R$styleable: int CoordinatorLayout_statusBarBackground
+com.razorpay.sampleapp.R$dimen: int compat_notification_large_icon_max_width
+com.razorpay.RZPProgressBar: void insertView()
+com.razorpay.AnalyticsConstants: java.lang.String UPI_IS_REGISTERED
+com.razorpay.sampleapp.R$id: int clip_vertical
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_CB_ONERROR
+com.razorpay.SharedPreferenceUtil: java.lang.String KEY_DATA
+com.razorpay.CircularProgressView: void resetAnimation()
+com.razorpay.CheckoutUtils: boolean isCheckoutUrl(android.webkit.WebView)
+com.razorpay.BaseUtils: java.lang.Boolean isUserRegisteredOnTruePay(android.content.Context)
+com.razorpay.SmsAgentInterface: void setSmsPermission(boolean)
+com.razorpay.CheckoutPresenterImpl: void destroyActivity(int,java.lang.String)
+com.razorpay.sampleapp.R$style: int TextAppearance_Compat_Notification_Info
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CARD_SAVING_END
+com.razorpay.R$layout: int notification_action_tombstone
+com.razorpay.Lumberjack: void setNetworkDetails(android.content.Context)
+com.razorpay.sampleapp.R$dimen: int compat_button_inset_vertical_material
+com.razorpay.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+com.razorpay.sampleapp.R$styleable: int LoadingImageView_circleCrop
+com.razorpay.R$bool: R$bool()
+com.razorpay.AndroidBug5497Workaround: int restoreHeight
+com.razorpay.Checkout: java.lang.String EVENT_CALLBACK_THREW_ERROR
+com.razorpay.SmsAgent: java.util.ArrayList interfaceArrayList
+com.razorpay.CheckoutBridge$14
+com.razorpay.Config: com.razorpay.Config getInstance()
+com.razorpay.sampleapp.R$string: int common_open_on_phone
+com.razorpay.BaseConfig: void fetchConfig(java.lang.String,java.util.Map,android.content.Context)
+com.razorpay.Config: boolean isBackButtonAlertEnabled()
+com.razorpay.R$styleable: int[] CoordinatorLayout_Layout
+com.razorpay.R$color: int common_google_signin_btn_tint
+com.razorpay.Checkout: boolean handleOnSuccessViaInterface(java.lang.String)
+com.razorpay.ResponseObject: java.lang.String responseResult
+com.razorpay.sampleapp.R$style: int Widget_Compat_NotificationActionContainer
+com.razorpay.CryptLib: java.lang.String SHA256(java.lang.String,int)
+com.razorpay.CheckoutBridge: void toast(java.lang.String,int)
+com.razorpay.AnalyticsConstants: java.lang.String TYPE
+com.razorpay.Config: void setCheckoutConfig(org.json.JSONObject)
+com.razorpay.CheckoutInteractor: void onCheckoutBackPress()
+com.razorpay.CheckoutPresenterImpl$14: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.CircularProgressView: void updateBounds()
+com.razorpay.R$id: int icon_group
+com.razorpay.PaymentData: org.json.JSONObject data
+com.razorpay.R$drawable: int notification_bg_low_normal
+com.razorpay.AnalyticsConstants: java.lang.String PASSED
+com.razorpay.Checkout: int INVALID_OPTIONS
+com.razorpay.CheckoutConstants: java.lang.String FRAMEWORK
+com.razorpay.R$dimen: int notification_action_icon_size
+com.razorpay.ResponseObject: ResponseObject()
+com.razorpay.R$color: int common_google_signin_btn_text_light
+com.razorpay.CheckoutBridge: void setPaymentID(java.lang.String)
+com.razorpay.sampleapp.R$layout: int notification_template_custom_big
+com.razorpay.CheckoutActivity: void loadDataWithBaseURL(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.MagicBase: android.content.Context context
+com.razorpay.AdvertisingIdUtil$AdvertisingConnection: void onServiceConnected(android.content.ComponentName,android.os.IBinder)
+com.razorpay.CheckoutPresenterImpl: void loadForm(java.lang.String)
+com.razorpay.AndroidBug5497Workaround$1: com.razorpay.AndroidBug5497Workaround this$0
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void clearWebViewHistory(int)
+com.razorpay.AnalyticsConstants: java.lang.String OTP
+com.razorpay.PaymentData: java.lang.String getUserContact()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_UPI_INTENT_APPS_OTHER_ORDER_PASSED
+com.razorpay.OTP: java.lang.String toString()
+com.razorpay.SecondaryWebViewClient: SecondaryWebViewClient(com.razorpay.CheckoutPresenter)
+com.razorpay.Checkout$Builder
+com.razorpay.sampleapp.R$id: int line3
+com.razorpay.CheckoutOptions: boolean allowRotation()
+com.razorpay.AnalyticsUtil: void addProperty(java.lang.String,com.razorpay.AnalyticsProperty)
+com.razorpay.Checkout: long sPreloadCompleteDuration
+com.razorpay.Checkout: java.lang.String getPaymentResult(android.content.Intent)
+com.razorpay.R$layout
+com.razorpay.AnalyticsConstants: java.lang.String UPI_APPS_CALLBACK
+com.razorpay.BaseConfig: java.lang.String mOTPElfJsFileName
+com.razorpay.BaseConfig: java.lang.String getConfigDataFromPreferences(android.content.Context)
+com.razorpay.AnalyticsUtil: java.lang.String KEY_TYPE
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void loadDataWithBaseURL(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.RzpJSONCallback
+com.razorpay.BaseConfig: android.net.Uri$Builder getFetchConfigBuilder(android.net.Uri$Builder,android.content.Context,java.lang.String)
+com.razorpay.BaseConfig: java.lang.String getConfigEndpoint()
+com.razorpay.CheckoutPresenterImpl: boolean isMagicPresent()
+com.razorpay.Logger: void v(java.lang.String)
+com.razorpay.Checkout: void preload(android.content.Context)
+com.razorpay.OtpElfCheckoutPresenterImpl: void setUpAddOn()
+com.razorpay.sampleapp.R$id: int action_container
+com.razorpay.Lumberjack$1: Lumberjack$1()
+com.razorpay.R$id: int tag_transition_group
+com.razorpay.Checkout: int PAYMENT_CANCELED
+com.razorpay.CheckoutPresenter
+com.razorpay.CheckoutPresenterImpl: void onPageFinished(int,android.webkit.WebView,java.lang.String)
+com.razorpay.CheckoutPresenterImpl$8: void onTick(long)
+com.razorpay.Lumberjack: java.lang.String DEVICE_NAME
+com.razorpay.AnalyticsConstants: java.lang.String CHOICE_OTP
+com.razorpay.ResizeWidthAnimation: android.view.View mView
+com.razorpay.R$drawable: int common_google_signin_btn_icon_light_normal_background
+com.razorpay.AnalyticsProperty$Scope: com.razorpay.AnalyticsProperty$Scope valueOf(java.lang.String)
+com.razorpay.sampleapp.R$bool: int isTablet
+com.razorpay.StorageBridge
+com.razorpay.R$id: int rzp_innerbox
+com.razorpay.R$string: int common_google_play_services_unsupported_text
+com.razorpay.CheckoutOptions: void putPrefill(java.lang.String,java.lang.Object)
+com.razorpay.CheckoutBridge$20
+com.razorpay.CheckoutUtils: void setUserEmail(android.content.Context,java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl
+com.razorpay.RzpPlugin: void isRegistered(android.content.Context,com.razorpay.RzpPluginRegisterCallback)
+com.razorpay.AnalyticsConstants: java.lang.String AMAZONPAY_CU_SOURCE
+com.razorpay.ConfigDroid: java.lang.Integer RZP_ASSIST_VERSION_CODE
+com.razorpay.R$string: int common_signin_button_text
+com.razorpay.sampleapp.R$layout: int notification_template_part_chronometer
+com.razorpay.AddOnPresenter: void onProgressChanges(int,int)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_UPI_APP_LAUNCHED
+com.razorpay.CoreConfig: com.razorpay.BaseConfig config
+com.razorpay.CheckoutUtils$2: CheckoutUtils$2(com.razorpay.CheckoutUtils$BackButtonDialogCallback)
+com.razorpay.CoreConfig: void setInstance(com.razorpay.BaseConfig)
+com.razorpay.RzpAssist: boolean isRazorpayOtpReceived()
+com.razorpay.CheckoutInteractor: void onFault(java.lang.String)
+com.razorpay.BaseConstants: java.lang.String VALIDATION_EMAIL_LENGTH
+com.razorpay.AnalyticsProperty: AnalyticsProperty(org.json.JSONObject,com.razorpay.AnalyticsProperty$Scope)
+com.razorpay.CryptLib: java.lang.String encrypt(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String ABORT
+com.razorpay.CheckoutPresenterImpl: boolean clearHistory
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void setMerchantOptions(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String URL
+com.razorpay.sampleapp.R$id: int adjust_height
+android.support.v4.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+com.razorpay.sampleapp.R$id: int icon_only
+com.razorpay.BaseConfig: java.lang.String getConfigVersionFromPreferences(android.content.Context)
+com.razorpay.sampleapp.R$layout: int custom_dialog
+com.razorpay.BaseUtils$2
+com.razorpay.CircularProgressView: void onDetachedFromWindow()
+com.razorpay.Config: java.util.ArrayList mCheckoutAppendKeys
+com.razorpay.BaseUtils$1: BaseUtils$1(com.razorpay.RzpJSONCallback)
+com.razorpay.CircularProgressView: void stopAnimation()
+com.razorpay.Config: boolean mCardSavingBroadcastReceiverFlowEnabled
+com.razorpay.AdvertisingIdUtil: void getId(android.content.Context,com.razorpay.AdvertisingIdUtil$AdvertisingIdCallback)
+com.razorpay.BaseUtils: java.lang.CharSequence getWebViewUserAgent(android.content.Context)
+com.razorpay.AnalyticsConstants: java.lang.String BLUETOOTH
+com.razorpay.RzpAssist: void setup()
+com.razorpay.AnalyticsUtil: java.util.Map getErrorProperties(java.lang.String,java.lang.String)
+com.razorpay.CheckoutBridge$13: CheckoutBridge$13(com.razorpay.CheckoutBridge,int,int)
+com.razorpay.R$id: int icon_only
+com.razorpay.CheckoutBridge: void setAppToken(java.lang.String)
+com.razorpay.SecondaryWebChromeClient: void onProgressChanged(android.webkit.WebView,int)
+com.razorpay.sampleapp.R$dimen: int notification_action_text_size
+com.razorpay.CheckoutBridge$8: java.lang.String val$id
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_VERIFY_PAYMENT_CALLED
+com.razorpay.Callback: void run(com.razorpay.ResponseObject)
+com.razorpay.AnalyticsConstants: java.lang.String CALLING_INTERNAL_SUCCESS
+com.razorpay.NetworkType
+com.razorpay.SecondaryWebViewClient
+com.razorpay.CheckoutPresenterImpl: void sendOtpPermissionCallback(boolean)
+com.razorpay.SmsReceiver: com.razorpay.SmsAgent smsAgent
+com.razorpay.AnalyticsConstants: java.lang.String EMAIL
+com.razorpay.BaseCheckoutActivity: void loadData(int,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: boolean isMagicPresent()
+com.razorpay.BaseUtils: java.lang.String buildSerial()
+com.razorpay.BaseCheckoutActivity: android.webkit.WebChromeClient secondaryWebChromeClient
+com.razorpay.OtpElfData: java.lang.String versionKey
+com.razorpay.CheckoutActivity: void showToast(java.lang.String,int)
+com.razorpay.AnalyticsConstants: java.lang.String CHECKOUT_ACTIVITY_INIT
+com.razorpay.AnalyticsConstants: java.lang.String CHK_REGISTER
+com.razorpay.CheckoutBridge: boolean access$002(com.razorpay.CheckoutBridge,boolean)
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void hideProgressBar()
+com.razorpay.BaseConstants: java.lang.String CRED_PACKAGE
+com.razorpay.sampleapp.R$color: int notification_icon_bg_color
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void invokePopup(java.lang.String)
+com.razorpay.CircularProgressView$7: CircularProgressView$7(com.razorpay.CircularProgressView,float,float)
+com.razorpay.BaseConfig$1: android.content.Context val$context
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_light_normal_background
+com.razorpay.CheckoutPresenterImpl: void handleRetry(java.lang.String)
+com.razorpay.CheckoutBridge
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onRequestPermissionsResult(int,java.lang.String[],int[])
+com.razorpay.AdvertisingIdUtil$AdvertisingIdAsyncTask: com.razorpay.AdvertisingIdUtil$AdvertisingIdCallback callback
+android.support.v4.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+com.razorpay.BaseUtils: void setBaseWebViewSettings()
+com.razorpay.ConfigDroid
+com.razorpay.RzpPluginCompatibilityResponse: java.lang.String errorMessage
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AUTO_READ_OTP_SMS_RETRIEVER_API_RECEIVED_SMS
+com.razorpay.CheckoutPresenterImpl: void helpersReset()
+com.razorpay.CardSaving$1
+com.razorpay.AnalyticsConstants: java.lang.String SCREEN
+com.razorpay.Config: java.lang.String mBackButtonAlertMessage
+com.razorpay.Config: java.lang.String CONFIG_VERSION
+com.razorpay.Checkout$Builder: com.razorpay.Checkout$Builder setKeyId(java.lang.String)
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event[] $VALUES
+com.razorpay.ResponseObject: void setResponseResult(java.lang.String)
+com.razorpay.R$drawable: int rzp_green_button
+com.razorpay.SmsAgent: void addSMSBroadcastReceiver(android.app.Activity)
+com.razorpay.SharedPreferenceUtil: java.lang.String NAME_PUBLIC
+com.razorpay.sampleapp.R$styleable: int FontFamily_fontProviderCerts
+com.razorpay.CheckoutBridge$16
+com.razorpay.BaseCheckoutActivity: com.razorpay.SmsAgent smsAgent
+com.razorpay.sampleapp.R$id: int tag_accessibility_actions
+com.razorpay.Lumberjack: void addQueuedDataToBatch()
+com.razorpay.sampleapp.R$attr: int imageAspectRatio
+com.razorpay.BaseCheckoutActivity: void showProgressBar(int)
+com.razorpay.RazorpayExceptionHandler: void unregister()
+com.razorpay.BaseUtils: java.util.Map getDeviceAttributes(android.content.Context)
+com.razorpay.Config: int mRetryMaxCount
+com.razorpay.AnalyticsConstants: java.lang.String MANUFACTURER
+com.razorpay.CheckoutPresenterImpl: void onFault(java.lang.String)
+com.razorpay.ResizeWidthAnimation: int mStartWidth
+com.razorpay.CheckoutUtils$1
+com.razorpay.CheckoutPresenterImpl$6: void onPositiveButtonClick()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_UPI_APP_PASSED
+com.razorpay.AnalyticsConstants: java.lang.String OTP_RECEIVE
+com.razorpay.BaseConfig$2: void onResult(java.lang.String)
+com.razorpay.Checkout: void onActivityResult(int,int,android.content.Intent)
+com.razorpay.Lumberjack: void trackEvent(java.lang.String)
+com.razorpay.R$layout: int notification_action
+com.razorpay.Checkout: void handleOnSuccessViaReflection(java.lang.String)
+com.razorpay.R$color
+com.razorpay.RzpAssist: java.lang.String lastURL
+com.razorpay.sampleapp.R$dimen: int notification_subtext_size
+com.razorpay.OtpElfCheckoutPresenterImpl
+com.razorpay.CheckoutPresenterImpl$15: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.R$string: int common_google_play_services_install_title
+com.razorpay.SmsAgent: boolean takeActionsIfPermissionsAreGranted(android.app.Activity)
+com.razorpay.RZPProgressBar$2: com.razorpay.RZPProgressBar this$0
+com.razorpay.CheckoutBridge$13: int val$width
+com.razorpay.AnalyticsConstants: java.lang.String SAVED_CARD
+com.razorpay.AdvertisingIdUtil$AdvertisingConnection: void onServiceDisconnected(android.content.ComponentName)
+com.razorpay.RzpAssist$1
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: com.razorpay.RzpInternalCallback rzpInternalCallback
+com.razorpay.BaseUtils: java.lang.String constructBasicAuth(java.lang.String)
+com.razorpay.BaseUtils: java.lang.String getDisplayResolution(android.content.Context)
+com.razorpay.sampleapp.BuildConfig: BuildConfig()
+com.razorpay.CheckoutPresenterImpl$15: java.lang.String val$message
+com.razorpay.AnalyticsConstants: java.lang.String PAGE_START
+com.razorpay.BaseUtils: java.util.HashMap getMapFromJSONObject(org.json.JSONObject)
+com.razorpay.R$attr: int layout_behavior
+com.razorpay.R$dimen: int notification_content_margin_start
+com.razorpay.BaseUtils: java.security.PublicKey constructPublicKey(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_BACKEND_ERROR
+com.razorpay.BaseCheckoutActivity: void destroy(int,java.lang.String)
+com.razorpay.AnalyticsUtil: boolean isNullOrEmpty(java.lang.CharSequence)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PWAIN_CALLBACK_MOBILE_SDK_ERROR
+com.razorpay.sampleapp.R$styleable: int SignInButton_scopeUris
+com.razorpay.BaseCheckoutActivity: com.razorpay.RZPProgressBar rzpbar
+com.razorpay.RZPProgressBar: void getScreenDimensions()
+com.razorpay.R
+com.razorpay.CheckoutUtils: org.json.JSONArray getUpiIntentsDataInJsonArray(android.content.Context)
+com.razorpay.CheckoutBridge$7: void secure()
+com.razorpay.AnalyticsConstants: java.lang.String NOT_AVAILABLE
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_CREATE
+com.razorpay.Owl: android.os.AsyncTask post(java.lang.String,java.lang.String,java.util.Map,com.razorpay.Callback)
+com.razorpay.RzpAssist: java.lang.String sdkType
+com.razorpay.R$id: int rzp_theMainMagicView
+com.razorpay.CardSaving: void clearDeviceToken(android.content.Context)
+com.razorpay.AppSignatureHelper: java.lang.String TAG
+com.razorpay.OtpElfData: void updateOtpElf(java.lang.String)
+com.razorpay.RazorpayExceptionHandler$1: com.razorpay.RazorpayExceptionHandler this$0
+com.razorpay.BaseUtils: java.lang.String getLocalVersion(android.app.Activity,java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void processPayment(java.lang.String)
+com.razorpay.sampleapp.R$id: int left
+com.razorpay.PaymentResultWithDataListener
+com.razorpay.PrimaryWebViewClient
+com.razorpay.CheckoutOptions: org.json.JSONObject getAsJson()
+com.razorpay.AnalyticsConstants: java.lang.String OTP_USE
+com.razorpay.AnalyticsUtil: org.json.JSONObject getAnalyticsDataForCheckout(android.content.Context)
+com.razorpay.CheckoutBridge$13: void unSecure()
+com.razorpay.CacheManager
+com.razorpay.R$attr
+com.razorpay.BaseConstants: java.lang.String KEY_ID_PARAM
+com.razorpay.CheckoutPresenter: com.razorpay.CheckoutOptions getCheckoutOptions()
+com.razorpay.CircularProgressView: void setProgress(float)
+com.razorpay.AnalyticsConstants: java.lang.String UPI_PREFERRED_APPS_ORDER
+com.razorpay.CheckoutBridge$9: void unSecure()
+com.razorpay.Lumberjack: void addAmountToProperties(org.json.JSONObject)
+com.razorpay.Checkout: void failPreload()
+com.razorpay.BaseConfig: java.lang.String mMagicBaseEndPoint
+com.razorpay.BaseUtils: java.lang.Object getJsonValue(java.lang.String[],java.lang.Object,int)
+com.razorpay.RazorpayExceptionHandler$1: java.lang.Throwable val$throwable
+com.razorpay.CheckoutPresenter: void verifyGPaySdkResponse(java.lang.String)
+com.razorpay.Owl: java.util.Map headers
+com.razorpay.CryptLib: java.lang.String decrypt(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.AdvertisingIdUtil$AdvertisingInterface: AdvertisingIdUtil$AdvertisingInterface(android.os.IBinder)
+com.razorpay.BaseConfig: java.lang.String mMagicJsFileName
+com.razorpay.AnalyticsConstants: java.lang.String MODE
+com.razorpay.sampleapp.R$color: int androidx_core_ripple_material_light
+com.razorpay.CheckoutBridge$11: void secure()
+com.razorpay.AnalyticsConstants: java.lang.String CONSENT_SHOWED
+androidx.core.app.RemoteActionCompat: RemoteActionCompat()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_UPI_INTENT_APPS_PREFERENCE_PASSED
+com.razorpay.CheckoutInteractor: void onLoad()
+com.razorpay.CircularProgressView$1
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_NATIVE_INTENT_CALLED
+com.razorpay.sampleapp.R$id: int tag_unhandled_key_listeners
+com.razorpay.StorageBridge: java.lang.String getString(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String DEVICE_MODEL
+com.razorpay.BaseConstants: java.lang.String DEFAULT_PROGRESS_COLOR
+com.razorpay.BaseCheckoutActivity: void onBackPressed()
+com.razorpay.AnalyticsConstants: java.lang.String VERSION
+com.razorpay.StorageBridge: StorageBridge(android.content.Context)
+com.razorpay.CircularProgressView: int size
+com.razorpay.CheckoutBridge$4
+com.razorpay.AnalyticsConstants: java.lang.String NETWORK_UNAVAILABLE
+com.razorpay.CheckoutPresenterImpl$15
+com.razorpay.CheckoutActivity: void hideProgressBar()
+com.google.android.gms.common.api.GoogleApiActivity
+com.razorpay.R$styleable: int FontFamilyFont_fontStyle
+androidx.fragment.app.FragmentActivity: FragmentActivity()
+androidx.core.app.CoreComponentFactory: CoreComponentFactory()
+com.razorpay.ConfigDroid: java.lang.Boolean ENABLE_WEBVIEW_DEBUGGING
+com.razorpay.BaseCheckoutActivity: void onSaveInstanceState(android.os.Bundle)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_13
+com.razorpay.R$styleable: int FontFamilyFont_ttcIndex
+com.razorpay.AnalyticsUtil: void setAppDetails(android.content.Context,java.lang.String)
+androidx.core.app.RemoteActionCompatParcelizer
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent ALERT_PAYMENT_CANCELLED
+com.razorpay.R$styleable: int[] GradientColor
+com.razorpay.AutoOtpConstants: java.lang.String PERMISSION_ASKED_COUNT
+com.razorpay.OTP: java.lang.String sender
+com.razorpay.AnalyticsConstants: java.lang.String RAZORPAY_AMAZON
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent SMS_PERMISSION_ALREADY_NOT_ASKED
+com.razorpay.CheckoutBridge$17
+com.razorpay.AnalyticsConstants: java.lang.String LOG
+com.razorpay.AnalyticsConstants: java.lang.String PRELOAD_COMPLETE_DURATION
+com.razorpay.AndroidBug5497Workaround$1: void onGlobalLayout()
+com.razorpay.CheckoutPresenter: boolean setOptions(android.os.Bundle,boolean)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AUTO_READ_OTP_SMS_RETRIEVER_API_OTP_POPULATION_JS
+com.razorpay.AnalyticsConstants: java.lang.String MOBILE_SDK_ERROR
+com.razorpay.sampleapp.R$layout: int notification_action_tombstone
+com.razorpay.RzpTokenReceiver: RzpTokenReceiver()
+com.razorpay.AnalyticsConstants: java.lang.String PROPERTIES
+com.razorpay.CheckoutPresenterImpl: boolean isCheckoutLoaded
+com.razorpay.AnalyticsConstants: java.lang.String ANDROID_ID
+com.razorpay.CheckoutOptions: CheckoutOptions(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String NETWORK_2G
+com.razorpay.Checkout: int TLS_ERROR
+androidx.core.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+com.razorpay.sampleapp.R$drawable: int notification_bg_normal_pressed
+com.razorpay.BaseConfig: java.lang.String CONFIG_VERSION
+com.razorpay.CircularProgressView: int animDuration
+com.razorpay.RzpInternalCallback: void onPaymentError(int,java.lang.String)
+com.razorpay.OtpElfData: void access$000(com.razorpay.OtpElfData,java.lang.String)
+com.razorpay.CheckoutBridge: void setDimensions(int,int)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent OTP_RECEIVED
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PLUGIN_ON_ERROR_CALLED
+com.razorpay.R$string: int common_google_play_services_install_button
+com.razorpay.CheckoutPresenterImpl: void addAnalyticsData(org.json.JSONObject)
+com.razorpay.MagicBase: void injectJs(java.lang.String)
+com.razorpay.SmsAgent: void postSms(java.lang.String,java.lang.String)
+com.razorpay.R$id: int standard
+com.razorpay.CheckoutUtils: java.lang.String getUserEmail(android.content.Context)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void verifyGPaySdkResponse(java.lang.String)
+com.razorpay.AnalyticsUtil: java.lang.CharSequence MERCHANT_APP_NAME
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PLUGIN_PROCESS_PAYMENT_CALLED
+com.razorpay.CheckoutBridge$21: java.lang.String val$negativeButtonText
+com.razorpay.Checkout: boolean disableFullScreen
+com.razorpay.CircularProgressView: void init(android.util.AttributeSet,int,android.content.Context)
+com.razorpay.R$id: int wide
+com.razorpay.R$id: int right_side
+com.razorpay.MagicData$2: com.razorpay.MagicData this$0
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CARD_CVV_DIGITS
+com.razorpay.CheckoutConstants: java.lang.String DEVICE_TOKEN
+com.razorpay.RzpAssist: android.app.Activity activity
+com.razorpay.CircularProgressView: android.animation.ValueAnimator progressAnimator
+com.razorpay.R$style: int TextAppearance_Compat_Notification_Line2
+com.razorpay.PluginCheckoutBridge: com.razorpay.PluginCheckoutInteractor access$000(com.razorpay.PluginCheckoutBridge)
+com.razorpay.R$color: int common_google_signin_btn_text_light_pressed
+com.razorpay.SharedPreferenceUtil: android.content.SharedPreferences privatePrefs
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PWAIN_CALLBACK_ON_CANCEL
+com.razorpay.CryptLib
+com.razorpay.AnalyticsConstants: java.lang.String UPI_APPS
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onFault(java.lang.String)
+com.razorpay.CheckoutBridge$15: void unSecure()
+com.razorpay.AnalyticsUtil: void trackPage(java.lang.String,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent PAGE_LOAD_START
+com.razorpay.MagicBase
+com.razorpay.BaseConfig: java.lang.String getOtpElfJsUrl()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent WEB_VIEW_UNEXPECTED_NULL
+com.razorpay.AnalyticsConstants: java.lang.String GOOGLEPAY_CU_SOURCE
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CONTACT_MISSING
+com.razorpay.CheckoutPresenterImpl: void addOnFlowEnd()
+com.razorpay.RzpAssist: void paymentFlowEnd()
+com.google.android.gms.common.internal.ReflectedParcelable
+com.razorpay.BaseConfig: void setConfigVersionToPreferences(android.content.Context,java.lang.String)
+com.razorpay.MagicData$2
+com.razorpay.BaseUtils$3: android.content.Context val$context
+com.razorpay.BaseConstants: java.lang.String GOOGLE_PAY_PKG
+com.razorpay.BaseCheckoutActivity: void onCreate(android.os.Bundle)
+com.razorpay.RzpAssist$5: java.lang.String val$otpJson
+com.razorpay.sampleapp.R$integer: int status_bar_notification_info_maxnum
+com.razorpay.R$dimen: int notification_small_icon_background_padding
+com.razorpay.sampleapp.R$styleable: int ColorStateListItem_android_alpha
+com.razorpay.sampleapp.R$drawable: int rzp_secured_by_bg
+com.razorpay.RzpAssist$3
+com.razorpay.Checkout: void onCreate(android.os.Bundle)
+com.razorpay.R$drawable: int notification_bg_normal_pressed
+com.razorpay.CheckoutPresenter: void onActivityResultReceived(int,int,android.content.Intent)
+com.razorpay.CheckoutConstants: java.lang.String SMS_PROCESSED_EVENT
+com.razorpay.sampleapp.R$id: int wide
+com.razorpay.R$drawable: R$drawable()
+com.razorpay.OtpElfData$1: void run(com.razorpay.ResponseObject)
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_START
+com.razorpay.AnalyticsConstants: java.lang.String ERROR
+com.razorpay.SharedPreferenceUtil: java.lang.String KEY_SDK_VERSION
+com.razorpay.CheckoutConstants: java.lang.String USER_CONTACT
+com.razorpay.Lumberjack: void setDisplayDetails(android.content.Context)
+com.razorpay.PaymentData: java.lang.String userContact
+com.razorpay.CryptLib$EncryptMode: CryptLib$EncryptMode(java.lang.String,int)
+com.razorpay.sampleapp.R$attr: int font
+com.razorpay.AnalyticsEvent: java.lang.String getEventName()
+com.razorpay.AnalyticsConstants: java.lang.String CHECKOUT_PAGE_START
+com.google.android.gms.auth.api.signin.internal.SignInHubActivity: SignInHubActivity()
+androidx.lifecycle.ViewModel: ViewModel()
+com.razorpay.Logger: void d(java.lang.String)
+android.support.v4.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+com.razorpay.BaseCheckoutActivity: void setWebChromeClient(int,android.webkit.WebChromeClient)
+com.razorpay.CheckoutConstants: java.lang.String IMAGE
+com.razorpay.AndroidBug5497Workaround: void assistActivity(android.app.Activity)
+com.razorpay.CheckoutPresenterImpl: void setCheckoutLoadStartAt()
+com.razorpay.AnalyticsConstants: java.lang.String ACTIVITY_DESTROYED
+com.razorpay.CheckoutPresenterImpl: java.util.Queue checkoutMessageQueue
+com.razorpay.sampleapp.R$dimen: int notification_right_side_padding_top
+com.razorpay.R$style: R$style()
+com.razorpay.CryptLib$EncryptMode: com.razorpay.CryptLib$EncryptMode DECRYPT
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_android_ttcIndex
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MERCHANT_ON_SUCCESS_CALLED
+com.razorpay.CryptLib$EncryptMode: com.razorpay.CryptLib$EncryptMode valueOf(java.lang.String)
+com.razorpay.ConfigDroid: java.lang.String AMAZONPAY_RZP_VERIFY_ROUTE
+com.razorpay.BaseConstants: java.lang.String CRED_URL_SCHEMA
+com.razorpay.AnalyticsConstants: java.lang.String RAZORPAY_OTP
+com.razorpay.PluginCheckoutInteractor
+com.razorpay.CheckoutPresenterImpl$8: CheckoutPresenterImpl$8(com.razorpay.CheckoutPresenterImpl,long,long)
+com.razorpay.BaseConfig: java.lang.String getLumberjackKey()
+com.razorpay.BaseUtils$MyPhoneStateListener: int signalStrengthValue
+com.razorpay.CircularProgressView$2: CircularProgressView$2(com.razorpay.CircularProgressView)
+com.razorpay.MagicBase: void onPageStarted(android.webkit.WebView,java.lang.String)
+com.razorpay.BaseCheckoutActivity: void checkSmsPermission()
+com.razorpay.BaseConfig: java.lang.Boolean mPermissionCustomMessageEnabled
+com.razorpay.sampleapp.R$string: int status_bar_notification_info_overflow
+com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader
+com.razorpay.CheckoutPresenterImpl$7: void run()
+com.razorpay.CheckoutUtils: android.app.Dialog dialog
+com.razorpay.BaseConfig: java.lang.String getAdvertisingId(android.content.Context)
+com.razorpay.AnalyticsConstants: java.lang.String ORDER_ID
+androidx.lifecycle.ReflectiveGenericLifecycleObserver
+com.razorpay.CheckoutBridge$7: com.razorpay.CheckoutBridge this$0
+com.razorpay.sampleapp.R$id: R$id()
+com.razorpay.BaseConstants: java.lang.String PRODUCTION
+com.razorpay.PaymentData: java.lang.String getUserEmail()
+com.razorpay.sampleapp.R$styleable: int[] ColorStateListItem
+com.razorpay.R$id: int action_text
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_dark_default
+com.razorpay.CheckoutPresenterImpl$17: com.razorpay.CheckoutBridge$WebViewSafeCheckCallback val$callback
+com.razorpay.Config: java.util.Map mCheckoutUrlConfig
+com.razorpay.R$attr: int fontProviderFetchTimeout
+com.razorpay.CheckoutPresenterImpl: void onDismiss()
+com.razorpay.sampleapp.R$drawable: int rzp_green_button
+com.razorpay.R$id: int ll_loader
+com.razorpay.Checkout: long access$302(long)
+com.razorpay.RzpPluginCompatibilityResponse: RzpPluginCompatibilityResponse(boolean,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_PROCESS_PAYMENT_PAYLOAD_ERROR
+com.razorpay.CheckoutBridge$8: com.razorpay.CheckoutBridge this$0
+com.razorpay.MagicBase: boolean jsInsertedInCurrentPage
+com.razorpay.RzpAssist: boolean jsInsertedInCurrentPage
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_CHECK_REGISTER_CALLED
+com.razorpay.Checkout: int RZP_REQUEST_CODE
+com.razorpay.MagicBase: java.lang.String merchantKey
+com.razorpay.Checkout: int PAYMENT_SUCCESS
+com.razorpay.OtpElfData$1: com.razorpay.OtpElfData this$0
+com.razorpay.CardSaving$1: void onReceive(android.content.Context,android.content.Intent)
+com.razorpay.R$attr: int fontWeight
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_light_default
+com.razorpay.AdvertisingIdUtil$AdvertisingIdAsyncTask: android.content.Context context
+com.razorpay.Config: void setConfig(org.json.JSONObject)
+com.razorpay.BaseConfig: void saveConfigDataToPreferences(android.content.Context,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String SYMANTEC_ISSUE_HANDLED
+com.razorpay.R$style: int Widget_Support_CoordinatorLayout
+com.razorpay.R$color: int common_google_signin_btn_text_dark_disabled
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent PRELOAD_ABORT
+com.razorpay.BaseConfig: java.lang.String mMagicVersionFileName
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_PAUSE
+com.razorpay.R$drawable: int common_google_signin_btn_text_light_normal_background
+com.razorpay.AdvertisingIdUtil: java.lang.String PERMISSION_DISABLED
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent FETCH_PREFERENCES_METHODS_CALL_FAIL
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_26
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: PluginOtpElfCheckoutPresenterImpl(android.app.Activity,com.razorpay.CheckoutPresenterImpl$CheckoutView,java.util.HashMap)
+com.razorpay.AnalyticsConstants: java.lang.String CRITICAL
+com.razorpay.CheckoutPresenterImpl: void loadResultToWebView(org.json.JSONObject,java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void requestOtpPermission()
+com.razorpay.PluginCheckoutBridge: com.razorpay.PluginCheckoutInteractor pluginCheckoutInteractor
+com.razorpay.PaymentData: void setData(org.json.JSONObject)
+com.razorpay.AnalyticsConstants: java.lang.String PAYMENT_VALIDATION_FAILURE
+com.razorpay.CheckoutInteractor: void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.AnalyticsConstants: java.lang.String CUSTOM_UI_SOURCE
+com.razorpay.CircularProgressView: CircularProgressView(android.content.Context)
+com.razorpay.Checkout$1: void onReceivedError(android.webkit.WebView,android.webkit.WebResourceRequest,android.webkit.WebResourceError)
+com.razorpay.BaseConstants: int PAYMENT_ERROR
+com.razorpay.AnalyticsConstants: java.lang.String DESTROY
+com.razorpay.R$attr: int imageAspectRatio
+com.razorpay.CheckoutUtils: void clearUserData(android.content.Context)
+com.razorpay.MagicData: android.app.Activity activity
+com.razorpay.AnalyticsEvent
+com.razorpay.CheckoutPresenterImpl$15: CheckoutPresenterImpl$15(com.razorpay.CheckoutPresenterImpl,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.Logger: void i(java.lang.String)
+com.razorpay.CheckoutBridge$2: void unSecure()
+com.razorpay.CheckoutBridge$5: void secure()
+com.razorpay.CheckoutBridge$7
+com.razorpay.sampleapp.R$id: int ll_loader
+com.razorpay.CardSaving: java.lang.String getDeviceToken(android.content.Context)
+com.razorpay.RzpAssist$2
+androidx.core.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+com.razorpay.CheckoutBridge$10: void secure()
+com.google.android.gms.common.api.Status: android.os.Parcelable$Creator CREATOR
+com.razorpay.R$id: int tag_unhandled_key_event_manager
+com.razorpay.Lumberjack: org.json.JSONObject createBaseTrackEvent(java.lang.String)
+com.razorpay.CircularProgressView: int animSteps
+com.razorpay.SecondaryWebChromeClient: boolean onConsoleMessage(android.webkit.ConsoleMessage)
+com.razorpay.CircularProgressView: void setThickness(int)
+com.razorpay.CheckoutPresenterImpl$4: void run()
+com.razorpay.CheckoutPresenterImpl: void onLoad()
+com.razorpay.PaymentData: void setUserContact(java.lang.String)
+com.razorpay.BaseUtils: java.lang.String getWallpaperID(android.content.Context)
+com.razorpay.BaseConfig: java.lang.String ADVERTISING_ID
+com.razorpay.sampleapp.R$drawable: int notify_panel_notification_icon_bg
+com.razorpay.Logger: void w(java.lang.String)
+com.razorpay.RazorpayExceptionHandler: void uncaughtException(java.lang.Thread,java.lang.Throwable)
+com.razorpay.CheckoutPresenterImpl$11: int val$height
+com.razorpay.R$styleable: int SignInButton_buttonSize
+com.razorpay.BaseConfig: java.lang.String getMagicJsFileName()
+com.razorpay.RZPProgressBar: int defaultHeight
+com.razorpay.Lumberjack: org.json.JSONObject getContextDataJson(android.content.Context)
+com.razorpay.CheckoutPresenterImpl$4: CheckoutPresenterImpl$4(com.razorpay.CheckoutPresenterImpl,boolean)
+com.razorpay.sampleapp.R$dimen: int compat_control_corner_material
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_SUBMIT
+com.razorpay.CheckoutUtils: boolean shouldRetryPayment(int)
+com.razorpay.BaseConfig: java.lang.String getOTPElfBaseEndPoint()
+com.razorpay.AnalyticsConstants: java.lang.String ON_CANCEL
+com.razorpay.CheckoutPresenterImpl: void onComplete(java.lang.String)
+com.razorpay.RzpAssist: void setRzpAssistEnabled(boolean)
+com.razorpay.R$drawable: int notification_template_icon_bg
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_LOADED
+com.razorpay.CheckoutPresenterImpl$5: void run(com.razorpay.ResponseObject)
+com.razorpay.ResourceUtils: int getViewHeight(android.app.Activity)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void sendDataToWebView(int,java.lang.String)
+com.razorpay.RzpAssist: void setOtpElfPreferences(org.json.JSONObject)
+com.razorpay.R$drawable: int common_full_open_on_phone
+com.razorpay.Logger: java.lang.String TAG
+com.razorpay.OTP: java.lang.String pin
+com.razorpay.BaseCheckoutActivity: void setWebViewClient(int,android.webkit.WebViewClient)
+com.google.android.gms.auth.api.signin.RevocationBoundService
+com.razorpay.MagicBase: void paymentFlowEnd()
+com.razorpay.StorageBridge: boolean getBoolean(java.lang.String)
+com.razorpay.CircularProgressView: int color
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_28
+com.razorpay.MagicData$2: java.lang.String val$version
+com.razorpay.CheckoutActivity: void checkSmsPermission()
+com.razorpay.StorageBridge: void setString(java.lang.String,java.lang.String)
+com.razorpay.R$string: int status_bar_notification_info_overflow
+com.razorpay.sampleapp.R$id: int text2
+com.razorpay.NetworkType: com.razorpay.NetworkType UNKNOWN
+com.razorpay.R$string: int common_google_play_services_notification_ticker
+com.razorpay.CheckoutPresenter: void saveInstanceState(android.os.Bundle)
+com.razorpay.CheckoutActivity
+com.razorpay.CheckoutOptions: void modifyMerchantOptions(android.app.Activity,int)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: com.razorpay.CheckoutOptions getCheckoutOptions()
+com.razorpay.AnalyticsConstants: java.lang.String UPI_OTHER_APPS_ORDER
+com.razorpay.AnalyticsUtil: void addFilteredPropertiesFromPayload(org.json.JSONObject)
+com.razorpay.R$id: int notification_background
+com.razorpay.Owl: android.os.AsyncTask get(java.lang.String,java.util.Map,com.razorpay.Callback)
+com.razorpay.sampleapp.R$dimen: int compat_button_inset_horizontal_material
+com.razorpay.CheckoutBridge$21: com.razorpay.CheckoutBridge this$0
+com.razorpay.BaseUtils: void getSignalStrength(android.content.Context)
+com.razorpay.R$string: int common_google_play_services_updating_text
+com.razorpay.CheckoutPresenterImpl: void toast(java.lang.String,int)
+com.razorpay.R$drawable: int common_google_signin_btn_icon_light
+com.razorpay.CheckoutActivity: void onSaveInstanceState(android.os.Bundle)
+com.razorpay.sampleapp.R$id: int icon_group
+com.razorpay.CheckoutPresenterImpl$10: void run()
+com.razorpay.CheckoutBridge$3: com.razorpay.CheckoutBridge this$0
+com.razorpay.sampleapp.kotlin.PaymentActivity: void onPaymentError(int,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String INIT
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+com.razorpay.CheckoutPresenterImpl: java.lang.String merchantKey
+com.razorpay.R$id: int forever
+com.razorpay.sampleapp.R$id: int dark
+com.razorpay.R$attr: int fontStyle
+com.razorpay.CheckoutPresenterImpl: void onComplete(org.json.JSONObject)
+com.razorpay.Checkout: void setPublicKey(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String UNIDENTIFIED
+com.razorpay.R$drawable: int common_google_signin_btn_icon_dark_focused
+com.razorpay.BaseUtils: boolean isNetworkRoaming(android.content.Context)
+com.razorpay.sampleapp.R$drawable: int notification_bg_low_normal
+com.razorpay.OtpElfData: java.lang.String otpElfJs
+com.razorpay.RzpPlugin: boolean doesHandlePayload(java.lang.String,org.json.JSONObject,android.app.Activity)
+com.razorpay.sampleapp.R$attr: int layout_anchor
+com.razorpay.Checkout: boolean access$200()
+com.razorpay.sampleapp.R$id: int tag_unhandled_key_event_manager
+com.razorpay.sampleapp.R$id: int right_side
+com.razorpay.R$id: int tag_unhandled_key_listeners
+com.razorpay.CheckoutPresenterImpl: void onDismiss(java.lang.String)
+com.razorpay.CheckoutBridge$5: com.razorpay.CheckoutBridge this$0
+com.razorpay.BaseUtils$3: BaseUtils$3(org.json.JSONObject,android.content.Context,com.razorpay.RzpJSONCallback)
+com.razorpay.AnalyticsProperty$Scope: com.razorpay.AnalyticsProperty$Scope[] $VALUES
+com.razorpay.sampleapp.R$drawable
+com.razorpay.CheckoutBridge$16: void unSecure()
+com.razorpay.BaseUtils$1: com.razorpay.RzpJSONCallback val$jsonCallback
+com.razorpay.AnalyticsConstants: java.lang.String CARD
+com.razorpay.sampleapp.R$layout: int notification_template_part_time
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_19
+com.razorpay.R$styleable: int[] FontFamily
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_PACKAGE
+com.razorpay.R$drawable: int common_google_signin_btn_icon_dark_normal
+com.razorpay.Config: boolean mNativeLoaderEnabled
+com.razorpay.CheckoutUtils: org.json.JSONObject getAppIntentDataInJson(android.content.Context,android.content.pm.ResolveInfo)
+com.razorpay.sampleapp.kotlin.PaymentActivity: void onCreate(android.os.Bundle)
+com.razorpay.AnalyticsConstants: java.lang.String CHOICE_PASSWORD
+com.razorpay.CheckoutBridge$9
+com.razorpay.BaseUtils: java.lang.String getAvailableMemory(android.content.Context)
+com.razorpay.PluginCheckoutBridge$1
+com.razorpay.R$color: int notification_icon_bg_color
+com.razorpay.BaseUtils: java.lang.String getBase64FromResource(android.content.res.Resources,int)
+com.razorpay.CircularProgressView: float indeterminateRotateOffset
+com.razorpay.ConfigDroid: java.lang.String ENCRYPTKEY
+com.razorpay.sampleapp.R$raw: int rzp_config
+com.razorpay.R$dimen: int notification_big_circle_margin
+com.razorpay.CheckoutPresenterImpl: int merchantLogoResourceId
+com.razorpay.CheckoutBridge$17: com.razorpay.CheckoutBridge this$0
+com.razorpay.CheckoutPresenterImpl$15: java.lang.String val$positiveButtonText
+com.razorpay.CheckoutBridge: void oncomplete(java.lang.String)
+com.razorpay.Checkout: java.lang.reflect.Method getMerchantClassMethod(java.lang.String,java.lang.Class[])
+androidx.lifecycle.FullLifecycleObserverAdapter
+com.razorpay.CheckoutPresenterImpl: void onPageStarted(int,android.webkit.WebView,java.lang.String)
+com.razorpay.CheckoutOptions: boolean hasExternalWallet(java.lang.String)
+com.razorpay.sampleapp.R$id: int clip_horizontal
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_PROCESS_PAYMENT_PAYLOAD_CALLED
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_light_normal_background
+com.razorpay.MagicData$1: com.razorpay.MagicData this$0
+com.razorpay.CheckoutConstants: int CHECKOUT_TABLET_MAX_HEIGHT
+com.razorpay.ResponseObject: int responseCode
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_BACK_PRESSED_SOFT
+com.razorpay.AdvertisingIdUtil$1
+com.razorpay.BaseUtils: boolean checkUpiRegisteredApp(android.content.Context,java.lang.String)
+com.razorpay.CheckoutPresenterImpl$15: void run()
+com.razorpay.Config: java.lang.String SDK_TYPE
+com.razorpay.BuildConfig: java.lang.String VERSION_NAME
+com.razorpay.CardSaving: void sendBroadcastForFetchingDeviceToken(android.content.Context)
+com.razorpay.RzpAssist: void toast(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent WEB_VIEW_SSL_ERROR
+com.razorpay.sampleapp.R$attr: int imageAspectRatioAdjust
+com.razorpay.BaseUtils$3: com.razorpay.RzpJSONCallback val$jsonCallback
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_dark
+com.razorpay.Config: void setRetryConfigFromOptions(org.json.JSONObject)
+com.razorpay.RzpAssist: void onPageFinished(android.webkit.WebView,java.lang.String)
+com.razorpay.BaseConstants: int PARSING_ERROR
+com.razorpay.sampleapp.R$string: R$string()
+com.razorpay.CheckoutBridge$14: CheckoutBridge$14(com.razorpay.CheckoutBridge)
+com.razorpay.BaseUtils: java.lang.String decryptFile(java.lang.String)
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CONTACT_LENGTH_ERROR
+com.razorpay.RzpPluginCompatibilityResponse: boolean isCompatible()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PLUGIN_INTERNAL_CALLBACK_ERROR
+com.razorpay.CheckoutBridge$19: void unSecure()
+com.razorpay.Owl: java.lang.String readIt(java.io.InputStream)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_18
+com.razorpay.R$styleable: int GradientColor_android_gradientRadius
+com.razorpay.Lumberjack: void clearOrderProperties()
+com.razorpay.Checkout: boolean handleOnErrorViaInterface(int,java.lang.String)
+com.razorpay.sampleapp.BuildConfig
+com.razorpay.CheckoutBridge: int webViewType
+com.razorpay.R$drawable: int rzp_logo
+com.razorpay.sampleapp.R$drawable: int rzp_border_bottom
+com.razorpay.sampleapp.R$dimen: int notification_right_icon_size
+com.razorpay.Owl: java.lang.String method
+com.razorpay.sampleapp.BuildConfig: int VERSION_CODE
+com.razorpay.AndroidBug5497Workaround: int computeUsableHeight()
+com.razorpay.RzpPlugin: void onActivityResult(java.lang.String,int,int,android.content.Intent)
+com.razorpay.CheckoutPresenterImpl: java.lang.String getProgressBarColor()
+com.razorpay.OtpElfData$2: OtpElfData$2(com.razorpay.OtpElfData,java.lang.String)
+com.razorpay.CheckoutOptions: boolean has(java.lang.String)
+com.razorpay.BaseCheckoutActivity: boolean isWebViewVisible(int)
+com.razorpay.sampleapp.R$color: int notification_action_color_filter
+com.razorpay.AnalyticsConstants: java.lang.String CHECKOUT_LOGIN
+com.razorpay.CheckoutPresenterImpl$1: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.NetworkType: com.razorpay.NetworkType WIFI
+com.razorpay.BaseConfig: void setConfig(org.json.JSONObject)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent SHARE_PREFERENCES_SECURITY_EXCEPTION
+com.razorpay.CheckoutBridge$WebViewSafeCheckCallback: void unSecure()
+com.razorpay.CryptLib$EncryptMode: com.razorpay.CryptLib$EncryptMode ENCRYPT
+com.razorpay.CheckoutPresenterImpl: void savePrefillData(org.json.JSONObject)
+com.razorpay.R$styleable: int GradientColor_android_type
+com.razorpay.R$drawable: int common_google_signin_btn_text_dark_focused
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_TIMER_CALLBACK
+com.razorpay.sampleapp.R$id: int top
+com.razorpay.CircularProgressView: void onSizeChanged(int,int,int,int)
+com.razorpay.CheckoutPresenterImpl: void setUpAddOn()
+com.razorpay.R$id: int start
+com.razorpay.Lumberjack: boolean NETWORK_CELLULAR
+com.razorpay.AdvertisingIdUtil$AdvertisingIdAsyncTask: void onPostExecute(java.lang.Object)
+com.razorpay.CheckoutConstants: java.lang.String CHECKOUT_CONTACT
+com.razorpay.CircularProgressView: float getMaxProgress()
+com.razorpay.CheckoutUtils
+com.razorpay.CheckoutConstants: java.lang.String RAZORPAY_PAYMENT_ID
+com.razorpay.R$bool
+com.razorpay.AdvertisingIdUtil$AdvertisingIdCallback: void onResult(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String CALLING_INTERNAL_ERROR
+com.razorpay.RzpAssist: void postSms(java.lang.String,java.lang.String)
+com.razorpay.R$styleable: int GradientColor_android_tileMode
+com.razorpay.OTP
+com.razorpay.CircularProgressView$4: void onAnimationEnd(android.animation.Animator)
+com.razorpay.CheckoutUtils: java.lang.String getCheckoutUrlWithOptions(com.razorpay.CheckoutOptions)
+com.razorpay.OTP: void sanitizeOTP()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent SMS_PERMISSION_ALREADY_GRANTED
+com.razorpay.StorageBridge: android.content.SharedPreferences$Editor editor
+com.razorpay.AnalyticsConstants: java.lang.String METHOD
+com.razorpay.MagicBase: boolean hasOtpPermission
+com.razorpay.AnalyticsUtil: java.lang.String tobase62(long)
+com.razorpay.BaseUtils: void getDeviceParamValues(android.content.Context,com.razorpay.RzpJSONCallback)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl$1: PluginOtpElfCheckoutPresenterImpl$1(com.razorpay.PluginOtpElfCheckoutPresenterImpl)
+com.razorpay.BaseCheckoutActivity: void onConfigurationChanged(android.content.res.Configuration)
+com.razorpay.AutoReadOtpHelper: void onReceive(android.content.Context,android.content.Intent)
+com.razorpay.sampleapp.R$attr: int layout_behavior
+com.razorpay.CheckoutConstants: java.lang.String PRELOAD_COMPLETE_DURATION
+com.razorpay.CheckoutPresenterImpl$9: void run()
+com.razorpay.Config: org.json.JSONObject getConfigJson(android.content.Context)
+com.razorpay.sampleapp.R$id: int blocking
+com.razorpay.OtpElfData$2: java.lang.String val$version
+com.razorpay.OTP: OTP(java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$styleable: int[] LoadingImageView
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: org.json.JSONObject getOptionsForHandleMessage()
+com.razorpay.sampleapp.R$id: int rzp_outerbox
+com.razorpay.sampleapp.R$dimen: int notification_top_pad
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_light_pressed
+com.razorpay.Config: java.lang.String SDK_VERSION
+com.razorpay.CheckoutUtils$3: void onClick(android.view.View)
+com.razorpay.BaseConfig: void setAnalyticsConfig(org.json.JSONObject)
+com.razorpay.sampleapp.R$drawable: int notification_tile_bg
+com.razorpay.NetworkType: com.razorpay.NetworkType CELLULAR
+com.razorpay.BaseUtils: java.lang.String getParentAppVersion(android.content.Context)
+com.razorpay.CheckoutInteractor: void onError(java.lang.String)
+com.razorpay.CheckoutBridge$13: int val$height
+com.razorpay.CheckoutConstants: java.lang.String RZP_SESSION_COOKIE_KEY
+com.razorpay.CheckoutPresenterImpl: java.lang.String checkoutContent
+com.razorpay.RzpAssist: java.lang.String getLastLoadedUrl()
+com.razorpay.sampleapp.R$styleable: int FontFamily_fontProviderAuthority
+com.razorpay.AnalyticsProperty
+com.razorpay.sampleapp.R$layout: R$layout()
+com.razorpay.R$drawable: int rzp_border_bottom
+com.razorpay.OtpElfCheckoutPresenterImpl: void backPressed(java.util.Map)
+com.razorpay.AndroidBug5497Workaround$1: AndroidBug5497Workaround$1(com.razorpay.AndroidBug5497Workaround)
+com.razorpay.BuildConfig: java.lang.String FLAVOR
+com.razorpay.SharedPreferenceUtil: java.lang.String KEY_IV
+com.razorpay.Lumberjack: java.util.ArrayList getPreInitBatch()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PROCESS_VERIFY_SIGNATURE_EXCEPTION
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: boolean setOptions(android.os.Bundle,boolean)
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_KEY
+com.razorpay.Checkout: android.app.Activity merchantActivity
+com.razorpay.OtpElfData: java.lang.String getOtpElfJs()
+com.razorpay.CheckoutBridge$2: CheckoutBridge$2(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String ON_ERROR
+com.razorpay.AnalyticsConstants: java.lang.String UNCAUGHT
+com.razorpay.BaseCheckoutActivity: void createSecondaryWebView()
+com.razorpay.CheckoutPresenterImpl$9: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_light_disabled
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent PRELOAD_COMPLETE
+androidx.core.graphics.drawable.IconCompatParcelizer
+com.razorpay.CheckoutBridge$2: void secure()
+com.razorpay.Lumberjack: java.lang.String sdkVersion
+com.razorpay.CircularProgressView$4
+com.razorpay.BaseUtils: org.json.JSONObject getJSONFromIntentData(android.content.Intent)
+com.razorpay.CheckoutPresenterImpl$1: CheckoutPresenterImpl$1(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.R$id: int title
+com.razorpay.sampleapp.R$id: int progressBar
+com.razorpay.BaseUtils: boolean isMocked(android.content.Context,android.location.Location)
+com.razorpay.AdvertisingIdUtil$AdvertisingIdAsyncTask: AdvertisingIdUtil$AdvertisingIdAsyncTask(android.content.Context,com.razorpay.AdvertisingIdUtil$AdvertisingIdCallback)
+com.razorpay.CheckoutPresenterImpl: com.razorpay.CheckoutOptions checkoutOptions
+com.razorpay.R$dimen: int compat_notification_large_icon_max_width
+com.razorpay.sampleapp.R$styleable: int SignInButton_buttonSize
+com.razorpay.CheckoutPresenterImpl: void onActivityResultReceived(int,int,android.content.Intent)
+com.razorpay.CheckoutPresenterImpl$2: java.lang.String val$data
+com.razorpay.CircularProgressView: void setVisibility(int)
+com.razorpay.CheckoutPresenterImpl: void setPaymentID(java.lang.String)
+com.razorpay.Lumberjack: Lumberjack()
+com.razorpay.CheckoutPresenter: void onRequestPermissionsResult(int,java.lang.String[],int[])
+com.razorpay.CheckoutBridge$10: void unSecure()
+com.razorpay.AnalyticsConstants: java.lang.String SOFT
+com.razorpay.CheckoutUtils: void disableFullScreenMode(android.app.Activity)
+com.razorpay.BaseConfig: java.lang.Boolean isPermissionCustomMessageEnabled()
+com.razorpay.AnalyticsConstants: java.lang.String CALLED
+com.razorpay.AdvertisingIdUtil$AdvertisingConnection
+com.razorpay.R$styleable: int[] ColorStateListItem
+com.razorpay.Lumberjack: void init(android.content.Context,java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_8
+com.razorpay.CircularProgressView$7: com.razorpay.CircularProgressView this$0
+com.razorpay.AnalyticsConstants: java.lang.String CB_SIGN_ENCRYPT_RESPONSE
+com.razorpay.RzpAssist: android.webkit.WebView access$000(com.razorpay.RzpAssist)
+com.razorpay.Lumberjack: boolean NETWORK_WIFI
+com.google.android.gms.common.ConnectionResult: android.os.Parcelable$Creator CREATOR
+com.razorpay.Checkout$1
+com.razorpay.ConfigDroid: java.lang.String VERSION_JSON
+com.razorpay.BaseUtils$1
+com.razorpay.CircularProgressView: float startAngle
+com.razorpay.sampleapp.R$mipmap
+com.razorpay.CheckoutActivity: void onCreate(android.os.Bundle)
+com.razorpay.OtpElfData: void checkForUpdates()
+com.razorpay.BaseCheckoutActivity: android.webkit.WebView primaryWebView
+com.razorpay.BaseConfig: java.lang.String getOTPElfJsFileName()
+com.razorpay.CryptLib: java.lang.String encryptDecrypt(java.lang.String,java.lang.String,com.razorpay.CryptLib$EncryptMode,java.lang.String)
+com.razorpay.sampleapp.R$id: int tag_screen_reader_focusable
+com.razorpay.R$styleable: R$styleable()
+com.razorpay.CheckoutConstants: int CHECKOUT_TABLET_MAX_WIDTH
+com.razorpay.CheckoutPresenterImpl$6: void onNegativeButtonClick()
+com.razorpay.SharedPreferenceUtil: java.lang.String getProtectedValue(android.content.Context,java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_3
+com.google.android.gms.auth.api.signin.RevocationBoundService: RevocationBoundService()
+com.razorpay.sampleapp.kotlin.PaymentActivity: java.lang.String getTAG()
+com.razorpay.MagicData
+com.razorpay.AnalyticsConstants: java.lang.String USER_AGENT
+com.razorpay.Lumberjack: void trackEvent(java.lang.String,org.json.JSONObject)
+com.razorpay.CircularProgressView$8: com.razorpay.CircularProgressView this$0
+com.razorpay.BaseConfig$2
+com.razorpay.CheckoutUtils$BackButtonDialogCallback: void onPositiveButtonClick()
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_dark_focused
+com.razorpay.AnalyticsConstants: java.lang.String FAIL
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_dark
+com.razorpay.BuildConfig: BuildConfig()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void cleanUpOnDestroy()
+com.razorpay.BaseConfig$2: android.content.Context val$context
+com.razorpay.CheckoutBridge$9: java.lang.String val$dashOptions
+com.razorpay.Checkout$1: void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)
+com.razorpay.BuildConfig: java.lang.String APPLICATION_ID
+com.razorpay.AnalyticsConstants: java.lang.String PRELOAD_ABORT_DURATION
+com.razorpay.AnalyticsConstants: java.lang.String UPI_APP_NAME
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent PAYMENT_ID_ATTACHED
+com.razorpay.CheckoutBridge$15: CheckoutBridge$15(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.CheckoutBridge$17: java.lang.String val$message
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_endX
+com.razorpay.BaseUtils: java.lang.String getCellularNetworkType(android.content.Context)
+com.razorpay.R$string: int common_google_play_services_enable_button
+com.razorpay.CacheManager: java.lang.String get(java.lang.String)
+com.razorpay.Checkout: void destroyPreloadView()
+com.razorpay.BaseConstants: java.lang.String KEY_MISSING_EXCEPTION
+com.razorpay.ResizeWidthAnimation: boolean willChangeBounds()
+com.razorpay.R$id: int right_icon
+com.razorpay.RzpAssist: int sdkVersionCode
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void addJavascriptInterfaceToPrimaryWebview(java.lang.Object,java.lang.String)
+com.razorpay.CheckoutBridge$14: void unSecure()
+com.razorpay.CheckoutBridge$21
+com.razorpay.CheckoutPresenterImpl: void setMerchantOptions(java.lang.String)
+com.razorpay.BaseConfig: java.lang.String getLumberjackEndpoint()
+com.razorpay.AnalyticsProperty$Scope
+com.razorpay.Callback
+com.razorpay.R$color: int common_google_signin_btn_text_light_disabled
+com.razorpay.CheckoutBridge$8: CheckoutBridge$8(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_PLUGIN_INTERNAL_CALLBACK_ERROR_EXCEPTION
+com.razorpay.AppSignatureHelper: int NUM_HASHED_BYTES
+com.razorpay.CryptLib: CryptLib()
+com.razorpay.sampleapp.R$attr: int circleCrop
+com.razorpay.AnalyticsConstants: java.lang.String PRELOAD
+com.razorpay.CheckoutBridge: void setDeviceToken(java.lang.String)
+com.razorpay.CheckoutPresenterImpl$3
+com.razorpay.CheckoutBridge: void invokePopup(java.lang.String)
+com.razorpay.CheckoutPresenterImpl: java.lang.String getHandleMessageFormattedString()
+com.razorpay.sampleapp.R$drawable: int green_button
+com.razorpay.sampleapp.kotlin.PaymentActivity: void onPaymentSuccess(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String CHANGED
+com.google.android.gms.common.internal.ResolveAccountRequest: android.os.Parcelable$Creator CREATOR
+com.razorpay.CheckoutPresenterImpl: void verifyGPaySdkResponse(java.lang.String)
+com.razorpay.CheckoutUtils: void setMerchantOptions(android.content.Context,java.lang.String,java.lang.String)
+com.razorpay.CheckoutPresenterImpl: boolean isTwoWebViewFlow
+com.razorpay.Lumberjack: org.json.JSONObject getSdkDataJson()
+com.razorpay.SecondaryWebViewClient: void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)
+com.razorpay.R$drawable: int common_google_signin_btn_text_light
+com.razorpay.OtpElfCheckoutPresenterImpl: void onPageFinished(int,android.webkit.WebView,java.lang.String)
+com.razorpay.CircularProgressView: android.graphics.RectF bounds
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_android_fontWeight
+com.razorpay.ResourceUtils: ResourceUtils()
+com.razorpay.CheckoutConstants: java.lang.String DEVICE_TOKEN_INFO_LIST
+com.razorpay.PaymentData: java.lang.String paymentId
+com.razorpay.Lumberjack: org.json.JSONObject getLumberjackPayload()
+com.razorpay.SharedPreferenceUtil: java.lang.String NAME_STORAGE_BRIDGE
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void destroyActivity(int,java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String CHECKOUT_ACTIVITY
+com.razorpay.Lumberjack$1: void run(com.razorpay.ResponseObject)
+com.razorpay.R$id: int actions
+com.razorpay.CheckoutBridge$5
+com.razorpay.CircularProgressView: void updatePaint()
+com.razorpay.AnalyticsConstants: java.lang.String POPULATION
+com.razorpay.R$dimen: int compat_control_corner_material
+com.razorpay.Owl: com.razorpay.Owl data(java.lang.String)
+com.razorpay.AnalyticsUtil
+com.razorpay.CheckoutPresenterImpl: void fetchCondfig()
+com.razorpay.BaseUtils: java.lang.String getPaymentCancelledResponse(java.lang.String)
+com.razorpay.AnalyticsUtil: void setup(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String)
+com.razorpay.Config: java.util.Map getCheckoutUrlConfig()
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void destroy(int,java.lang.String)
+androidx.core.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.core.graphics.drawable.IconCompat: IconCompat()
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CARD_DIGITS_ONLY
+com.razorpay.RzpAssist: void handleJsInsertion()
+com.razorpay.AnalyticsConstants: java.lang.String NETBANKING
+com.razorpay.CheckoutConstants: java.lang.String LIBRARY_PACKAGE
+com.razorpay.Owl: android.os.AsyncTask post(java.lang.String,java.lang.String,com.razorpay.Callback)
+com.razorpay.OtpElfCheckoutPresenterImpl: void onPageStarted(int,android.webkit.WebView,java.lang.String)
+com.razorpay.OtpElfCheckoutPresenterImpl: void addOnFlowEnd()
+com.razorpay.R$drawable: int rzp_poweredby
+com.razorpay.CheckoutPresenterImpl: java.lang.String checkoutUrl
+com.razorpay.AndroidBug5497Workaround: android.widget.FrameLayout$LayoutParams frameLayoutParams
+com.razorpay.RzpTokenReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_dark
+com.razorpay.Checkout: void setKeyID(java.lang.String)
+com.razorpay.CircularProgressView: boolean autostartAnimation
+com.razorpay.BaseUtils
+com.razorpay.BaseConstants: java.lang.String STATUS_PARAM
+com.razorpay.CheckoutBridge$4: java.lang.String val$app_token
+com.razorpay.R: R()
+com.razorpay.BaseCheckoutOtpelfActivity: void onCreate(android.os.Bundle)
+com.razorpay.sampleapp.R$dimen: int notification_media_narrow_margin
+com.razorpay.ResizeWidthAnimation: void initialize(int,int,int,int)
+com.razorpay.CheckoutPresenterImpl$12
+com.razorpay.CheckoutBridge$2: java.lang.String val$data
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent INTERNAL_DESTROY_METHOD_CALLED
+com.razorpay.CheckoutBridge$16: CheckoutBridge$16(com.razorpay.CheckoutBridge)
+com.razorpay.BaseConstants: java.lang.String VALIDATION_CARD_LESS_DIGITS
+com.razorpay.BaseUtils: java.lang.Object getSystemService(android.content.Context,java.lang.String)
+com.razorpay.CheckoutConstants: int RETRY_COUNT_NO_MAX_LIMIT
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_SHOW_WEBVIEW
+com.razorpay.CircularProgressView$3
+com.razorpay.CheckoutBridge$16: com.razorpay.CheckoutBridge this$0
+com.razorpay.sampleapp.R$id: int right_icon
+com.razorpay.ConfigDroid: java.lang.String RZP_CDN_ENDPOINT
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_0
+com.razorpay.AnalyticsConstants: java.lang.String NETWORK_TYPE
+com.razorpay.OTP: java.lang.String getSender()
+com.razorpay.RzpAssist: boolean access$302(com.razorpay.RzpAssist,boolean)
+com.razorpay.AndroidBug5497Workaround: AndroidBug5497Workaround(android.app.Activity)
+com.razorpay.ResizeWidthAnimation: int mWidth
+com.razorpay.CheckoutOptions: java.lang.String getAsString()
+com.razorpay.MagicBridge: void relay(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_SHOW_WEBVIEW_CLICKED
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent HANDOVER_ERROR
+com.razorpay.MagicBase: void onPageFinished(android.webkit.WebView,java.lang.String)
+com.razorpay.AutoReadOtpHelper
+com.razorpay.Lumberjack: java.util.ArrayList preInitBatch
+com.razorpay.RzpAssist$3: void run()
+com.razorpay.R$layout: int notification_template_part_time
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_light
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent FETCH_PREFERENCES_CACHE_HIT
+com.razorpay.R$id: int async
+com.razorpay.BaseCheckoutActivity: android.webkit.WebChromeClient primaryWebChromeClient
+com.razorpay.Lumberjack: java.util.Map getOrderProperties()
+com.razorpay.CacheManager: void init(android.content.Context)
+androidx.fragment.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+com.razorpay.RzpPluginCompatibilityResponse: java.lang.String getErrorMessage()
+com.razorpay.Checkout: long sPreloadAbortDuration
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: boolean isAllowRotation()
+com.razorpay.sampleapp.R$string: int common_google_play_services_enable_text
+com.razorpay.CheckoutBridge$19
+com.razorpay.CheckoutPresenterImpl$15$1: com.razorpay.CheckoutPresenterImpl$15 this$1
+com.razorpay.CheckoutPresenterImpl$11: CheckoutPresenterImpl$11(com.razorpay.CheckoutPresenterImpl,int,int)
+com.razorpay.AnalyticsUtil: void refreshOrderSession()
+com.razorpay.AnalyticsUtil: java.lang.CharSequence MERCHANT_APP_NAMESPACE
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void passPrefillToSegment()
+com.razorpay.Lumberjack: void clearEvents()
+com.razorpay.R$attr: int fontProviderQuery
+com.razorpay.ConfigDroid: java.lang.String RZP_API_ENDPOINT
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_PAYMENT_FLOW_END
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AUTO_READ_OTP_SMS_RETRIEVER_API_TIMEOUT
+com.razorpay.Config: boolean mCardSavingSharedPreferencesFlowEnabled
+com.razorpay.CheckoutBridge$8: void unSecure()
+com.razorpay.sampleapp.R$id: int tag_transition_group
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_INTERNAL_CALLBACK_ERROR
+com.razorpay.BuildConfig: boolean DEBUG
+com.razorpay.sampleapp.R$layout: int rzp_magic_base
+com.razorpay.CheckoutBridge$12: com.razorpay.CheckoutBridge this$0
+com.razorpay.BaseConfig: boolean mConfigEnabled
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_PLUGIN_CALLING_PROCESS_PAYMENT
+com.razorpay.CardSaving: org.json.JSONArray getListOfRazorpayPackages(android.content.Context)
+com.razorpay.sampleapp.R$drawable: int notification_bg_low
+com.razorpay.sampleapp.R$drawable: int rzp
+com.razorpay.sampleapp.R$styleable: int[] GradientColor
+com.razorpay.RzpAssist$4
+com.razorpay.Lumberjack: java.lang.String getTimestamp()
+com.razorpay.sampleapp.R$id: int chronometer
+com.razorpay.AddOnPresenter: void onPageStarted(int,android.webkit.WebView,java.lang.String)
+com.razorpay.R$styleable: int SignInButton_colorScheme
+com.razorpay.CheckoutBridge$12: void secure()
+com.razorpay.AnalyticsConstants: java.lang.String CALLING
+com.razorpay.CheckoutUtils: void showLoader(android.content.Context)
+com.razorpay.Logger: void d(java.lang.String,java.lang.Throwable)
+com.razorpay.Lumberjack: java.lang.CharSequence getUserAgent()
+com.razorpay.BaseUtils: int getDisplayWidth(android.content.Context)
+com.razorpay.sampleapp.R$mipmap: R$mipmap()
+com.razorpay.BaseConfig: java.lang.Boolean isOTPElfEnabled()
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_CB_EXTERNAL
+com.razorpay.Checkout: int NETWORK_ERROR
+com.razorpay.BaseConfig: org.json.JSONObject getOTPElfSettings()
+com.razorpay.PrimaryWebChromeClient: boolean onConsoleMessage(android.webkit.ConsoleMessage)
+com.razorpay.CheckoutUtils: void setUserContact(android.content.Context,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent ALERT_PAYMENT_CONTINUE
+com.razorpay.sampleapp.R$id: int italic
+com.razorpay.RzpAssist: boolean isMagic
+com.razorpay.AdvertisingIdUtil
+com.razorpay.ConfigDroid: java.lang.String OTPELF_JS2
+com.razorpay.CheckoutBridge$1
+com.razorpay.CardSavingCallback: void deviceTokenReceived(java.lang.String)
+com.razorpay.R$drawable: int notification_bg_low
+com.razorpay.RZPProgressBar$1: void onAnimationRepeat(android.view.animation.Animation)
+com.razorpay.CircularProgressView: float access$102(com.razorpay.CircularProgressView,float)
+com.razorpay.R$styleable: int GradientColor_android_centerY
+com.razorpay.AnalyticsConstants: java.lang.String RZPASSIST
+com.razorpay.sampleapp.R$dimen: int notification_main_column_padding_top
+com.razorpay.BaseUtils$2: BaseUtils$2()
+com.razorpay.CheckoutUtils: org.json.JSONArray getAppIntentDataInJsonArray(android.content.Context)
+com.razorpay.CheckoutPresenterImpl$11: void run()
+com.razorpay.CheckoutPresenterImpl$15$1: void onNegativeButtonClick()
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_android_fontStyle
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void loadData(int,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.AppSignatureHelper: java.lang.String HASH_TYPE
+com.razorpay.CheckoutPresenterImpl: com.razorpay.AutoReadOtpHelper autoReadOtpHelper
+com.razorpay.PluginCheckoutBridge
+com.razorpay.CircularProgressView: float indeterminateSweep
+com.razorpay.AnalyticsUtil: AnalyticsUtil()
+com.razorpay.CircularProgressView$7: void onAnimationUpdate(android.animation.ValueAnimator)
+com.razorpay.CheckoutConstants: java.lang.String OPTIONS
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_startColor
+com.razorpay.ConfigDroid: java.lang.String ENCRYPTIV
+com.razorpay.MySMSBroadcastReciever
+com.razorpay.Checkout: java.lang.String merchantClassName
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: java.util.HashMap pluginsMap
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_PAGE_FINISH
+com.razorpay.R$drawable: int common_google_signin_btn_text_light_focused
+androidx.versionedparcelable.CustomVersionedParcelable
+com.razorpay.AnalyticsProperty$Scope: com.razorpay.AnalyticsProperty$Scope PAYMENT
+com.razorpay.CheckoutPresenterImpl$5: CheckoutPresenterImpl$5(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_11
+com.razorpay.CheckoutBridge: void requestExtraAnalyticsData()
+com.razorpay.CheckoutActivity: void setSmsPermission(boolean)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void isWebViewSafeOnUI(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.AnalyticsConstants: java.lang.String MERCHANT_OPTIONS
+com.razorpay.OtpElfCheckoutPresenterImpl: void enableAddon(org.json.JSONObject)
+com.razorpay.RazorpayExceptionHandler$1: RazorpayExceptionHandler$1(com.razorpay.RazorpayExceptionHandler,java.lang.Throwable)
+com.razorpay.sampleapp.R$drawable: int rzp_white_border_black_bg
+com.razorpay.R$style: int TextAppearance_Compat_Notification
+com.razorpay.AnalyticsProperty: com.razorpay.AnalyticsProperty$Scope scope
+com.razorpay.R$raw: int rzp_config
+com.razorpay.CheckoutBridge$18: void secure()
+com.razorpay.AnalyticsConstants: java.lang.String CARRIER_NETWORK
+com.razorpay.AndroidBug5497Workaround: android.view.View mChildOfContent
+com.razorpay.CheckoutPresenterImpl: com.google.android.gms.tasks.Task access$400(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.AnalyticsConstants: java.lang.String SDK_COUNT_WITH_TOKEN
+com.razorpay.CheckoutActivity: void makeWebViewVisible(int)
+com.razorpay.AnalyticsConstants: java.lang.String PHONE
+com.razorpay.Logger: void e(java.lang.String)
+com.razorpay.AnalyticsConstants: java.lang.String VALIDATE_VPA
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_20
+com.razorpay.Lumberjack: java.util.Map getPaymentProperties()
+com.razorpay.BaseConstants: int PAYMENT_CANCELED
+com.razorpay.R$styleable: int CoordinatorLayout_Layout_layout_keyline
+com.razorpay.sampleapp.R$drawable: int googleg_disabled_color_18
+com.razorpay.CheckoutInteractor: void requestOtpPermission()
+com.razorpay.AnalyticsProperty: AnalyticsProperty(long,com.razorpay.AnalyticsProperty$Scope)
+com.razorpay.Owl: com.razorpay.Owl headers(java.util.Map)
+com.razorpay.AnalyticsUtil: void trackEvent(com.razorpay.AnalyticsEvent)
+com.razorpay.CheckoutPresenterImpl: void startSmsRetrieverForSavedCardsOTP()
+com.google.android.gms.auth.api.signin.SignInAccount: android.os.Parcelable$Creator CREATOR
+com.razorpay.R$id: int adjust_width
+com.razorpay.CheckoutPresenterImpl: boolean sendSmsHash
+com.razorpay.AdvertisingIdUtil$AdvertisingIdAsyncTask: void onPostExecute(java.lang.String)
+com.razorpay.SecondaryWebChromeClient
+com.razorpay.R$drawable: int common_google_signin_btn_icon_dark_normal_background
+com.razorpay.AnalyticsUtil: java.lang.String getBuildType()
+com.razorpay.R$layout: int notification_template_part_chronometer
+com.razorpay.sampleapp.R$drawable: int notification_template_icon_low_bg
+com.razorpay.ConfigDroid: java.lang.String AMAZONPAY_RZP_SIGN_ENCRYPT_ROUTE
+com.razorpay.BaseConfig: java.lang.String getBaseCurrentConfigVersion(android.content.Context)
+com.razorpay.R$styleable: int[] FontFamilyFont
+com.razorpay.MagicBase: void setMagicEnabled(boolean)
+com.razorpay.R$string: int common_google_play_services_wear_update_text
+com.razorpay.CheckoutPresenterImpl$13: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.RzpAssist: void onRequestPermissionsResult(int,java.lang.String[],int[])
+com.razorpay.CheckoutConstants: java.lang.String URL
+com.razorpay.PaymentResultListener: void onPaymentError(int,java.lang.String)
+androidx.core.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+com.razorpay.AnalyticsConstants: java.lang.String SAFETY_NET_CTS_PROFILE_MATCH
+com.razorpay.BaseUtils: BaseUtils()
+com.razorpay.PaymentData: java.lang.String signature
+com.razorpay.Lumberjack$2
+com.razorpay.R$id: int adjust_height
+com.razorpay.RZPProgressBar$1: void onAnimationEnd(android.view.animation.Animation)
+com.razorpay.R$styleable: int FontFamily_fontProviderFetchStrategy
+com.razorpay.RzpAssist: void copyToClipboard(java.lang.String)
+com.razorpay.R$id: int italic
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void setDeviceToken(java.lang.String)
+com.razorpay.CheckoutBridge: CheckoutBridge(com.razorpay.CheckoutInteractor,int)
+com.razorpay.R$id: int notification_main_column_container
+com.razorpay.AnalyticsConstants: java.lang.String JS_CONSOLE
+com.razorpay.BaseUtils: boolean storeFileInInternal(android.app.Activity,java.lang.String,java.lang.String)
+com.razorpay.CheckoutConstants: java.lang.String DASH_OPTIONS
+com.razorpay.MagicData: void updateMagic(java.lang.String)
+com.razorpay.AnalyticsUtil: java.lang.String getAppDetail()
+com.razorpay.RzpAssist$2: void run()
+com.razorpay.SmsReceiver: SmsReceiver()
+com.razorpay.sampleapp.R$attr: int colorScheme
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_RESUME
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_14
+com.razorpay.BaseUtils: void setup()
+com.razorpay.AnalyticsConstants: java.lang.String UPI_APP_PACKAGE_NAME
+com.razorpay.Config: java.lang.String getFetchConfigUrl(android.content.Context,java.lang.String)
+com.google.android.gms.signin.internal.zaa: android.os.Parcelable$Creator CREATOR
+com.razorpay.CheckoutBridge$11: com.razorpay.CheckoutBridge this$0
+com.razorpay.PluginOtpElfCheckoutPresenterImpl$1
+com.razorpay.ExternalWalletListener
+com.google.android.gms.common.internal.GetServiceRequest: android.os.Parcelable$Creator CREATOR
+com.razorpay.R$drawable: int rzp_white_border_black_bg
+com.razorpay.sampleapp.R$dimen: int compat_notification_large_icon_max_height
+com.razorpay.R$drawable: int common_google_signin_btn_icon_light_normal
+com.razorpay.CheckoutBridge$10: CheckoutBridge$10(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_USE_MANUAL_OTP_CLICKED
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent NATIVE_INTENT_CALLED
+com.razorpay.R$drawable: int common_google_signin_btn_text_light_normal
+com.razorpay.RzpAssist: RzpAssist(java.lang.String,android.app.Activity,android.webkit.WebView,java.lang.String,int,java.lang.String)
+com.razorpay.BaseCheckoutActivity: void setSmsPermission(boolean)
+com.razorpay.AnalyticsConstants: java.lang.String PAGE_TYPE
+com.razorpay.CheckoutActivity: void postSms(java.lang.String,java.lang.String)
+com.razorpay.BaseCheckoutActivity: void addJavascriptInterfaceToPrimaryWebview(java.lang.Object,java.lang.String)
+com.razorpay.BaseConstants: java.lang.String VALIDATION_METHOD_EMPTY
+com.razorpay.RzpAssist$5: void run()
+com.razorpay.OTP: java.lang.String getPin()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PWAIN_CALLBACK_SUCCESS
+com.razorpay.CheckoutPresenterImpl: void passPrefillToSegment()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onComplete(java.lang.String)
+com.razorpay.R$styleable
+com.razorpay.R$drawable: int common_google_signin_btn_text_disabled
+com.razorpay.RzpAssist: boolean isRzpAssistEnabled
+com.razorpay.Logger: void w(java.lang.String,java.lang.Throwable)
+com.razorpay.AnalyticsUtil: java.lang.String BUILD_TYPE
+com.razorpay.Lumberjack: org.json.JSONObject contextJsonData
+com.razorpay.RzpAssist: void setOTPEnabled(boolean)
+com.razorpay.Lumberjack: org.json.JSONObject getNetworkDataJson(android.content.Context)
+com.razorpay.ResponseObject: int getResponseCode()
+com.razorpay.RZPProgressBar: void hide()
+com.razorpay.AnalyticsConstants: java.lang.String DELIMITER_MAIN
+com.razorpay.BaseConfig: java.lang.String getMagicJsUrl()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_RESET
+com.razorpay.AnalyticsUtil: java.util.Map getPageLoadEndProperties(java.lang.String,long)
+com.razorpay.BaseConfig: java.lang.String mLumberjackEndpoint
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_centerColor
+com.razorpay.CheckoutBridge$2
+com.razorpay.R$id: int progressBar
+com.razorpay.CheckoutConstants: java.lang.String EXTRA_SENDER
+com.razorpay.CheckoutPresenterImpl$12: org.json.JSONObject val$jsonObject
+com.razorpay.MagicData$2: MagicData$2(com.razorpay.MagicData,java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl$1: com.razorpay.PluginOtpElfCheckoutPresenterImpl this$0
+com.razorpay.SmsReceiver
+com.razorpay.AddOnPresenter
+com.razorpay.SharedPreferenceUtil: void setValue(android.content.Context,java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$dimen
+com.razorpay.BaseConfig: boolean isMagicEnabled()
+com.razorpay.CheckoutPresenterImpl$7: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.CircularProgressView$2: void onAnimationUpdate(android.animation.ValueAnimator)
+com.razorpay.BaseUtils: java.lang.String getAccounts(android.content.Context)
+com.razorpay.NetworkType: com.razorpay.NetworkType[] $VALUES
+com.razorpay.CheckoutPresenterImpl: boolean access$000(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.R$id: int text
+com.razorpay.CheckoutUtils$3
+com.razorpay.CheckoutUtils: void dismissLoader()
+com.razorpay.RazorpayExceptionHandler$1
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AUTO_READ_OTP_SMS_RETRIEVER_API_TASK
+com.razorpay.MagicData: MagicData(android.app.Activity)
+androidx.core.app.CoreComponentFactory
+com.razorpay.MySMSBroadcastReciever: MySMSBroadcastReciever()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_UPI_INTENT_APPS_PREFERRED_ORDER_PASSED
+com.razorpay.sampleapp.R$attr: int fontProviderCerts
+com.razorpay.NetworkType: java.lang.String mNetworkTypeName
+com.razorpay.CheckoutBridge$6: java.lang.String val$url
+com.razorpay.ResponseObject: void setResponseCode(int)
+com.razorpay.CheckoutConstants: java.lang.String CUSTOMER_ID
+com.razorpay.CheckoutInteractor: void setPaymentID(java.lang.String)
+com.razorpay.PluginCheckoutBridge: void processPayment(java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onLoad()
+com.razorpay.sampleapp.R$layout: int notification_template_icon_group
+com.razorpay.sampleapp.R$id: int async
+com.razorpay.CheckoutBridge$12: java.lang.String val$response
+com.razorpay.sampleapp.R$style
+com.razorpay.BaseUtils$3
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_BACK_PRESSED_HARD
+com.razorpay.sampleapp.R$attr: int fontStyle
+com.razorpay.BaseConfig$1
+com.razorpay.BuildConfig: int VERSION_CODE
+com.razorpay.R$drawable: int notify_panel_notification_icon_bg
+com.razorpay.AnalyticsConstants: java.lang.String WIDTH
+com.razorpay.BaseConstants: BaseConstants()
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_light_normal
+com.razorpay.AnalyticsUtil: void refreshPaymentSession()
+com.razorpay.BaseUtils: java.lang.String makeUrlEncodedPayload(org.json.JSONObject)
+com.razorpay.AnalyticsConstants: java.lang.String CARRIER_ID
+com.razorpay.R$attr: int scopeUris
+com.razorpay.MagicBase: boolean isMagicEnabled
+com.razorpay.CircularProgressView: int animSyncDuration
+com.razorpay.BaseConfig: java.lang.String mPermissionCustomMessage
+com.razorpay.CheckoutPresenterImpl: void primaryWebviewPageFinished(java.lang.String,android.webkit.WebView)
+com.razorpay.CheckoutPresenterImpl: void cleanUpOnDestroy()
+com.razorpay.RzpAssist: void postStatsToAPI()
+com.razorpay.R$string: int common_google_play_services_update_button
+com.razorpay.Config: void fetchConfig(android.content.Context,java.lang.String)
+com.razorpay.sampleapp.R$styleable: int CoordinatorLayout_statusBarBackground
+com.razorpay.CheckoutPresenterImpl$14: void run()
+com.razorpay.MagicBase: com.razorpay.MagicData magicData
+com.razorpay.sampleapp.kotlin.PaymentActivity: void onCreate$lambda-0(com.razorpay.sampleapp.kotlin.PaymentActivity,android.view.View)
+com.razorpay.OTP: java.lang.String getBank()
+com.razorpay.AnalyticsConstants: java.lang.String GOOGLEPAY_CALLBACK
+com.razorpay.CheckoutPresenter: void cleanUpOnDestroy()
+com.razorpay.BaseConfig: void setCheckoutBaseConfig(org.json.JSONObject)
+com.razorpay.CircularProgressView$1: CircularProgressView$1(com.razorpay.CircularProgressView)
+com.razorpay.StorageBridge: int getInt(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_VERIFY_PAYMENT_SUCCESS_CALLED
+com.razorpay.MagicData: java.lang.String access$102(com.razorpay.MagicData,java.lang.String)
+com.razorpay.BaseConstants: int INVALID_OPTIONS
+com.razorpay.CheckoutPresenterImpl: java.lang.String access$300(com.razorpay.CheckoutPresenterImpl)
+com.razorpay.CheckoutPresenterImpl$3: void onResponse(org.json.JSONObject)
+com.razorpay.CheckoutPresenterImpl$5
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_fontStyle
+com.razorpay.Owl: android.os.AsyncTask get(java.lang.String,java.lang.String,java.util.Map,com.razorpay.Callback)
+com.razorpay.SharedPreferenceUtil: android.content.SharedPreferences$Editor privateEditor
+com.razorpay.Owl
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void checkSmsPermission()
+com.razorpay.CheckoutConstants: java.lang.String FRAMEWORK_VERSION
+com.razorpay.CheckoutPresenterImpl$16
+com.razorpay.Checkout: int INTEGRATION_TWO
+com.razorpay.CheckoutOptions: java.lang.String getPrefilledContact()
+com.razorpay.OtpElfData$1
+com.razorpay.RzpAssist: void trackEvent(java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$attr: int alpha
+com.razorpay.AnalyticsConstants: java.lang.String BACK
+com.razorpay.CheckoutBridge: void onerror(java.lang.String)
+com.razorpay.ResourceUtils: int getStatusBarHeight(android.content.Context)
+com.razorpay.BaseConfig: java.lang.String getUpdateSDKMsg()
+com.razorpay.CheckoutBridge$18: CheckoutBridge$18(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.CheckoutUtils$1: void onClick(android.content.DialogInterface,int)
+com.razorpay.MagicBridge
+com.razorpay.R$dimen: int notification_large_icon_width
+com.razorpay.CircularProgressView$1: com.razorpay.CircularProgressView this$0
+com.razorpay.R$attr: int fontProviderCerts
+com.razorpay.Checkout$1: void onPageFinished(android.webkit.WebView,java.lang.String)
+com.razorpay.R$color: int common_google_signin_btn_text_light_focused
+com.razorpay.AnalyticsUtil: java.lang.String getUniqueId()
+com.razorpay.CircularProgressView: void initAttributes(android.util.AttributeSet,int,android.content.Context)
+com.razorpay.Checkout: void setImage(int)
+com.google.android.gms.common.util.DynamiteApi
+com.razorpay.BaseUtils: java.lang.String getCarrierOperatorName(android.content.Context)
+com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader: java.lang.ClassLoader sClassLoader
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_TLS_ERROR
+com.razorpay.AnalyticsConstants: java.lang.String COMPLETE
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_fontVariationSettings
+com.razorpay.Lumberjack: int SCREEN_WIDTH
+com.razorpay.sampleapp.R$drawable: int rzp_loader_circle
+com.razorpay.Logger: Logger()
+com.razorpay.RzpAssist: java.lang.String merchantKey
+com.razorpay.SmsAgent: void handleRequestPermissionsResult(android.app.Activity,int,java.lang.String[],int[])
+com.razorpay.NetworkType: com.razorpay.NetworkType BLUETOOTH
+com.razorpay.PaymentData: java.lang.String orderId
+com.razorpay.RzpAssist: void openKeyboard()
+com.razorpay.AnalyticsConstants: java.lang.String PAYMENT_ID
+com.razorpay.CheckoutConstants: java.lang.String INVOICE_ID
+com.razorpay.R$id: int action_container
+com.razorpay.CheckoutActivity: void onConfigurationChanged(android.content.res.Configuration)
+com.razorpay.RZPProgressBar: float screenWidth
+com.razorpay.CheckoutBridge$6
+com.razorpay.CheckoutBridge$21: void secure()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AUTO_READ_OTP_SMS_RETRIEVER_API_CONSENT_DECLINED
+com.razorpay.CheckoutPresenterImpl$17: void run()
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void verifyGPayResponse(java.lang.String)
+com.razorpay.PaymentData: void setUserEmail(java.lang.String)
+com.razorpay.CircularProgressView: android.animation.AnimatorSet indeterminateAnimator
+com.razorpay.AnalyticsConstants: java.lang.String SUBMIT
+com.razorpay.BaseCheckoutActivity: void hideProgressBar()
+com.razorpay.StorageBridge: void setFloat(java.lang.String,float)
+com.razorpay.CheckoutBridge$12: void unSecure()
+com.razorpay.AnalyticsConstants: java.lang.String CARD_NUMBER
+com.razorpay.sampleapp.R$string: int common_signin_button_text_long
+com.razorpay.R$layout: int notification_template_custom_big
+com.razorpay.CircularProgressView$4: boolean wasCancelled
+com.razorpay.R$drawable
+com.razorpay.CheckoutConstants: java.lang.String USER_EMAIL
+com.razorpay.Lumberjack: java.util.Map paymentProperties
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CALLING_ON_ERROR
+com.razorpay.CircularProgressView: int thickness
+com.razorpay.AnalyticsConstants: java.lang.String ID
+com.razorpay.BaseUtils: void startActivityForResult(java.lang.String,java.lang.String,android.app.Activity)
+com.razorpay.sampleapp.R$dimen: int notification_large_icon_height
+com.razorpay.Checkout: void createPaymentData(android.app.Activity,java.lang.String)
+com.razorpay.RzpAssist$4: java.lang.String val$message
+com.razorpay.BaseConfig: void access$200(android.content.Context,java.lang.String)
+com.razorpay.CircularProgressView$5: CircularProgressView$5(com.razorpay.CircularProgressView)
+com.razorpay.CheckoutBridge: void onsubmit(java.lang.String)
+com.razorpay.CheckoutInteractor: void setMerchantOptions(java.lang.String)
+com.razorpay.RZPProgressBar$2: void onAnimationEnd(android.view.animation.Animation)
+com.razorpay.AnalyticsConstants: java.lang.String CHECKOUT_SOURCE
+com.razorpay.AnalyticsConstants: java.lang.String LAUNCHED
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_23
+com.razorpay.R$attr: int layout_dodgeInsetEdges
+com.razorpay.R$styleable: int[] CoordinatorLayout
+com.razorpay.BaseCheckoutOtpelfActivity: BaseCheckoutOtpelfActivity()
+com.razorpay.BaseConfig: java.lang.String getMagicJs()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CHECKOUT_INIT
+com.razorpay.AdvertisingIdUtil$AdvertisingIdCallback
+com.razorpay.CheckoutBridge$11: java.lang.String val$response
+com.razorpay.MagicBase: com.razorpay.SmsAgent smsAgent
+com.razorpay.BaseConstants: java.lang.String VALIDATION_AMOUNT_ERROR
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent valueOf(java.lang.String)
+com.razorpay.CheckoutPresenter: void destroyActivity(int,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent[] values()
+com.razorpay.CheckoutPresenterImpl$10
+com.razorpay.R$id: int end
+com.razorpay.Lumberjack: java.lang.String SAVED_EVENTS_DATA
+com.razorpay.BaseConfig: java.lang.Boolean isLumberJackEnabled()
+com.razorpay.BaseUtils: boolean isDeviceHaveCorrectTlsVersion()
+com.razorpay.RzpAssist$4: com.razorpay.RzpAssist this$0
+com.razorpay.sampleapp.R$layout: int activity_payment
+com.razorpay.CheckoutPresenterImpl: void setDimensions(int,int)
+com.razorpay.sampleapp.R$styleable: int[] FontFamilyFont
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_GET_APPS_SUPPORTING_UPI
+com.razorpay.Checkout: org.json.JSONObject options
+com.razorpay.BaseCheckoutActivity: android.view.ViewGroup parent
+com.razorpay.R$styleable: int FontFamilyFont_fontVariationSettings
+com.razorpay.AnalyticsConstants: java.lang.String SECONDARY_TO_PRIMARY
+com.razorpay.RZPProgressBar: RZPProgressBar(android.content.Context,android.view.ViewGroup,java.lang.String)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onCheckoutBackPress()
+com.razorpay.AnalyticsConstants: java.lang.String PAYMENT_CONTINUE
+com.razorpay.PluginCheckoutBridge$1: void unSecure()
+com.razorpay.CircularProgressView$6: void onAnimationUpdate(android.animation.ValueAnimator)
+com.razorpay.RzpAssist$3: com.razorpay.RzpAssist this$0
+com.razorpay.PaymentData: void setOrderId(java.lang.String)
+com.razorpay.BaseConfig: java.lang.String getPermissionCustomMessage()
+com.razorpay.CircularProgressView: android.graphics.Paint paint
+com.razorpay.SharedPreferenceUtil: void handleSdkUpdate(android.content.Context,java.lang.String)
+com.razorpay.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+com.razorpay.CardSaving: CardSaving()
+com.razorpay.AnalyticsUtil: boolean isCheckoutUrl(java.lang.String)
+com.razorpay.Checkout: boolean sPreloadFailed
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void saveInstanceState(android.os.Bundle)
+com.razorpay.CheckoutPresenterImpl: void onRequestPermissionsResult(int,java.lang.String[],int[])
+com.razorpay.CheckoutOptions: java.lang.String getPrefilledEmail()
+com.razorpay.AnalyticsEvent: AnalyticsEvent(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$integer
+com.razorpay.Checkout: int INTEGRATION_THREE
+com.razorpay.ResourceUtils: int getMagicVersionCode()
+com.razorpay.CheckoutBridge$18: java.lang.String val$packageName
+com.razorpay.R$color: int common_google_signin_btn_text_dark_default
+com.razorpay.CheckoutBridge$19: void secure()
+com.razorpay.Checkout$Builder: com.razorpay.Checkout build()
+com.razorpay.PaymentData: org.json.JSONObject getData()
+com.razorpay.CheckoutOptions: org.json.JSONObject getOtpElfPreferences()
+com.razorpay.R$dimen: int notification_top_pad
+com.razorpay.sampleapp.R$id: int center
+com.razorpay.BaseConfig: java.lang.String mLumberjackSdkIdentifier
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PWAIN_CALLBACK_FAILURE
+com.razorpay.AnalyticsConstants: java.lang.String TIMEOUT
+com.razorpay.ResponseObject: java.util.Map getHeaders()
+com.razorpay.sampleapp.R$id: int actions
+com.razorpay.CheckoutActivity: void clearWebViewHistory(int)
+com.razorpay.CheckoutInteractor: void callNativeIntent(java.lang.String,java.lang.String)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_27
+com.razorpay.RzpAssist$2: boolean val$shouldUse
+com.razorpay.sampleapp.R$color: int common_google_signin_btn_text_light
+com.razorpay.R$integer: R$integer()
+com.razorpay.BaseCheckoutActivity: com.razorpay.CheckoutPresenter presenter
+com.razorpay.AnalyticsEvent: void setEventName(java.lang.String)
+com.razorpay.BaseConstants: java.lang.String NATIVE_OTP_URL
+com.razorpay.CheckoutBridge$19: CheckoutBridge$19(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.Lumberjack: void setBaseImportJSON(android.content.Context)
+com.razorpay.CheckoutPresenter: void onPageStarted(int,android.webkit.WebView,java.lang.String)
+com.razorpay.CheckoutInteractor: void requestExtraAnalyticsData()
+com.razorpay.RzpAssist: com.razorpay.OtpElfData elfData
+com.razorpay.R$drawable: int common_google_signin_btn_icon_disabled
+com.razorpay.sampleapp.R$color: int androidx_core_secondary_text_default_material_light
+com.razorpay.CircularProgressView$1: void onAnimationUpdate(android.animation.ValueAnimator)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent SMS_PERMISSION_ALREADY_GRANTED_BY_MERCHANT
+com.razorpay.CircularProgressView$2
+com.razorpay.OtpElfData: OtpElfData(android.app.Activity)
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onDismiss(java.lang.String)
+com.razorpay.CheckoutPresenterImpl$6: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.CheckoutBridge$15: void secure()
+com.razorpay.BaseConfig: void setMagicConfig(org.json.JSONObject)
+com.razorpay.R$styleable: int GradientColorItem_android_color
+com.razorpay.CheckoutBridge$19: com.razorpay.CheckoutBridge this$0
+com.razorpay.Lumberjack$2: int[] $SwitchMap$com$razorpay$NetworkType
+com.razorpay.R$styleable: int FontFamily_fontProviderAuthority
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent ACTIVITY_ONDESTROY_CALLED
+com.razorpay.AnalyticsConstants: java.lang.String RZPASSIST_SOURCE
+com.razorpay.R$layout: int rzp_loader
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AUTO_READ_OTP_SMS_RETRIEVER_API_SHOWED_ONE_TIME_CONSENT
+com.razorpay.BaseConstants: java.lang.String PAYMENT_PREFERENCES_CACHE_KEY
+com.razorpay.R$string: int common_google_play_services_install_text
+com.razorpay.PrimaryWebViewClient: com.razorpay.CheckoutPresenter presenter
+com.razorpay.AdvertisingIdUtil$AdvertisingConnection: android.os.IBinder getBinder()
+com.razorpay.Config: java.util.ArrayList getCheckoutAppendKeys()
+com.razorpay.AppSignatureHelper: AppSignatureHelper(android.content.Context)
+com.razorpay.AnalyticsUtil: void trackPageLoadStart(java.lang.String)
+com.razorpay.Config: java.lang.String getCurrentConfigVersion(android.content.Context)
+com.razorpay.R$dimen: int compat_button_padding_horizontal_material
+com.razorpay.CheckoutPresenterImpl: void invokePopup(java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_PLUGIN_INTERNAL_CALLBACK_SUCCESS
+com.razorpay.Config: void init(android.content.Context)
+com.razorpay.CheckoutConstants: java.lang.String PREF_MERCHANT_OPTIONS
+com.razorpay.RzpAssist$1: void run(com.razorpay.ResponseObject)
+com.razorpay.CheckoutPresenterImpl: int paymentAttempts
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_type
+com.razorpay.CheckoutBridge$1: void secure()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_PAYMENT_ID_ATTACHED
+com.razorpay.PaymentResultListener: void onPaymentSuccess(java.lang.String)
+com.razorpay.RzpPluginCompatibilityResponse
+com.razorpay.CircularProgressView$5: com.razorpay.CircularProgressView this$0
+com.razorpay.CheckoutPresenterImpl$6: CheckoutPresenterImpl$6(com.razorpay.CheckoutPresenterImpl,java.util.Map)
+androidx.versionedparcelable.ParcelImpl: android.os.Parcelable$Creator CREATOR
+com.razorpay.CheckoutBridge$15: com.razorpay.CheckoutBridge this$0
+com.razorpay.CheckoutInteractor: void onDismiss(java.lang.String)
+com.razorpay.Checkout: void handleMerchantCallbackError(android.app.Activity,int,java.lang.String,java.lang.Exception)
+com.razorpay.PaymentData: void setSignature(java.lang.String)
+com.google.android.gms.common.api.internal.LifecycleCallback
+com.razorpay.CheckoutInteractor: void checkSmsPermission()
+com.razorpay.BaseConstants: int UPI_REQUEST_CODE
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_disabled
+com.razorpay.AnalyticsConstants: java.lang.String BANK
+com.razorpay.Lumberjack: boolean NETWORK_BLUETOOTH
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_icon_dark_normal
+com.razorpay.AnalyticsConstants: java.lang.String SHOW
+com.razorpay.R$attr: int font
+com.razorpay.BaseUtils: double round(double,int)
+com.razorpay.sampleapp.R$id: int info
+com.razorpay.sampleapp.R$drawable: int rzp_logo
+com.razorpay.CheckoutPresenterImpl$12: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.BaseUtils: java.lang.String getTotalInternalStorage()
+com.razorpay.sampleapp.R$id: int time
+com.razorpay.AnalyticsConstants: java.lang.String WEBVIEW
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_light
+com.razorpay.CheckoutBridge$18
+com.razorpay.AdvertisingIdUtil$AdvertisingConnection: AdvertisingIdUtil$AdvertisingConnection()
+com.razorpay.BaseCheckoutActivity: android.webkit.WebView secondaryWebView
+com.razorpay.CheckoutPresenterImpl$14: java.lang.String val$message
+com.razorpay.Lumberjack: void clearPreInitData()
+com.razorpay.sampleapp.R$string: int common_google_play_services_notification_channel_name
+com.razorpay.sampleapp.R$drawable: int googleg_standard_color_18
+com.razorpay.RZPProgressBar: void access$000(com.razorpay.RZPProgressBar,int,int)
+com.razorpay.CacheEntry: java.lang.String data
+com.razorpay.AnalyticsConstants: java.lang.String TOKEN
+com.razorpay.CheckoutPresenterImpl$5: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.Checkout$1: Checkout$1()
+com.razorpay.AnalyticsConstants: java.lang.String SHOWN
+com.razorpay.sampleapp.R$attr: int fontProviderPackage
+com.razorpay.CircularProgressView: float access$002(com.razorpay.CircularProgressView,float)
+com.razorpay.SharedPreferenceUtil: java.lang.String getValue(android.content.Context,java.lang.String)
+com.razorpay.R$color: R$color()
+com.razorpay.AnalyticsUtil: java.lang.String getKeyType()
+com.razorpay.BaseUtils: java.lang.String MD5Hash(java.lang.String)
+com.razorpay.sampleapp.R$bool: R$bool()
+com.razorpay.AnalyticsConstants: java.lang.String INTERNAL_CALLBACK
+com.razorpay.BaseUtils: org.json.JSONObject getResponseJson(javax.net.ssl.HttpsURLConnection)
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding
+androidx.versionedparcelable.CustomVersionedParcelable: CustomVersionedParcelable()
+com.razorpay.Owl: android.os.AsyncTask get(java.lang.String,com.razorpay.Callback)
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_fontWeight
+com.razorpay.SmsAgent: void deregisterForCallbacks(com.razorpay.SmsAgentInterface)
+com.razorpay.AnalyticsConstants: java.lang.String GOOGLEPAY_SOURCE
+com.razorpay.R$id: int notification_main_column
+com.razorpay.Checkout: void access$400()
+com.razorpay.sampleapp.R$attr: int layout_dodgeInsetEdges
+com.razorpay.MagicBase: void onProgressChanged(int)
+com.razorpay.AnalyticsConstants: java.lang.String PWAIN_CALLBACK
+com.razorpay.Checkout: android.webkit.WebView sPreloadView
+com.razorpay.AutoOtpConstants
+com.razorpay.AnalyticsConstants: java.lang.String CHECKOUT
+com.razorpay.R$id: int rzp_outerbox
+com.razorpay.Lumberjack: java.lang.CharSequence getTimeZone()
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_1
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_INIT_END
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent JS_EVENT
+com.razorpay.CheckoutUtils$BackButtonDialogCallback: void onNegativeButtonClick()
+com.razorpay.BaseConfig: boolean isSDKUpdateAlertEnabled()
+com.razorpay.AutoReadOtpHelper: android.app.Activity activity
+com.razorpay.CheckoutPresenter: boolean isMagicPresent()
+com.razorpay.BaseCheckoutActivity: void postSms(java.lang.String,java.lang.String)
+com.razorpay.Lumberjack: org.json.JSONObject lumberjackPayload
+com.razorpay.Config: java.lang.String getBackButtonPositiveText()
+com.razorpay.R$attr: int fontProviderAuthority
+com.razorpay.MagicData$1: void run(com.razorpay.ResponseObject)
+com.razorpay.Config: void setCardSavingConfig(org.json.JSONObject)
+com.razorpay.CheckoutPresenterImpl: org.json.JSONObject dashOptionsJSON
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_PAYMENT_IS_REGISTERED_CALLED
+com.razorpay.AnalyticsConstants: java.lang.String UPI_APP_FROM_CUSTOM_CHOOSER
+com.razorpay.R$integer
+com.razorpay.CheckoutConstants: java.lang.String RAZORPAY_ORDER_ID
+com.razorpay.Checkout: void onSuccess(java.lang.String)
+com.razorpay.sampleapp.R$id: int center_vertical
+com.razorpay.CircularProgressView$3: com.razorpay.CircularProgressView this$0
+com.razorpay.BaseUtils: java.lang.String getAppNameOfResolveInfo(android.content.pm.ResolveInfo,android.content.Context)
+com.razorpay.sampleapp.R$attr: int buttonSize
+com.razorpay.sampleapp.R$id: int end
+com.razorpay.RZPProgressBar$1: void onAnimationStart(android.view.animation.Animation)
+androidx.core.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+com.razorpay.SmsAgent: SmsAgent()
+com.razorpay.sampleapp.kotlin.PaymentActivity: PaymentActivity()
+com.razorpay.SmsAgent: int READ_SMS_PERMISSION_CODE
+com.razorpay.SmsAgent: com.razorpay.SmsAgent sSmsAgent
+com.razorpay.R$id: int bottom
+com.razorpay.sampleapp.R$layout: int notification_action
+com.razorpay.CircularProgressView$4: com.razorpay.CircularProgressView this$0
+com.razorpay.sampleapp.R$style: int CheckoutTheme
+com.razorpay.CheckoutPresenterImpl$3: com.razorpay.CheckoutPresenterImpl this$0
+com.razorpay.sampleapp.R$id: int tag_accessibility_clickable_spans
+com.razorpay.R$id: int text2
+com.razorpay.BaseConfig: boolean isMagicEnabled
+com.razorpay.Lumberjack: org.json.JSONObject filterEvent(org.json.JSONObject)
+com.razorpay.Lumberjack: java.lang.String NETWORK_CARRIER
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_light_focused
+com.razorpay.CheckoutPresenterImpl$7
+com.razorpay.AnalyticsConstants: java.lang.String PROCESS_PAYMENT_EXCEPTION
+com.razorpay.sampleapp.R$dimen: int notification_small_icon_size_as_large
+com.razorpay.PaymentData: java.lang.String getPaymentId()
+com.razorpay.BaseConstants: java.lang.String DEVELOPMENT
+com.razorpay.CheckoutBridge$8: void secure()
+com.razorpay.AppSignatureHelper: int NUM_BASE64_CHAR
+com.razorpay.AnalyticsConstants: java.lang.String WEBVIEW_USER_AGENT
+com.razorpay.AutoOtpUtils: AutoOtpUtils()
+com.razorpay.Lumberjack: java.lang.String DEVICE_MODEL
+com.razorpay.CheckoutUtils$2
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent GOOGLEPAY_VERIFY_PAYMENT_ERROR_CALLED
+androidx.loader.app.LoaderManagerImpl$LoaderViewModel: LoaderManagerImpl$LoaderViewModel()
+com.razorpay.AnalyticsConstants: java.lang.String SERIAL_NUMBER
+com.razorpay.sampleapp.R$id: int action_divider
+com.razorpay.AnalyticsConstants: java.lang.String CALL_FAIL
+com.razorpay.R$styleable: int GradientColor_android_startX
+com.razorpay.RzpAssist$2: RzpAssist$2(com.razorpay.RzpAssist,boolean)
+com.razorpay.CheckoutPresenterImpl: void checkSmsPermission()
+com.razorpay.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+com.razorpay.OtpElfData: android.app.Activity activity
+com.razorpay.BaseConfig: java.lang.String getOtpElfVersionUrl()
+com.razorpay.CheckoutBridge$18: com.razorpay.CheckoutBridge this$0
+com.razorpay.CheckoutPresenterImpl$4: boolean val$granted
+com.razorpay.CheckoutUtils$1: com.razorpay.CheckoutUtils$BackButtonDialogCallback val$backButtonDialogCallback
+com.razorpay.Config: java.lang.String CONFIG_AUTH_KEY
+com.razorpay.CheckoutBridge$1: CheckoutBridge$1(com.razorpay.CheckoutBridge)
+com.razorpay.CheckoutActivity: boolean isWebViewVisible(int)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_MERCHANT_KEY_CHANGED
+com.razorpay.sampleapp.R$styleable: int FontFamilyFont_font
+com.razorpay.RzpAssist: java.lang.String getCurrentLoadingUrl()
+com.razorpay.MagicData: void access$000(com.razorpay.MagicData,java.lang.String)
+com.razorpay.R$styleable: int LoadingImageView_circleCrop
+com.razorpay.Lumberjack: void postData()
+com.razorpay.OtpElfData$2: void run(com.razorpay.ResponseObject)
+com.razorpay.AnalyticsConstants: java.lang.String HARD
+com.razorpay.BaseUtils$MyPhoneStateListener: void onSignalStrengthsChanged(android.telephony.SignalStrength)
+com.razorpay.CheckoutUtils: void clearUserRelatedCookies()
+com.razorpay.RzpAssist: void setPaymentId(java.lang.String)
+com.razorpay.CheckoutBridge$11
+com.razorpay.BaseConstants: java.lang.String TRUE_CALLER_PKG
+com.razorpay.BaseConstants: java.lang.String CRED_PKG
+com.razorpay.CardSaving: void setAppToken(android.content.Context,java.lang.String)
+com.razorpay.CheckoutBridge$3
+com.razorpay.BuildConfig: java.lang.String SDK_TYPE
+com.razorpay.sampleapp.R$id: int notification_main_column
+com.razorpay.AnalyticsUtil: java.util.Map getPageLoadStartProperties(java.lang.String)
+com.razorpay.CheckoutUtils: CheckoutUtils()
+com.razorpay.Lumberjack: java.util.Map orderProperties
+com.razorpay.CheckoutBridge$13
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void fetchCondfig()
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_OTP_RESEND_CLICKED
+com.razorpay.sampleapp.BuildConfig: java.lang.String VERSION_NAME
+com.razorpay.sampleapp.databinding.ActivityPaymentBinding: android.widget.RelativeLayout getRoot()
+com.razorpay.sampleapp.kotlin.PaymentActivity: java.lang.String TAG
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_OTP_MANUAL_VIEW_CLICKED
+com.razorpay.CheckoutBridge$11: void unSecure()
+com.razorpay.sampleapp.R$styleable: int GradientColor_android_centerX
+com.razorpay.sampleapp.R$styleable: int LoadingImageView_imageAspectRatioAdjust
+com.razorpay.R$styleable: int FontFamily_fontProviderCerts
+com.razorpay.CheckoutActivity: void loadUrl(int,java.lang.String)
+com.razorpay.NetworkType: com.razorpay.NetworkType[] values()
+androidx.annotation.Keep
+com.razorpay.CheckoutPresenterImpl: void backPressed(java.util.Map)
+com.razorpay.Config: boolean isCardSavingLocalEnabled()
+com.razorpay.CheckoutPresenterImpl: boolean isUserRegisteredOnUPI(java.lang.String)
+com.razorpay.Config: java.lang.String mNativeLoaderColor
+com.razorpay.Checkout: void open(android.app.Activity,org.json.JSONObject)
+com.razorpay.SmsReceiver: SmsReceiver(com.razorpay.SmsAgent)
+com.razorpay.R$drawable: int rzp_secured_by_bg
+com.razorpay.BaseUtils: boolean sWebViewDebuggingEnabled
+com.razorpay.AndroidBug5497Workaround: void access$000(com.razorpay.AndroidBug5497Workaround)
+com.razorpay.MagicBridge: MagicBridge(com.razorpay.CheckoutInteractor)
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_4
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOM_UI_VALIDATE_VPA_CALLED
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent AMAZON_PROCESS_VERIFY_SIGNATURE_INTERNAL_ERROR_CALLED
+com.razorpay.CheckoutPresenter: void sendOtpPermissionCallback(boolean)
+com.razorpay.Config: boolean isNativeLoaderEnabled()
+com.razorpay.CheckoutPresenterImpl$16: void run()
+com.razorpay.CheckoutOptions: java.lang.String getMerchantKey()
+com.razorpay.CheckoutInteractor: void setDimensions(int,int)
+com.razorpay.Lumberjack: org.json.JSONObject filterPayload(org.json.JSONObject)
+com.razorpay.NetworkType: com.razorpay.NetworkType valueOf(java.lang.String)
+com.razorpay.CheckoutPresenterImpl$15$1
+com.google.android.gms.common.api.GoogleApiActivity: GoogleApiActivity()
+com.razorpay.SharedPreferenceUtil: android.content.SharedPreferences$Editor getPrivateEditor(android.content.Context)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent ERROR_LOGGED
+com.razorpay.Checkout: void onError(int,java.lang.String)
+com.razorpay.CheckoutUtils$3: CheckoutUtils$3()
+com.razorpay.SmsAgent: void removeSMSBroadcastReceiver(android.app.Activity)
+com.razorpay.sampleapp.R$id: int fill_vertical
+com.razorpay.Checkout: int INCOMPATIBLE_PLUGIN
+com.razorpay.CryptLib: javax.crypto.Cipher _cx
+com.razorpay.CheckoutPresenterImpl: void access$700(com.razorpay.CheckoutPresenterImpl,int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback)
+com.razorpay.RzpAssist
+com.razorpay.ResponseObject: java.util.Map headers
+com.google.android.gms.auth.api.signin.GoogleSignInAccount: android.os.Parcelable$Creator CREATOR
+com.razorpay.R$id: int left
+com.razorpay.SharedPreferenceUtil: android.content.SharedPreferences$Editor getStorageBridgeEditor(android.content.Context)
+com.razorpay.CircularProgressView: void onMeasure(int,int)
+com.razorpay.R$styleable: int FontFamily_fontProviderFetchTimeout
+com.razorpay.BaseUtils: int dpToPixels(android.content.Context,int)
+com.razorpay.AndroidBug5497Workaround
+com.razorpay.StorageBridge: void setBoolean(java.lang.String,boolean)
+com.razorpay.CheckoutInteractor: void setDeviceToken(java.lang.String)
+com.razorpay.BaseCheckoutActivity: void createPrimaryWebView(java.lang.Object)
+com.razorpay.AppSignatureHelper: java.lang.String hash(java.lang.String,java.lang.String)
+com.razorpay.CheckoutPresenterImpl$9: CheckoutPresenterImpl$9(com.razorpay.CheckoutPresenterImpl,java.lang.String)
+com.razorpay.sampleapp.R$drawable: int notification_icon_background
+com.razorpay.R$style: int Widget_Compat_NotificationActionText
+com.razorpay.sampleapp.R$string: int common_google_play_services_notification_ticker
+com.razorpay.sampleapp.kotlin.PaymentActivity
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void onError(org.json.JSONObject)
+com.razorpay.BaseConstants: java.lang.String CANCEL_PARAM
+com.razorpay.sampleapp.R$id: int adjust_width
+com.razorpay.AnalyticsConstants: java.lang.String ALREADY_GRANTED
+com.razorpay.BaseUtils: java.lang.String getDeviceUptime()
+com.razorpay.sampleapp.R$styleable: int FontFamily_fontProviderPackage
+com.razorpay.BaseCheckoutActivity: android.webkit.WebView getWebView(int)
+com.razorpay.ConfigDroid: java.lang.String OTPELF_JS1
+com.razorpay.sampleapp.R$styleable: int[] FontFamily
+com.razorpay.AdvertisingIdUtil$AdvertisingInterface: android.os.IBinder asBinder()
+com.razorpay.OtpElfCheckoutPresenterImpl: void helpersReset()
+com.razorpay.sampleapp.R$drawable: int common_google_signin_btn_text_light_normal
+com.razorpay.AnalyticsConstants: java.lang.String END
+com.razorpay.AnalyticsConstants: java.lang.String CALLBACK_RECEIVED
+com.razorpay.sampleapp.R$id: int accessibility_custom_action_17
+com.razorpay.sampleapp.R$id: int icon
+com.razorpay.MagicData: java.lang.String magicJs
+com.razorpay.Logger
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_STOP
+com.razorpay.RzpPluginRegisterCallback: void onResponse(boolean)
+com.razorpay.RzpPlugin
+com.razorpay.Owl: java.lang.String data
+com.razorpay.AnalyticsUtil: void saveEventsToPreferences(android.content.Context)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent MAGIC_PAYMENT_FLOW_START
+com.razorpay.PluginOtpElfCheckoutPresenterImpl: void setCheckoutLoadStartAt()
+com.razorpay.CheckoutPresenterImpl$CheckoutView: void showProgressBar(int)
+com.razorpay.CheckoutPresenterImpl: void setAppToken(java.lang.String)
+com.razorpay.RazorpayExceptionHandler: void register(android.content.Context)
+com.razorpay.CircularProgressView: float initialStartAngle
+com.razorpay.sampleapp.R$string: int common_google_play_services_unsupported_text
+com.razorpay.CheckoutPresenterImpl: long preloadAbortDuration
+com.razorpay.Config: boolean isRetryEnabled()
+com.razorpay.R$dimen: int compat_button_inset_vertical_material
+com.razorpay.CheckoutPresenterImpl$14: CheckoutPresenterImpl$14(com.razorpay.CheckoutPresenterImpl,java.lang.String,int)
+com.razorpay.AnalyticsConstants: java.lang.String NETWORK_3G
+com.razorpay.CheckoutUtils: void addAddons(android.content.Context,java.lang.String)
+com.razorpay.CheckoutPresenter: void loadForm(java.lang.String)
+com.razorpay.CheckoutBridge$9: CheckoutBridge$9(com.razorpay.CheckoutBridge,java.lang.String)
+com.razorpay.AnalyticsEvent: com.razorpay.AnalyticsEvent CUSTOMUI_INTERNAL_CALLBACK_SUCCESS
+com.razorpay.RzpAssist: com.razorpay.SmsAgent smsAgent
+com.razorpay.R$drawable: int notification_bg

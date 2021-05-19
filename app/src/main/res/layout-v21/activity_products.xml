@@ -13,17 +13,12 @@
         android:titleTextColor="@color/black"
         android:background="@color/cay"
         >
-
         <ImageView
-            android:id="@+id/profile"
+            android:id="@+id/profilep"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:src="@drawable/ic_baseline_person_24"
-            android:layout_marginStart="150dp"
-
-            >
-
+            android:layout_marginStart="150dp">
         </ImageView>
 
         <ImageView
@@ -31,11 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_add_shopping_cart_24"
-<<<<<<< HEAD
             android:layout_marginStart="25dp"
-=======
-            android:layout_marginStart="227dp"
->>>>>>> origin/cartActivity
             android:outlineAmbientShadowColor="@color/white">
 
         </ImageView>

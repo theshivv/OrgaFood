@@ -9,34 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vegan">
-<<<<<<< HEAD
-        <activity android:name=".Activity.ProfileActivity"></activity>
+
+
+        <activity android:name=".Activity.ProfileActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
         <activity
             android:name=".Activity.CartActivity"
-            android:screenOrientation="portrait" />
-=======
-        <activity
-            android:name=".Activity.CartActivity"
-            android:screenOrientation="portrait"></activity>
->>>>>>> origin/cartActivity
+            android:screenOrientation="portrait">
+        </activity>
         <activity android:name=".Activity.detailsActivity" />
         <activity
             android:name=".Activity.ProductsActivity"
             android:screenOrientation="portrait">
 
-<<<<<<< HEAD
-        </activity>
 
-        <activity android:name=".Activity.IntroPopup">
-
-
-=======
->>>>>>> origin/cartActivity
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Activity.RegisterActivity"
@@ -46,10 +34,13 @@
             android:screenOrientation="portrait" />
 
         <activity
-<<<<<<< HEAD
-=======
             android:name=".Activity.IntroPopup"
             android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
             <!-- android:theme="@style/AppTheme.NoActionBar" -->
             <!--  -->
@@ -57,7 +48,6 @@
 
         </activity>
         <activity
->>>>>>> origin/cartActivity
             android:name=".Activity.MainActivity"
             android:screenOrientation="portrait" />
 
