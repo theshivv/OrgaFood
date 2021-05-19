@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.OrgaFood">
+    package="com.example.OrgaFood" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -8,33 +15,37 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Vegan">
+        android:theme="@style/Theme.Vegan" >
+
+
+
+        <activity android:name=".RegisterActivity2" >
+        </activity>
+
+
+        <activity
+            android:name=".Activity.LoginActivity2"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.CartActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity android:name=".Activity.detailsActivity" />
-
         <activity
             android:name=".Activity.ProfileActivity"
-            android:screenOrientation="portrait"/>
-
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.ProductsActivity"
-            android:screenOrientation="portrait">
-
-
-        </activity>
-        <activity
-            android:name=".Activity.RegisterActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".Activity.login"
-            android:screenOrientation="portrait" />
-
+<!--        <activity-->
+<!--            android:name=".Activity.RegisterActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/AppTheme.NoActionBar" />-->
+<!--        <activity-->
+<!--            android:name=".Activity.login"-->
+<!--            android:screenOrientation="portrait" />-->
         <activity
             android:name=".Activity.IntroPopup"
-            android:screenOrientation="portrait">
-
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,7 +54,6 @@
 
             <!-- android:theme="@style/AppTheme.NoActionBar" -->
             <!--  -->
-
 
         </activity>
         <activity

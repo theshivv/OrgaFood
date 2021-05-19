@@ -4,4 +4,7 @@
     <dimen name="splash_title_text">35sp</dimen>
     <dimen name="button_baground_radius">20dp</dimen>
     <dimen name="min_text_height">48dp</dimen>
+    <dimen name="headerTextSize">25sp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginViewsMargin">20dp</dimen>
 </resources>

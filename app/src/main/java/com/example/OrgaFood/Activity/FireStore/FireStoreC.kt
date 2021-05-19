@@ -10,8 +10,8 @@ import com.example.OrgaFood.Activity.Info.cart
 import com.example.OrgaFood.Activity.Info.constants
 import com.example.OrgaFood.Activity.ProductsActivity
 
-import com.example.OrgaFood.Activity.RegisterActivity
 import com.example.OrgaFood.Activity.detailsActivity
+import com.example.OrgaFood.RegisterActivity2
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
@@ -25,7 +25,7 @@ class FireStoreC {
     val db = Firebase.firestore
 
 
-    fun registerUser(activity: RegisterActivity,userInfo: User){
+    fun registerUser(activity: RegisterActivity2, userInfo: User){
 
          FS.collection(constants.USERS).
          document(userInfo.id)

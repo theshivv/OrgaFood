@@ -87,15 +87,19 @@ private fun validateRegis() : Boolean {
             FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this){  task ->
                     if(task.isSuccessful){
-                      val fireUserid : FirebaseUser = task.result!!.user
+                      val fireUserid : FirebaseUser? = task.result!!.user
 
-                        val user = User(
-                            fireUserid.uid,
-                            fName.text.toString().trim{ it <= ' ' },
-                            lName.text.toString().trim{ it <= ' ' },
-                           email
-                        )
-                        FireStoreC().registerUser(this@RegisterActivity,user)
+                        val user = fireUserid?.let {
+                            User(
+                                it.uid,
+                                fName.text.toString().trim{ it <= ' ' },
+                                lName.text.toString().trim{ it <= ' ' },
+                                email
+                            )
+                        }
+//                        if (user != null) {
+//                            FireStoreC().registerUser(this@RegisterActivity,user)
+//                        }
 
                         Toast.makeText(this,"Successfully Registered",Toast.LENGTH_SHORT).show()
                         Firebase.auth.signOut()
