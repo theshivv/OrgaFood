@@ -11,10 +11,13 @@
         android:theme="@style/Theme.Vegan">
         <activity
             android:name=".Activity.CartActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait"/>
         <activity android:name=".Activity.detailsActivity" />
+
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:screenOrientation="portrait"/>
+
         <activity
             android:name=".Activity.ProductsActivity"
             android:screenOrientation="portrait">
@@ -31,6 +34,7 @@
         <activity
             android:name=".Activity.IntroPopup"
             android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,17 +46,6 @@
 
 
         </activity>
-
-        <activity android:name=".Activity.ProfileActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-
-        </activity>
         <activity
             android:name=".Activity.MainActivity"
             android:screenOrientation="portrait" />
@@ -60,9 +53,6 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
-
     </application>
-
 
 </manifest>

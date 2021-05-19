@@ -5,8 +5,10 @@ import android.media.Image
 import android.media.ImageReader
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.ImageButton
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.OrgaFood.Activity.FireStore.FireStoreC
 import com.example.OrgaFood.Activity.Info.Product
@@ -25,7 +27,7 @@ class ProductsActivity : AppCompatActivity() {
 
 //
 
-FireStoreC().getProductsinfo(this)
+        FireStoreC().getProductsinfo(this)
 
 
 
@@ -36,24 +38,35 @@ FireStoreC().getProductsinfo(this)
 
 
         var profile= findViewById<View>(R.id.profile)
-        profile.setOnClickListener{
+            profile.setOnClickListener{
+
+            Toast.makeText(this,"Going to profile", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this,ProfileActivity ::class.java))
+
+            }
+
+        var img= findViewById<View>(R.id.cartImgId)
+            img.setOnClickListener{
+            startActivity(Intent(this,CartActivity ::class.java))
+
         }
 
-   var img= findViewById<View>(R.id.cartImgId)
-      img.setOnClickListener{
-          startActivity(Intent(this,CartActivity ::class.java))
-      }
+
+
 
 
     }
 
 
 
+
+
+
+
     fun successProduct(plist: ArrayList<Product>) {
 
         val rcv= findViewById<RecyclerView>(R.id.recycleView)
-       rcv.adapter=dataAdapter(this,plist)
+        rcv.adapter=dataAdapter(this,plist)
         rcv.setHasFixedSize(true)
     }
 
