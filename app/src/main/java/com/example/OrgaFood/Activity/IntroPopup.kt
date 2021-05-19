@@ -35,7 +35,7 @@ class IntroPopup : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             //Do something after 100ms
-                   startActivity(Intent(this@IntroPopup, login:: class.java ))
+                   startActivity(Intent(this@IntroPopup, LoginActivity2:: class.java ))
             finish()
 
         }, 2500)
