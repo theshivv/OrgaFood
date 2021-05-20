@@ -11,6 +11,7 @@ import com.example.OrgaFood.Activity.FireStore.FireStoreC
 import com.example.OrgaFood.R
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.android.synthetic.main.fragment_profile_view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -61,7 +62,7 @@ class ProfileView : Fragment() {
                     fnameL = document.getString("fname").toString()
                     lastname = document.getString("lname") .toString()
                     emailide = document.getString("email").toString()
-                    uiLayout.findViewById<TextView>(R.id.lUserName).text =fnameL
+                    lUserName.text =fnameL
                     uiLayout.findViewById<TextView>(R.id.lUserEmailId).text = emailide
                     uiLayout.findViewById<TextView>(R.id.lUserLastName).text = lastname
 

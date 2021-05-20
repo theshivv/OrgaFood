@@ -1,16 +1,34 @@
 package com.example.OrgaFood.Activity.Fragements
 
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.text.TextUtils
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.RadioButton
+import android.widget.RadioGroup
+import android.widget.Toast
+import com.example.OrgaFood.Activity.FireStore.FireStoreC
+import com.example.OrgaFood.Activity.Info.User
 import com.example.OrgaFood.R
+import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.android.synthetic.main.fragment_get_user_data_profile.*
+import kotlinx.android.synthetic.main.fragment_get_user_data_profile.view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
+private val FS = FirebaseFirestore.getInstance()
+var firstN  = "null"
+var lastN = "null"
+var emailAdd = " "
+var phoneN = " "
+var address = " "
 
 /**
  * A simple [Fragment] subclass.
@@ -35,7 +53,26 @@ class GetUserDataProfile : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_get_user_data_profile, container, false)
+
+
+       val xmlData = inflater.inflate(R.layout.fragment_get_user_data_profile, container, false)
+
+
+
+
+
+//        Log.d(TAG, firstName.toString())
+xmlData.saveChanges.setOnClickListener {
+    Log.e(TAG, "onCreateView: save changes button is running", )
+
+    getUserData(xmlData)
+
+
+//
+}
+
+
+        return xmlData
     }
 
     companion object {
@@ -57,4 +94,39 @@ class GetUserDataProfile : Fragment() {
                 }
             }
     }
+
+
+
+    fun getUserData(view: View){
+
+
+            firstN = firstName.text.toString()
+         emailAdd = emailAddressOfUser.text.toString()
+         phoneN = phoneNo.text.toString()
+        address = addressOfUser.text.toString()
+
+        val checkedId = view.radioGender.checkedRadioButtonId
+        val radio: RadioButton = view.findViewById(checkedId)
+        var gender =  radio.text.toString()
+
+
+        Log.d(TAG, firstN + emailAdd + phoneN + address , )
+
+        val userInfo = User(
+            FireStoreC().getCurrentUID(),
+            firstN,
+            lastN,
+            emailAdd,
+            phoneN.toLong(),
+            address,
+            gender
+
+        )
+
+        FireStoreC().completeTheUserProfile(userInfo)
+    }
+
+
 }
+
+
