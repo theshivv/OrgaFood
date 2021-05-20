@@ -9,32 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vegan">
+        <activity android:name=".Activity.UserProfile"></activity>
         <activity
             android:name=".Activity.CartActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity android:name=".Activity.detailsActivity" />
-
         <activity
             android:name=".Activity.ProfileActivity"
-            android:screenOrientation="portrait"/>
-
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.ProductsActivity"
-            android:screenOrientation="portrait">
-
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".Activity.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.login"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".Activity.IntroPopup"
             android:screenOrientation="portrait">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,7 +37,6 @@
 
             <!-- android:theme="@style/AppTheme.NoActionBar" -->
             <!--  -->
-
 
         </activity>
         <activity

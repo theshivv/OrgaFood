@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Profile"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.Fragements.GetUserDataProfile">
@@ -16,14 +17,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-
     </androidx.core.widget.NestedScrollView>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="121dp"
         android:layout_height="53dp"
-        android:text="@string/profilep"
+        android:text="Profile"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,29 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/Mobile"
         app:layout_constraintVertical_bias="0.061" />
 
-    <Button
-        android:id="@+id/Female"
-        android:layout_width="130.5dp"
-        android:layout_height="54dp"
-        android:text="Female"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Email"
-        app:layout_constraintVertical_bias="0.088" />
 
-    <Button
-        android:id="@+id/Male"
-        android:layout_width="130.5dp"
-        android:layout_height="54dp"
-        android:text="Male"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.735"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Email"
-        app:layout_constraintVertical_bias="0.088" />
 
     <EditText
         android:id="@+id/addressOfUser"
@@ -102,6 +80,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Mobile"
         app:layout_constraintVertical_bias="0.7" />
+
+    <ToggleButton
+        android:id="@+id/Female"
+        android:layout_width="130.5dp"
+        android:layout_height="54dp"
+        android:text="Female"
+        android:textOff="Female"
+        android:textOn="Female"
+        app:layout_constraintBottom_toTopOf="@+id/addressOfUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <ToggleButton
+        android:id="@+id/Male"
+        android:layout_width="130.5dp"
+        android:layout_height="54dp"
+        android:text="Male"
+        app:layout_constraintBottom_toTopOf="@+id/addressOfUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email"
+        app:layout_constraintVertical_bias="0.571" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
