@@ -6,46 +6,71 @@
     android:layout_height="match_parent"
     tools:context="Activity.UserProfile"
     android:orientation="vertical">
-    
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:padding="20dp"
-        android:background="#81b214">
+        android:layout_height="223dp"
+        android:background="#81b214"
+        android:padding="20dp">
 
         <ImageView
-            android:id="@+id/popup"
+            android:id="@+id/ProfileImageView"
             android:layout_width="190dp"
             android:layout_height="180dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/popup" />
+            android:src="@drawable/ic_baseline_person_24" />
 
 
-    <TextView
-        android:id="@+id/fullname_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@+id/popup"
-        android:fontFamily="sans-serif-black"
-        android:includeFontPadding="false"
-        android:text="Taimoor Sikander"
-        android:textColor="#000"
-        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/fullname_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ProfileImageView"
+            android:fontFamily="sans-serif-black"
+            android:includeFontPadding="false"
+            android:text="Taimoor Sikander"
+            android:textColor="#000"
+            android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/username_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/fullname_field"
-        android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@+id/popup"
-        android:includeFontPadding="false"
-        android:text="taimoor_sikander"
-        android:textSize="14sp" />
+        <TextView
+            android:id="@+id/username_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fullname_field"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ProfileImageView"
+            android:includeFontPadding="false"
+            android:text="taimoor_sikander"
+            android:textSize="14sp" />
 
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/mobile_number"
+            style="@style/loginTextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:drawablePadding="10dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,6 +86,7 @@
             android:hint="Full Name">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Fullname"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:drawableLeft="@drawable/ic_baseline_account_circle_24"
@@ -85,10 +111,12 @@
             android:hint="Email">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Emailid"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:drawableLeft="@drawable/ic_baseline_email_24"
-                android:drawablePadding="10dp" />
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -109,6 +137,7 @@
             android:hint="Location">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/AddressofUser"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:drawableLeft="@drawable/ic_baseline_location_on_24"
@@ -133,15 +162,62 @@
             android:hint="Birthday">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Birthday"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
-                android:drawablePadding="10dp" />
+                android:drawablePadding="10dp"
+                android:inputType="date"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
 
     </LinearLayout>
 
+    <RadioGroup
+        android:id="@+id/radioGender"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAddressLayout"
+        app:layout_constraintVertical_bias="0.28">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/doNotWantToDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Others"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <Button
+        android:backgroundTint="#81b214"
+        android:fontFamily="sans-serif-black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:text="UPDATE" />
 
 </LinearLayout>
