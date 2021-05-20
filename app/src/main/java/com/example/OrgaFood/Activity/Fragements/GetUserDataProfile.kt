@@ -1,7 +1,12 @@
 package com.example.OrgaFood.Activity.Fragements
 
+import android.app.Activity
+import android.content.ContentResolver
 import android.content.ContentValues.TAG
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.provider.MediaStore
 import android.text.TextUtils
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -12,12 +17,14 @@ import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
+import androidx.core.content.contentValuesOf
 import com.example.OrgaFood.Activity.FireStore.FireStoreC
 import com.example.OrgaFood.Activity.Info.User
 import com.example.OrgaFood.R
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.fragment_get_user_data_profile.*
 import kotlinx.android.synthetic.main.fragment_get_user_data_profile.view.*
+import kotlinx.android.synthetic.main.fragment_profile_view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,6 +36,8 @@ var lastN = "null"
 var emailAdd = " "
 var phoneN = " "
 var address = " "
+lateinit var  filepath : Uri
+//lateinit var  cr : ContentResolver
 
 /**
  * A simple [Fragment] subclass.
@@ -57,7 +66,11 @@ class GetUserDataProfile : Fragment() {
 
        val xmlData = inflater.inflate(R.layout.fragment_get_user_data_profile, container, false)
 
+xmlData.ProfileImageView.setOnClickListener({
+    startFileChooser()
+    ProfileImageView.setImageResource(R.drawable.ic_baseline_edit_24)
 
+})
 
 
 
@@ -124,6 +137,26 @@ xmlData.saveChanges.setOnClickListener {
         )
 
         FireStoreC().completeTheUserProfile(userInfo)
+    }
+
+
+    private fun startFileChooser(){
+       var i = Intent()
+        i.setType("image/*")
+        i.setAction(Intent.ACTION_GET_CONTENT)
+        startActivityForResult(Intent.createChooser(i,"choose Picture"),111)
+
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if(requestCode == 111 && resultCode == Activity.RESULT_OK && data!= null){
+           filepath = data.data!!
+            val resolver = context?.applicationContext?.contentResolver
+
+            var bitmap = MediaStore.Images.Media.getBitmap(resolver  ,filepath )
+            ProfileImageView.setImageBitmap(bitmap)
+        }
     }
 
 
