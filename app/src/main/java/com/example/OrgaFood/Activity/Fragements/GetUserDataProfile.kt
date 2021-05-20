@@ -37,6 +37,7 @@ var lastN = "null"
 var emailAdd = " "
 var phoneN = " "
 var address = " "
+var imageurl =" "
 lateinit var  filepath : Uri
 //lateinit var  cr : ContentResolver
 
@@ -79,8 +80,8 @@ xmlData.ProfileImageView.setOnClickListener({
 //        Log.d(TAG, firstName.toString())
 xmlData.saveChanges.setOnClickListener {
     Log.e(TAG, "onCreateView: save changes button is running")
+    uploadImage(xmlData)
 
-    getUserData(xmlData)
 
 
 //
@@ -114,7 +115,7 @@ xmlData.saveChanges.setOnClickListener {
 
 
 
-    fun getUserData(view: View){
+    fun getUserData(view: View, st : String){
 
 
             firstN = firstName.text.toString()
@@ -137,7 +138,7 @@ xmlData.saveChanges.setOnClickListener {
             phoneN.toLong(),
             address,
             gender,
-            uploadImage()
+          st
 
         )
 
@@ -165,8 +166,9 @@ xmlData.saveChanges.setOnClickListener {
     }
 
 
-    private fun uploadImage() : String {
+    private fun uploadImage(view: View)  {
         var imageUrlSt : String = "https://firebasestorage.googleapis.com/v0/b/orgafood-859fc.appspot.com/o/defaultProfilePic.png?alt=media&token=1948043e-2e8c-4137-85d9-dc4870528361"
+
 
         if (filepath != null) {
             val fileName = FireStoreC().getCurrentUID().toString() +".jpg"
@@ -177,17 +179,24 @@ xmlData.saveChanges.setOnClickListener {
                 .addOnSuccessListener { taskSnapshot ->
                     taskSnapshot.storage.downloadUrl.addOnSuccessListener {
                          imageUrlSt = it.toString()
-                        Log.d(TAG, "uploadImage: url issss " + imageUrlSt,)
+                        imageurl = it.toString()
+                        Log.d(TAG, "uploadImage: url issss " + imageurl,)
+                        getUserData(view, it.toString())
+
                     }
                 }
 
                 ?.addOnFailureListener(OnFailureListener { e ->
+                    imageurl = imageUrlSt
                     print(e.message)
                 })
+
+
         }
 
 
-        return imageUrlSt
+
+
     }
 
 
