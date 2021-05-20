@@ -3,21 +3,13 @@
 package com.example.OrgaFood.Activity
 
 import android.content.Intent
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
 import android.view.View
-import android.view.WindowInsets
-import android.view.WindowManager
-import android.widget.EditText
-import android.widget.Toast
+import android.widget.*
 import com.example.OrgaFood.R
-import com.example.OrgaFood.RegisterActivity2
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_login2.*
 
 class LoginActivity2 : AppCompatActivity() {
@@ -29,8 +21,12 @@ class LoginActivity2 : AppCompatActivity() {
         LoginButton.setOnClickListener {
             LoginOrgafood()
         }
+        val other = findViewById<ImageButton>(R.id.other)
+
 
     }
+
+
 
     fun onRegisterClick(view: View) {
         startActivity(Intent(this, RegisterActivity2 ::class.java))
@@ -38,6 +34,12 @@ class LoginActivity2 : AppCompatActivity() {
 
     }
 
+    fun onOtherClick(view: View) {
+        other.setOnClickListener {
+            startActivity(Intent(this@LoginActivity2, SignInActivity::class.java))
+
+        }
+    }
     fun LoginOrgafood() : Boolean {
         val lEmail = findViewById<EditText>(R.id.editTextEmail)
         val lPassword = findViewById<EditText>(R.id.editTextPassword)

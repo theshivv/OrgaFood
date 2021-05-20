@@ -1,19 +1,19 @@
-package com.example.OrgaFood
+package com.example.OrgaFood.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
+import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import com.example.OrgaFood.Activity.FireStore.FireStoreC
 import com.example.OrgaFood.Activity.Info.User
-import com.example.OrgaFood.Activity.LoginActivity2
+import com.example.OrgaFood.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_register2.*
 
 class RegisterActivity2 : AppCompatActivity() {
@@ -24,11 +24,19 @@ class RegisterActivity2 : AppCompatActivity() {
         RegisterButton.setOnClickListener {
             register()
         }
-    }
+        val other1 = findViewById<ImageButton>(R.id.other1)
+
+
+
+        }
+
 
     fun onLoginClick(view: View) {
         startActivity(Intent(this, LoginActivity2 ::class.java))
 
+    }
+    fun onOther1Click(view: View) {
+        startActivity(Intent(this, SignInActivity ::class.java))
     }
 
     private fun validateRegis() : Boolean {
@@ -59,8 +67,7 @@ class RegisterActivity2 : AppCompatActivity() {
             }
         }
     }
-
-    private fun register (){
+        fun register (){
         val fName = findViewById<EditText>(R.id.editTextName)
         val lName = findViewById<EditText>(R.id.editTextLastName)
         val email = findViewById<EditText>(R.id.editEmailName)

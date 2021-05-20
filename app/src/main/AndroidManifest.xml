@@ -19,7 +19,7 @@
 
 
 
-        <activity android:name=".RegisterActivity2" >
+        <activity android:name=".Activity.RegisterActivity2" >
         </activity>
 
 
@@ -63,6 +63,8 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <activity android:name=".Activity.SignInActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
