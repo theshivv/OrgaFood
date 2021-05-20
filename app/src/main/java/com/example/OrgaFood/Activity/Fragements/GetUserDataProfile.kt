@@ -1,36 +1,37 @@
 package com.example.OrgaFood.Activity.Fragements
 
 import android.app.Activity
-import android.content.ContentResolver
 import android.content.ContentValues.TAG
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
-import android.text.TextUtils
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.RadioButton
-import android.widget.RadioGroup
-import android.widget.Toast
-import androidx.core.content.contentValuesOf
+import android.widget.*
+import androidx.fragment.app.Fragment
 import com.example.OrgaFood.Activity.FireStore.FireStoreC
 import com.example.OrgaFood.Activity.Info.User
 import com.example.OrgaFood.R
+import com.google.android.gms.tasks.OnFailureListener
+import com.google.android.gms.tasks.OnSuccessListener
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.StorageReference
+import com.google.firebase.storage.UploadTask
 import kotlinx.android.synthetic.main.fragment_get_user_data_profile.*
 import kotlinx.android.synthetic.main.fragment_get_user_data_profile.view.*
 import kotlinx.android.synthetic.main.fragment_profile_view.*
+import java.util.*
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
-private val FS = FirebaseFirestore.getInstance()
+//private val FS = FirebaseFirestore.getInstance()
 var firstN  = "null"
 var lastN = "null"
 var emailAdd = " "
@@ -38,6 +39,7 @@ var phoneN = " "
 var address = " "
 lateinit var  filepath : Uri
 //lateinit var  cr : ContentResolver
+
 
 /**
  * A simple [Fragment] subclass.
@@ -76,7 +78,7 @@ xmlData.ProfileImageView.setOnClickListener({
 
 //        Log.d(TAG, firstName.toString())
 xmlData.saveChanges.setOnClickListener {
-    Log.e(TAG, "onCreateView: save changes button is running", )
+    Log.e(TAG, "onCreateView: save changes button is running")
 
     getUserData(xmlData)
 
@@ -87,6 +89,8 @@ xmlData.saveChanges.setOnClickListener {
 
         return xmlData
     }
+
+
 
     companion object {
         /**
@@ -123,7 +127,7 @@ xmlData.saveChanges.setOnClickListener {
         var gender =  radio.text.toString()
 
 
-        Log.d(TAG, firstN + emailAdd + phoneN + address , )
+        Log.d(TAG, firstN + emailAdd + phoneN + address)
 
         val userInfo = User(
             FireStoreC().getCurrentUID(),
@@ -132,7 +136,8 @@ xmlData.saveChanges.setOnClickListener {
             emailAdd,
             phoneN.toLong(),
             address,
-            gender
+            gender,
+            uploadImage()
 
         )
 
@@ -144,7 +149,7 @@ xmlData.saveChanges.setOnClickListener {
        var i = Intent()
         i.setType("image/*")
         i.setAction(Intent.ACTION_GET_CONTENT)
-        startActivityForResult(Intent.createChooser(i,"choose Picture"),111)
+        startActivityForResult(Intent.createChooser(i, "choose Picture"), 111)
 
     }
 
@@ -154,10 +159,37 @@ xmlData.saveChanges.setOnClickListener {
            filepath = data.data!!
             val resolver = context?.applicationContext?.contentResolver
 
-            var bitmap = MediaStore.Images.Media.getBitmap(resolver  ,filepath )
+            var bitmap = MediaStore.Images.Media.getBitmap(resolver, filepath)
             ProfileImageView.setImageBitmap(bitmap)
         }
     }
+
+
+    private fun uploadImage() : String {
+        var imageUrlSt : String = "https://firebasestorage.googleapis.com/v0/b/orgafood-859fc.appspot.com/o/defaultProfilePic.png?alt=media&token=1948043e-2e8c-4137-85d9-dc4870528361"
+
+        if (filepath != null) {
+            val fileName = FireStoreC().getCurrentUID().toString() +".jpg"
+
+            val refStorage = FirebaseStorage.getInstance().reference.child("images/$fileName")
+
+            refStorage.putFile(filepath)
+                .addOnSuccessListener { taskSnapshot ->
+                    taskSnapshot.storage.downloadUrl.addOnSuccessListener {
+                         imageUrlSt = it.toString()
+                        Log.d(TAG, "uploadImage: url issss " + imageUrlSt,)
+                    }
+                }
+
+                ?.addOnFailureListener(OnFailureListener { e ->
+                    print(e.message)
+                })
+        }
+
+
+        return imageUrlSt
+    }
+
 
 
 }

@@ -7,5 +7,6 @@ class User (
     val email : String = "",
     val pNo : Long =0,
     val address : String = "",
-val gender : String =""
+val gender : String ="",
+val imageLink : String =""
         )
