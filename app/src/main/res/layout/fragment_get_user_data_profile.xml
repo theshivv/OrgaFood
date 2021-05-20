@@ -27,6 +27,17 @@
             android:layout_gravity="center">
 
 
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ProfileImageView"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:src="@drawable/ic_baseline_person_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.2" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/firstNameLayout"
                 android:layout_width="wrap_content"
@@ -34,7 +45,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ProfileImageView"
                 app:layout_constraintVertical_bias="0.094">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -198,6 +209,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/radioGender"
                 app:layout_constraintVertical_bias="1.0" />
+
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
