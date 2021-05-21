@@ -1,4 +1,4 @@
-package com.example.OrgaFood
+package com.example.OrgaFood.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,11 +9,9 @@ import android.widget.EditText
 import android.widget.Toast
 import com.example.OrgaFood.Activity.FireStore.FireStoreC
 import com.example.OrgaFood.Activity.Info.User
-import com.example.OrgaFood.Activity.LoginActivity2
+import com.example.OrgaFood.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_register2.*
 
 class RegisterActivity2 : AppCompatActivity() {
