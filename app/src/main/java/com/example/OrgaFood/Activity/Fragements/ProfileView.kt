@@ -1,5 +1,6 @@
 package com.example.OrgaFood.Activity.Fragements
 
+import android.icu.util.ULocale.getName
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -7,10 +8,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import com.bumptech.glide.Glide
 import com.example.OrgaFood.Activity.FireStore.FireStoreC
 import com.example.OrgaFood.R
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.android.synthetic.main.fragment_get_user_data_profile.*
+import kotlinx.android.synthetic.main.fragment_profile_view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -41,8 +45,13 @@ class ProfileView : Fragment() {
 
         val uiLayout =inflater.inflate(R.layout.fragment_profile_view, container, false)
         var fnameL ="fname"
-        var lastname = "lastname"
+        var idOfUser = "id"
         var emailide = "emaid"
+        var addressU = "add"
+        var phoneNo = "phoneN"
+        var gender  = "mfo"
+        var dateOfBirth ="dob"
+        var  imagelink = "link"
 
 
 
@@ -54,16 +63,27 @@ class ProfileView : Fragment() {
                 val document = task.result
                 if (document != null) {
 
-
-//                    Log.i("LOGGER", "First " + document.getString("fname"))
-//                    Log.i("LOGGER", "LastRender " + document.getString("lname"))
-//                    Log.i("LOGGER", "Born " + document.getString("email"))
                     fnameL = document.getString("fname").toString()
-                    lastname = document.getString("lname") .toString()
+                    idOfUser = document.getString("id") .toString()
                     emailide = document.getString("email").toString()
-                    uiLayout.findViewById<TextView>(R.id.lUserName).text =fnameL
+                    addressU = document.getString("address").toString()
+                    phoneNo = document.getString("pno").toString()
+                    gender = document.getString("gender").toString()
+                    imagelink = document.getString("imageLink").toString()
+                    dateOfBirth = document.getString("dob").toString()
+
+
+                    lUserName.text =fnameL
                     uiLayout.findViewById<TextView>(R.id.lUserEmailId).text = emailide
-                    uiLayout.findViewById<TextView>(R.id.lUserLastName).text = lastname
+                    Glide.with(this).load(imagelink).into(profileimageView)
+                    dateOfBirthView.text = dateOfBirth
+                    viewPhoneNo.text = phoneNo
+                    viewGender.text = gender
+                    viewAddress.text = addressU
+               GetUserDataProfile().getName(fnameL)
+
+
+
 
                 } else {
                     Log.d("LOGGER", "No such document")

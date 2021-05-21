@@ -1,4 +1,3 @@
 include ':razorpay'
-include ':razorpay2'
 rootProject.name = "OrgaFood"
 include ':app'
