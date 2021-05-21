@@ -83,7 +83,7 @@ fun getProductsinfo(activity: Activity){
 
             when(activity){
                 is ProductsActivity ->{
-                    activity.successProduc(productsList)
+                    activity.successProduct(productsList)
                 }
             }
         }
