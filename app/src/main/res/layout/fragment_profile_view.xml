@@ -13,6 +13,7 @@
         android:id="@+id/imageView"
         android:layout_width="165dp"
         android:layout_height="134dp"
+        android:background="@color/white"
         android:layout_marginLeft="118dp"
         android:layout_marginTop="100dp"
         android:contentDescription="@string/products_page"
@@ -26,8 +27,10 @@
     <TextView
         android:id="@+id/lUserName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
+        android:background="#bfdcae"
         android:gravity="center"
+        android:text="Full Name"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,26 +43,12 @@
     </TextView>
 
     <TextView
-        android:id="@+id/lUserLastName"
+        android:id="@+id/Emailid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
+        android:background="#bfdcae"
         android:gravity="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lUserName"
-        app:layout_constraintVertical_bias="0.059">
-
-        </TextView>
-
-    <TextView
-        android:id="@+id/lUserEmailId"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        android:text="Email ID"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -71,5 +60,58 @@
 
     </TextView>
 
+    <TextView
+        android:id="@+id/mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#bfdcae"
+        android:gravity="center"
+        android:text="Mobile Number"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lUserName"
+        app:layout_constraintVertical_bias="0.059">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/birthday_date"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#bfdcae"
+        android:gravity="center"
+        android:text="Birthday"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lUserName"
+        app:layout_constraintVertical_bias="0.059">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Gender"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#bfdcae"
+        android:gravity="center"
+        android:text="Gender"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lUserName"
+        app:layout_constraintVertical_bias="0.059">
+
+    </TextView>
 
 </LinearLayout>
