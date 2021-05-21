@@ -25,8 +25,8 @@
 
         <TextView
             android:id="@+id/profileH"
-            android:layout_width="403dp"
-            android:layout_height="59dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/profilep"
             android:textColor="@color/black"
@@ -54,8 +54,8 @@
 
     <FrameLayout
         android:id="@+id/editFragment"
-        android:layout_width="443dp"
-        android:layout_height="736dp"
+        android:layout_width="match_parent"
+        android:layout_height="442dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

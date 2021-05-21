@@ -40,41 +40,41 @@ class RegisterActivity : AppCompatActivity() {
 //
 //        }
 
-findViewById<Button>(R.id.RegistrationBth).setOnClickListener {
-   register()
-}
+        findViewById<Button>(R.id.RegistrationBth).setOnClickListener {
+            register()
+        }
 
 
     }
 
-private fun validateRegis() : Boolean {
-    val fName = findViewById<EditText>(R.id.PersonName)
-    val lName = findViewById<EditText>(R.id.PersonsLastName)
-    val email = findViewById<EditText>(R.id.EmailAddress)
-    val password = findViewById<EditText>(R.id.Password)
-    return when {
-        TextUtils.isEmpty(fName.text.toString().trim{ it <= ' ' } ) ->{
-            Toast.makeText(this, "Invalid First Name", Toast.LENGTH_LONG).show();
-            false
-        }
-        TextUtils.isEmpty(lName.text.toString().trim{ it <= ' ' } ) ->{
-            Toast.makeText(this, "Invalid Last Name", Toast.LENGTH_LONG).show();
-            false
-        }
-        TextUtils.isEmpty(email.text.toString().trim{ it <= ' ' } ) ->{
-            Toast.makeText(this, "Invalid email", Toast.LENGTH_LONG).show();
-            false
-        }
-        TextUtils.isEmpty(password.text.toString().trim{ it <= ' ' } ) ->{
-            Toast.makeText(this, "Invalid Password", Toast.LENGTH_LONG).show();
-            false
-        }
+    private fun validateRegis() : Boolean {
+        val fName = findViewById<EditText>(R.id.PersonName)
+        val lName = findViewById<EditText>(R.id.PersonsLastName)
+        val email = findViewById<EditText>(R.id.EmailAddress)
+        val password = findViewById<EditText>(R.id.Password)
+        return when {
+            TextUtils.isEmpty(fName.text.toString().trim{ it <= ' ' } ) ->{
+                Toast.makeText(this, "Invalid First Name", Toast.LENGTH_LONG).show();
+                false
+            }
+            TextUtils.isEmpty(lName.text.toString().trim{ it <= ' ' } ) ->{
+                Toast.makeText(this, "Invalid Last Name", Toast.LENGTH_LONG).show();
+                false
+            }
+            TextUtils.isEmpty(email.text.toString().trim{ it <= ' ' } ) ->{
+                Toast.makeText(this, "Invalid email", Toast.LENGTH_LONG).show();
+                false
+            }
+            TextUtils.isEmpty(password.text.toString().trim{ it <= ' ' } ) ->{
+                Toast.makeText(this, "Invalid Password", Toast.LENGTH_LONG).show();
+                false
+            }
 
-        else -> {
-        true
+            else -> {
+                true
+            }
         }
     }
-}
 
     private fun register (){
         val email = findViewById<EditText>(R.id.EmailAddress)
@@ -87,7 +87,7 @@ private fun validateRegis() : Boolean {
             FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this){  task ->
                     if(task.isSuccessful){
-                      val fireUserid : FirebaseUser? = task.result!!.user
+                        val fireUserid : FirebaseUser? = task.result!!.user
 
                         val user = fireUserid?.let {
                             User(
