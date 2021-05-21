@@ -1,45 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.Fragements.ProfileView">
+    tools:context=".Activity.Fragements.ProfileView"
+    android:orientation="vertical"
+    android:background="#81b214">
 
 
     <ImageView
         android:id="@+id/profileimageView"
         android:layout_width="165dp"
         android:layout_height="134dp"
+        android:background="@color/white"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="100dp"
         android:contentDescription="@string/products_page"
         android:src="@drawable/ic_baseline_person_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/lUserName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
+        android:background="#bfdcae"
         android:gravity="center"
+        android:text="Full Name"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profileimageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.189">
 
     </TextView>
 
     <TextView
-        android:id="@+id/dateOfBirthView"
+        android:id="@+id/lUserEmailId"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
+        android:background="#bfdcae"
         android:gravity="center"
+        android:text="Email ID"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lUserLastName"
+        app:layout_constraintVertical_bias="0.038">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/viewPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#bfdcae"
+        android:gravity="center"
+        android:text="Mobile Number"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,63 +76,59 @@
         app:layout_constraintTop_toBottomOf="@+id/lUserName"
         app:layout_constraintVertical_bias="0.059">
 
-        </TextView>
+    </TextView>
 
     <TextView
-        android:id="@+id/lUserEmailId"
+        android:id="@+id/dateOfBirthView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:background="#bfdcae"
         android:gravity="center"
+        android:text="Birthday"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dateOfBirthView"
-        app:layout_constraintVertical_bias="0.038">
+        app:layout_constraintTop_toBottomOf="@+id/lUserName"
+        app:layout_constraintVertical_bias="0.059">
 
     </TextView>
-    <TextView
-        android:id="@+id/viewPhoneNo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lUserEmailId"
-        app:layout_constraintVertical_bias="0.038"/>
+
     <TextView
         android:id="@+id/viewGender"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
+        android:background="#bfdcae"
         android:gravity="center"
+        android:text="Gender"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/viewPhoneNo"
-        app:layout_constraintVertical_bias="0.038"/>
+        app:layout_constraintTop_toBottomOf="@+id/lUserName"
+        app:layout_constraintVertical_bias="0.059">
 
-    <TextView
-        android:id="@+id/viewAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/viewGender"
-        app:layout_constraintVertical_bias="0.06" />
+    </TextView>
 
+        <TextView
+            android:id="@+id/viewAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#bfdcae"
+            android:gravity="center"
+            android:text="Gender"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewGender"
+            app:layout_constraintVertical_bias="0.059" >
+        </TextView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
