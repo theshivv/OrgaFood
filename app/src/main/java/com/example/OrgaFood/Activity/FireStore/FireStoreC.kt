@@ -38,6 +38,18 @@ class FireStoreC {
              }
     }
 
+    fun completeTheUserProfile(userdata: User){
+
+        FS.collection(constants.USERS).
+        document(userdata.id)
+            .set(userdata, SetOptions.merge()).addOnSuccessListener {
+
+            }
+            .addOnFailureListener {
+
+            }
+    }
+
     fun getCurrentUID(): String{
         val currentU = FirebaseAuth.getInstance().currentUser
 
@@ -141,17 +153,7 @@ activity.getCartItem(cartArrayList)
             }
     }
 
-    fun completeTheUserProfile(userdata: User){
 
-        FS.collection(constants.USERS).
-        document(userdata.id)
-            .set(userdata, SetOptions.merge()).addOnSuccessListener {
-
-            }
-            .addOnFailureListener {
-
-            }
-    }
 
 
 
