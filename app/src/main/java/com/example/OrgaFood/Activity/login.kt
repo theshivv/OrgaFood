@@ -40,7 +40,7 @@ class login : AppCompatActivity() {
 
         findViewById<Button>(R.id.loginBtn).setOnClickListener{
 
-          loginCheck()
+            loginCheck()
 
 
         }
@@ -55,7 +55,7 @@ class login : AppCompatActivity() {
         return when {
             TextUtils.isEmpty(lEmail.text.toString().trim { it <= ' ' }) ->{
                 Toast.makeText(this,"Invalid email id",Toast.LENGTH_SHORT).show()
-             false
+                false
             }
             TextUtils.isEmpty(lPassword.text.toString().trim{ it <= ' '}) ->{
                 Toast.makeText(this,"Invalid password " ,Toast.LENGTH_SHORT).show()
@@ -66,19 +66,19 @@ class login : AppCompatActivity() {
                 val email : String = lEmail.text.toString().trim { it <= ' ' }
                 val password : String = lPassword.text.toString().trim{ it <= ' '}
 
-                 FirebaseAuth.getInstance().signInWithEmailAndPassword(email,password)
-                     .addOnCompleteListener(this){  task ->
+                FirebaseAuth.getInstance().signInWithEmailAndPassword(email,password)
+                    .addOnCompleteListener(this){  task ->
 
-                         if (task.isSuccessful) {
+                        if (task.isSuccessful) {
 //                             val firebaseUser: FirebaseUser = task.result!!.user!!
 
-                             startActivity(Intent(this@login, ProductsActivity :: class.java ))
-                             finish()
-                         }
-                         else{
-                             Toast.makeText(this,"Invalid Password or email " ,Toast.LENGTH_SHORT).show()
-                         }
-                     }
+                            startActivity(Intent(this@login, ProductsActivity :: class.java ))
+                            finish()
+                        }
+                        else{
+                            Toast.makeText(this,"Invalid Password or email " ,Toast.LENGTH_SHORT).show()
+                        }
+                    }
                 true
             }
         }

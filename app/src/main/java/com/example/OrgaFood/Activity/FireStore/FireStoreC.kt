@@ -27,15 +27,27 @@ class FireStoreC {
 
     fun registerUser(activity: RegisterActivity,userInfo: User){
 
-         FS.collection(constants.USERS).
-         document(userInfo.id)
-             .set(userInfo, SetOptions.merge()).addOnSuccessListener {
-             Log.e(activity.javaClass.simpleName,"Data store in firebase")
-         }
-             .addOnFailureListener { e->
-                 Log.e(
-            activity.javaClass.simpleName,"error",e)
-             }
+        FS.collection(constants.USERS).
+        document(userInfo.id)
+            .set(userInfo, SetOptions.merge()).addOnSuccessListener {
+                Log.e(activity.javaClass.simpleName,"Data store in firebase")
+            }
+            .addOnFailureListener { e->
+                Log.e(
+                    activity.javaClass.simpleName,"error",e)
+            }
+    }
+
+    fun completeTheUserProfile(userdata: User){
+
+        FS.collection(constants.USERS).
+        document(userdata.id)
+            .set(userdata, SetOptions.merge()).addOnSuccessListener {
+
+            }
+            .addOnFailureListener {
+
+            }
     }
 
     fun getCurrentUID(): String{
@@ -48,39 +60,39 @@ class FireStoreC {
         return  currentUid
     }
 
-fun getProductsinfo(activity: Activity){
+    fun getProductsinfo(activity: Activity){
 
 
 
-   FS.collection("products")
-       .get()
-        .addOnSuccessListener { documents ->
+        FS.collection("products")
+            .get()
+            .addOnSuccessListener { documents ->
 
-            val productsList :ArrayList<Product> = ArrayList()
+                val productsList :ArrayList<Product> = ArrayList()
 
 
-            for (document in documents) {
+                for (document in documents) {
 
-                Log.d(TAG, "${"documentID"+document.id} => ${"documentData"+document.data}")
-                val produts = document.toObject(Product :: class.java)
-                produts!!.ProDid = document.id
+                    Log.d(TAG, "${"documentID"+document.id} => ${"documentData"+document.data}")
+                    val produts = document.toObject(Product :: class.java)
+                    produts!!.ProDid = document.id
 
-                productsList.add(produts)
-                Log.d(TAG, "${"the size is"} => ${productsList.size}")
-            }
+                    productsList.add(produts)
+                    Log.d(TAG, "${"the size is"} => ${productsList.size}")
+                }
 
-            when(activity){
-                is ProductsActivity ->{
-                    activity.successProduct(productsList)
+                when(activity){
+                    is ProductsActivity ->{
+                        activity.successProduc(productsList)
+                    }
                 }
             }
-        }
-        .addOnFailureListener { exception ->
-            Log.w(TAG, "Error getting documents: ", exception)
-        }
+            .addOnFailureListener { exception ->
+                Log.w(TAG, "Error getting documents: ", exception)
+            }
 
 
-}
+    }
 
 
     // getting product details for detail activity
@@ -99,7 +111,7 @@ fun getProductsinfo(activity: Activity){
 
                 }
                 else{
-        Log.d("Empty doc",product.toString())
+                    Log.d("Empty doc",product.toString())
 
                 }
 
@@ -108,13 +120,13 @@ fun getProductsinfo(activity: Activity){
 
 
 
-//creating collection cart adding document with name as product's document
+    //creating collection cart adding document with name as product's document
     fun cart(activity: detailsActivity,addToCart :cart,addedPid:String)
     {
         FS.collection("cart").
         document(addedPid).set(addToCart, SetOptions.merge())   // adding the documents and if already present then merge
             .addOnSuccessListener {
-      activity.addSucc() // addSucc is just a toast message this function is created in details activity
+                activity.addSucc() // addSucc is just a toast message this function is created in details activity
             }
     }
 
@@ -128,14 +140,14 @@ fun getProductsinfo(activity: Activity){
                 val cartArrayList : ArrayList<cart> = ArrayList() //creating  the list
                 for(data in  dataGet.documents)
                 {
-val cartItem = data.toObject(cart::class.java)!!
+                    val cartItem = data.toObject(cart::class.java)!!
                     cartItem.ProDid = data.id
                     cartArrayList.add(cartItem)
                 }
 
                 when(activity){
                     is CartActivity ->{
-activity.getCartItem(cartArrayList)
+                        activity.getCartItem(cartArrayList)
                     }
                 }
             }
