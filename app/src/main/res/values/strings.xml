@@ -39,6 +39,13 @@
     <string name="save">Save</string>
     <string name="address">address</string>
     <string name="phone_no">phone No</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="location">Location</string>
+    <string name="birthday">Birthday</string>
+
+    <string name="others">Others</string>
+    <string name="update">UPDATE</string>
 
 
 </resources>
