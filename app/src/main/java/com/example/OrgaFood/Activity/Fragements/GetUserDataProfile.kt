@@ -39,6 +39,7 @@ var imageurl =" "
 var dateOfBirth = " "
 var gender =" "
 var idOfuse =" "
+var nameOfperson = "Name"
 lateinit var  filepath : Uri
 
 
@@ -84,7 +85,10 @@ class GetUserDataProfile : Fragment() {
 
 
 
+
        val xmlData = inflater.inflate(R.layout.fragment_get_user_data_profile, container, false)
+
+        xmlData.findViewById<TextView>(R.id.showId).text = FireStoreC().getCurrentUID()
 
 xmlData.ProfileImageView.setOnClickListener({
     startFileChooser()
@@ -146,6 +150,9 @@ onSNACK(xmlData)
         val checkedId = view.radioGender.checkedRadioButtonId
         val radio: RadioButton = view.findViewById(checkedId)
         gender =  radio.text.toString()
+
+
+
 
 
         Log.d(TAG, firstN + emailAdd + phoneN + address)
@@ -249,6 +256,10 @@ return  true
         textView.setTextColor(Color.parseColor("#ffffff"))
         textView.textSize = 10f
         snackbar.show()
+    }
+
+    fun getName(name : String) {
+        nameOfperson = name
     }
 
 }

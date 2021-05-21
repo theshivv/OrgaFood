@@ -33,27 +33,32 @@
 
 
             <TextView
-                android:id="@+id/fullname_field"
+                android:id="@+id/showName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="10dp"
-                android:layout_toRightOf="@+id/ProfileImageView"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="191dp"
+                android:layout_toEndOf="@+id/ProfileImageView"
                 android:fontFamily="sans-serif-black"
                 android:includeFontPadding="false"
-                android:text="Taimoor Sikander"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/username_field"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/fullname_field"
-                android:layout_marginLeft="10dp"
-                android:layout_toRightOf="@+id/ProfileImageView"
+                android:id="@+id/showId"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/showName"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="191dp"
+                android:layout_marginBottom="84dp"
+                android:layout_toEndOf="@+id/ProfileImageView"
                 android:includeFontPadding="false"
-                android:text="taimoor_sikander"
                 android:textSize="14sp" />
 
         </RelativeLayout>
@@ -75,6 +80,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/phoneNo"
                     android:layout_width="match_parent"
+                    android:inputType="phone|number"
                     android:layout_height="match_parent"
                     android:textColor="@color/black"
                     android:drawableLeft="@drawable/ic_baseline_call_24"
@@ -102,6 +108,7 @@
                     android:id="@+id/firstName"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:inputType="textPersonName"
                     android:textColor="@color/black"
                     android:drawableLeft="@drawable/ic_baseline_account_circle_24"
                     android:drawablePadding="10dp" />
@@ -156,6 +163,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textColor="@color/black"
+                    android:inputType="textPostalAddress"
                     android:drawableLeft="@drawable/ic_baseline_location_on_24"
                     android:drawablePadding="10dp" />
 
@@ -195,8 +203,8 @@
             android:id="@+id/radioGender"
             android:layout_width="135dp"
             android:layout_height="wrap_content"
-            android:paddingStart="20dp"
             android:padding="10dp"
+            android:layout_marginStart="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"

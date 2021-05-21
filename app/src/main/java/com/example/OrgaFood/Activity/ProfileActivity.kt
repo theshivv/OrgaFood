@@ -64,6 +64,9 @@ class ProfileActivity : AppCompatActivity() {
         var profileText = findViewById<TextView>(R.id.profileH)
 
         supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
+            .commit()
+
+        supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
 editProfileIcon.setOnClickListener {
     supportFragmentManager.beginTransaction().replace(R.id.editFragment, editProfileFragment)
         .commit()

@@ -42,7 +42,7 @@
     <string name="mobile_number">Mobile Number</string>
     <string name="full_name">Full Name</string>
     <string name="location">Location</string>
-    <string name="birthday">Birthday</string>
+    <string name="birthday">Birthday(DD/MM/YY)</string>
 
     <string name="others">Others</string>
     <string name="update">UPDATE</string>
