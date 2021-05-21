@@ -1,12 +1,12 @@
 package com.example.OrgaFood.Activity
 
 import android.content.Intent
+import android.icu.util.TimeUnit
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.ImageButton
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.*
+import androidx.appcompat.app.AlertDialog
 import androidx.core.os.HandlerCompat.postDelayed
 import com.example.OrgaFood.R
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -14,13 +14,16 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn.getSignedInAccountFro
 
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.GoogleAuthProvider
+//import com.google.common.base.Verify
+import com.google.firebase.FirebaseException
+import com.google.firebase.auth.*
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 //import google
 import kotlinx.android.synthetic.main.activity_login2.*
+
 import kotlinx.android.synthetic.main.activity_sign_in.*
+import kotlinx.android.synthetic.main.activity_verify_phone.*
 import com.google.android.gms.auth.api.signin.GoogleSignInClient as GoogleSignInClient
 
 /*import android.app.Activity
@@ -44,10 +47,13 @@ class SignInActivity : AppCompatActivity() {
         private const val RC_SIGN_IN = 120
 
     }
+    lateinit var storedVerificationId:String
 
 
     private lateinit var mAuth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
+    private lateinit var resendToken: PhoneAuthProvider.ForceResendingToken
+    private lateinit var callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -69,7 +75,18 @@ class SignInActivity : AppCompatActivity() {
         sign_in_google.setOnClickListener {
             signIn()
         }
+
+
+
+
+
+
     }
+
+
+
+
+
 
 
 
@@ -114,7 +131,7 @@ class SignInActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d("SignInActivity", "signInWithCredential:success")
-                    val intent = Intent(this,ProductsActivity::class.java)
+                    val intent = Intent(this@SignInActivity,ProductsActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {

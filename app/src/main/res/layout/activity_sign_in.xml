@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignInActivity">
 
     <TextView
         android:id="@+id/welcome_imageView"
@@ -35,21 +36,47 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/sign_in_phone"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="#fff"
-        android:drawableStart="@drawable/ic_google"
-        android:paddingStart="40dp"
-        android:paddingEnd="40dp"
-        android:text="@string/sign_in_with_email"
-        android:textAllCaps="false"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sign_in_google"
-        app:layout_constraintVertical_bias="0.09"
-        tools:layout_editor_absoluteX="0dp" />
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+<Button
+android:id="@+id/sign_in_phone"
+android:layout_width="match_parent"
+android:layout_height="60dp"
+android:background="#fff"
+android:drawableStart="@drawable/ic_google"
+android:paddingStart="40dp"
+android:paddingEnd="40dp"
+android:text="@string/sign_in_with_email"
+android:textAllCaps="false"
+android:textSize="16sp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/sign_in_google"
+app:layout_constraintVertical_bias="0.09"
+tools:layout_editor_absoluteX="0dp" />-->
