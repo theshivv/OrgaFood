@@ -12,43 +12,82 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import com.example.OrgaFood.R
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.android.gms.common.api.ApiException
 //mport com.google.common.base.Verify
 import com.google.firebase.FirebaseException
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.PhoneAuthCredential
-import com.google.firebase.auth.PhoneAuthOptions
-import com.google.firebase.auth.PhoneAuthProvider
+import com.google.firebase.auth.*
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_forgot_password.*
+import kotlinx.android.synthetic.main.activity_google.*
 import kotlinx.android.synthetic.main.activity_login2.*
 
 import java.util.concurrent.TimeUnit
+import kotlin.math.sign
 
 class LoginActivity2 : AppCompatActivity() {
+    companion object {
+        private const val RC_SIGN_IN = 120
 
-    private lateinit var auth: FirebaseAuth
-    private lateinit var storedVerificationId: String
+    }
+
+
+    private lateinit var mAuth: FirebaseAuth
+    private lateinit var googleSignInClient: GoogleSignInClient
+    private lateinit var resendToken: PhoneAuthProvider.ForceResendingToken
+    private lateinit var callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login2)
-        auth = FirebaseAuth.getInstance()
+        mAuth = FirebaseAuth.getInstance()
 
-        var currentUser = auth.currentUser
+
+        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestIdToken(getString(R.string.default_web_client_id))
+            .requestEmail()
+            .build()
+
+        googleSignInClient = GoogleSignIn.getClient(this, gso)
+
+
+        mAuth = FirebaseAuth.getInstance()
+
+
+
+
+
+
+
+
+
+
+
+
+        /*var currentUser = mAuth.currentUser
         if (currentUser != null) {
             startActivity(Intent(applicationContext, ProductsActivity::class.java))
             finish()
+        }*/
+
+
+
+
+
+        other.setOnClickListener {
+            signIn()
         }
-
-
 
 
 
         LoginButton.setOnClickListener {
             LoginOrgafood()
         }
-        val other = findViewById<ImageButton>(R.id.other)
+
 
 
         forgot_passw.setOnClickListener {
@@ -67,6 +106,58 @@ class LoginActivity2 : AppCompatActivity() {
 
 
     }
+
+
+
+    private fun signIn() {
+        val signInIntent = googleSignInClient.signInIntent
+        startActivityForResult(signInIntent, RC_SIGN_IN)
+    }
+
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
+        if (requestCode == RC_SIGN_IN) {
+            val task = GoogleSignIn.getSignedInAccountFromIntent(data)
+            val exception = task.exception
+
+            if(task.isSuccessful){
+                try {
+                    // Google Sign In was successful, authenticate with Firebase
+                    val account = task.getResult(ApiException::class.java)!!
+                    Log.d("SignInActivity", "firebaseAuthWithGoogle:" + account.id)
+                    firebaseAuthWithGoogle(account.idToken!!)
+                } catch (e: ApiException) {
+                    // Google Sign In failed, update UI appropriately
+                    Log.w("SignInActivity", "Google sign in failed", e)
+                }
+            }
+        }
+
+    }
+    private fun firebaseAuthWithGoogle(idToken: String) {
+        val credential = GoogleAuthProvider.getCredential(idToken, null)
+        mAuth.signInWithCredential(credential)
+            .addOnCompleteListener(this) { task ->
+                if (task.isSuccessful) {
+                    // Sign in success, update UI with the signed-in user's information
+                    Log.d("SignInActivity", "signInWithCredential:success")
+                    val intent = Intent(this,ProductsActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                } else {
+                    // If sign in fails, display a message to the user.
+                    Log.w("SignInActivity", "signInWithCredential:failure", task.exception)
+
+                }
+            }
+    }
+
+
+
+
 
     private fun forgotPassword(username: EditText) {
         if (username.text.toString().isEmpty()) {
@@ -95,12 +186,7 @@ class LoginActivity2 : AppCompatActivity() {
     }
 
 
-    fun onOtherClick(view: View) {
-        other.setOnClickListener {
-            startActivity(Intent(this@LoginActivity2, SignInActivity::class.java))
 
-        }
-    }
 
 
     private fun LoginOrgafood() : Boolean {

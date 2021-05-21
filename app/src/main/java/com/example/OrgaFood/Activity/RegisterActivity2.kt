@@ -35,9 +35,7 @@ class RegisterActivity2 : AppCompatActivity() {
         startActivity(Intent(this, LoginActivity2 ::class.java))
 
     }
-    fun onOther1Click(view: View) {
-        startActivity(Intent(this, SignInActivity ::class.java))
-    }
+
 
     private fun validateRegis() : Boolean {
         val fName = findViewById<EditText>(R.id.editTextName)
