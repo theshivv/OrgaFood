@@ -23,7 +23,6 @@ import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_login2.*
 
 import kotlinx.android.synthetic.main.activity_sign_in.*
-import kotlinx.android.synthetic.main.activity_verify_phone.*
 import com.google.android.gms.auth.api.signin.GoogleSignInClient as GoogleSignInClient
 
 /*import android.app.Activity
