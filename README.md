@@ -56,7 +56,7 @@ How can your project do its part in solving a real-life problem? What are its po
 ### **What did you learn from this project**
 Each team member and mentor can briefly describe what they learnt during Skill Up 2.0, how they applied it to their project and what challenges they faced.
 
-* Shivam Pawar - 
+* Shivam Pawar -   
 1.Different XML layouts   
 2.Modern UI for android   
 3.Firebase, Firestore  
