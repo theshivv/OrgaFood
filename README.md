@@ -11,7 +11,7 @@
 * Azeez Dandawala
 
 ### 📖**Description**  
-OrgaFood is bridge between Farmers and Customers also we are encouraging organic food.So, It is a platform where you can get pure organic edibles.In this tough time of pendamic health is the most important factor in someones life.so,its important to eat nutritious food and we are helping people to get this in this tough time.  
+OrgaFood is the bridge between Farmers and Customers and also we are encouraging organic food.So, it is a platform where you can get pure organic edibles.In this tough time of pandemic, health is the most important priority in one's life. So,it's important to eat nutritious food and we are helping people to get this in these tough times. Tis is also a platform for farmers who are growing organic products to sell thier products.   
 
 We are using Kotlin as programming language XML for designing and Firebase as backend.  
 Email and Google Authentication is done using Firebase Authentication.  
@@ -44,7 +44,7 @@ Tools and technologies that you learnt and used in the project:
 5. RazorPay
 
 ### ⚡**Applications**
-+ During this tough covid crisis, its important to eat healthy, nutritious food and Organic food is best when we are looking for healthy food. We are trying to provide this to people.  
++ During this tough covid crisis, it is important to eat healthy, nutritious food and organic food is best when we are looking for healthy food. We are trying to provide this to people.  
 + Due to many lockdowns, its difficult for farmers to sell their products in *Mandis*. We are also trying to help farmers to sell their products.  
 + This is all essentials at one place so less time in searching for products when shutters all shops are down.   
 
@@ -52,8 +52,8 @@ Tools and technologies that you learnt and used in the project:
 
 ### 👨‍🎓🚀**What did you learn from this project**
 
-* Shivam Pawar -    
-Hello,I leart following points during SkillUp 2.0  
+* Shivam Pawar -  
+* Hello! I learnt following points during SkillUp 2.0  
    1. Different XML layouts   
    2. Modern UI for android   
    3. Firebase, Firestore  
