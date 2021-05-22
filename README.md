@@ -89,7 +89,7 @@ Thank you every one for collaboration, dedication and efforts. I am also thankfu
     <td>Committee Members Page</td>
   </tr>
   <tr>
-    <td> <img src="https://drive.google.com/uc?export=view&id=1fXze_Lb78PHM9jtqPT5LkZ6pVR2dmo4z" width="200" height="350"></td>
+    <td> <img src="https://drive.google.com/file/d/1NPmreuIgO2VOyTIvcYR5KGpxyYZOuagj/view?usp=sharing" width="200" height="350"></td>
     <td> <img src="https://drive.google.com/uc?export=view&id=18kTMMu7jqQCi2GE1NZL_6jiqPA-jmG8m" width="200" height="350"></td>
     <td> <img src="https://drive.google.com/uc?export=view&id=1givzHYgsQmqHs-sI_9HtxynrH2QMKKBJ" width="200" height="350"></td>
     <td> <img src="https://drive.google.com/uc?export=view&id=1DAuOgR7epcyqOy_P15VgeuNz7Y946v-w" width="200" height="350"></td>
