@@ -48,5 +48,9 @@ class DashboardHomeScreen : AppCompatActivity() {
         startActivity(Intent(this,ProductsActivity ::class.java))
     }
 
+    fun UploadProduct(view: View) {
+        startActivity(Intent(this,UploadProductActivity ::class.java))
+    }
+
 
 }

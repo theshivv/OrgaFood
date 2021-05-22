@@ -28,7 +28,8 @@
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_margin="10dp"
-            android:src="@drawable/ic_outline_menu_24" />
+            android:src="@drawable/ic_outline_menu_24"
+            android:onClick="UploadProduct"/>
 
         <ImageView
             android:id="@+id/Wishlist"
@@ -128,9 +129,9 @@
                         android:elevation="8dp">
 
                         <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/fruit_vector"
                             android:layout_centerInParent="true" />
 
 
@@ -159,9 +160,9 @@
                         android:elevation="8dp">
 
                         <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/vegetable_vector"
                             android:layout_centerInParent="true" />
 
 
@@ -190,9 +191,9 @@
                         android:elevation="8dp">
 
                         <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/grains_vector"
                             android:layout_centerInParent="true" />
 
 
@@ -221,9 +222,9 @@
                         android:elevation="8dp">
 
                         <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/dairy_vector"
                             android:layout_centerInParent="true" />
 
 
@@ -429,12 +430,12 @@
                                     android:textSize="20sp"
                                     android:fontFamily="@font/baloo"/>
 
-                                <!--                                <ImageView-->
-                                <!--                                    android:layout_width="110dp"-->
-                                <!--                                    android:layout_height="110dp"-->
-                                <!--                                    android:src="@drawable/fruit"-->
-                                <!--                                    android:layout_alignParentRight="true"-->
-                                <!--                                    android:layout_alignParentBottom="true"/>-->
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/fruit_vector"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"/>
 
 
                             </RelativeLayout>
@@ -462,12 +463,12 @@
                                     android:textSize="20sp"
                                     android:fontFamily="@font/baloo"/>
 
-                                <!--                                <ImageView-->
-                                <!--                                    android:layout_width="110dp"-->
-                                <!--                                    android:layout_height="110dp"-->
-                                <!--                                    android:src="@drawable/fruit"-->
-                                <!--                                    android:layout_alignParentRight="true"-->
-                                <!--                                    android:layout_alignParentBottom="true"/>-->
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/vegetable_vector"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"/>
 
 
                             </RelativeLayout>
@@ -495,12 +496,12 @@
                                     android:textSize="20sp"
                                     android:fontFamily="@font/baloo"/>
 
-                                <!--                                <ImageView-->
-                                <!--                                    android:layout_width="110dp"-->
-                                <!--                                    android:layout_height="110dp"-->
-                                <!--                                    android:src="@drawable/fruit"-->
-                                <!--                                    android:layout_alignParentRight="true"-->
-                                <!--                                    android:layout_alignParentBottom="true"/>-->
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/grains_vector"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"/>
 
 
                             </RelativeLayout>
@@ -528,12 +529,12 @@
                                     android:textSize="20sp"
                                     android:fontFamily="@font/baloo"/>
 
-                                <!--                                <ImageView-->
-                                <!--                                    android:layout_width="110dp"-->
-                                <!--                                    android:layout_height="110dp"-->
-                                <!--                                    android:src="@drawable/fruit"-->
-                                <!--                                    android:layout_alignParentRight="true"-->
-                                <!--                                    android:layout_alignParentBottom="true"/>-->
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/dairy_vector"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"/>
 
 
                             </RelativeLayout>

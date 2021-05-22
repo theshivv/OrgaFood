@@ -200,7 +200,7 @@
                     android:src="@drawable/ic_google_plus"
                     android:background="@color/register_bk_color"
                     android:visibility="visible"
-                    android:text="@string/go"/>
+                    />
 
 
             </LinearLayout>

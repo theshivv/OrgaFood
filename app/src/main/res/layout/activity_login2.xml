@@ -152,7 +152,6 @@
                     android:layout_height="wrap_content"
                     android:clickable="true"
                     android:focusable="true"
-                    android:text="@string/go"
                     android:visibility="visible"
                     android:src="@drawable/ic_google_plus"
                     android:background="@color/white"/>

@@ -9,7 +9,7 @@ class User (
     val email : String = "",
     val pno : String = "",
     val address : String = "",
-val gender : String ="",
+    val gender : String ="",
     val imageLink : String ="",
     val dob : String=""
 
