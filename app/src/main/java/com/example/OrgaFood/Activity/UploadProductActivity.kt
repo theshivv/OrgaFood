@@ -86,7 +86,7 @@ storageReference = FirebaseStorage.getInstance().reference
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (data != null) {
-            if(requestCode == ImageRequest && resultCode == Activity.RESULT_OK && data.data!=null){
+            if(requestCode == ImageRequest && resultCode == RESULT_OK && data.data!=null){
                 imagePath = data.data!!
                 Picasso.with(this).load(imagePath).into(upProductImage)
 
