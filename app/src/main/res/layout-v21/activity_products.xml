@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:title="@string/products_page"
         android:titleTextColor="@color/black"
-        android:background="@color/cay"
+        android:background="#81b214"
         >
         <ImageView
             android:id="@+id/profilep"
