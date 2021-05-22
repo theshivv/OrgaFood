@@ -21,7 +21,6 @@ Along with this, add the link of the drive folder that contains the app APK/Scre
 
 * GitHub repo link: https://github.com/theshivv/OrgaFood
 * Drive link: https://drive.google.com/drive/folders/1jS2JoIdL4KaQh7tXmGu9-ZdhpMf_nlCs?usp=sharing
-* Website link: Website link here
 
 ### **Project Setup**  
 This project has made use of Android Studio software software , in which Kotlin language been used and also firebase has been used to store data.Also there are various courses for learning various things about app making using Kotlin and Android Studio.  
@@ -68,17 +67,14 @@ Thank you every one for collaboration, dedication and efforts. I am also thankfu
 * Rishabh Jain - 
  I have learned to use kotlin in android, how firebase works, how authentication can be done (Google, Email, Phone, etc.), how ui works, how to work with Multi-Moduled projects, how payment methods are integrated to app, also, how powerful and helpful, the git and github are.
 
-* Palak Mantry - Description
-
-* Azeez Dandawala - Description
-
 ### **Future scope**
 
-  • Real-Time Payment functionality can be added.
+* Real-Time Payment functionality can be added.
   
-  • More Authentication methods will be helpful (Phone, Facebook, Guest/Anonymous login).
+* More Authentication methods will be helpful (Phone, Facebook, Guest/Anonymous login).
 
-  • Also, delivery system would be helpful.
+* Also, delivery system would be helpful.
+  
 ### **Screenshots**
 <table>
   <tr>
