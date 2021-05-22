@@ -50,16 +50,23 @@ Tools and technologies that you learnt and used in the project:
 4. Git and Github
 5. RazorPay
 
-Kotlin
-Language-2
-Framework-1
-Framework-2 (Add or remove as required)
+Kotlin  
+Language-2   
+Framework-1   
+Framework-2 (Add or remove as required)  
+
 
 ### **Applications**
 How can your project do its part in solving a real-life problem? What are its possible applications? Decribe here.
++ During this tough covid crisis, its important to eat healthy, nutritious food and Organic food is best when we are looking for healthy food. We are trying to provide this to people.  
++ Due to many lockdowns, its difficult for farmers to sell their products in *Mandis*. We are also trying to help farmers to sell their products.  
++ This is all essentials at one place so less time in searching for products when shutters all shops are down.   
+
+
 
 ### **What did you learn from this project**
 Each team member and mentor can briefly describe what they learnt during Skill Up 2.0, how they applied it to their project and what challenges they faced.
+
 
 * Shivam Pawar - 
 Hello,I leart following points during SkillUp 2.0  
@@ -67,7 +74,7 @@ Hello,I leart following points during SkillUp 2.0
    2. Modern UI for android   
    3. Firebase, Firestore  
    4. GIT & GITHUB in Android Studio  
-Merging branches, solving conflicts were major problems faced by me and my team members.   
+Merging branches, solving conflicts were major one the problems faced by me and my team members but due to this I understand working of git and github in android studio very well.  
 
 * Prathamesh Ghogare -  
 Hi team!  
@@ -89,8 +96,7 @@ Thank you every one for collaboration, dedication and efforts. I am also thankfu
 
 * Real-Time Payment functionality can be added.  
   
-* More Authentication methods will be helpful (Phone, Facebook, Guest/Anonymous login).
-
+* More Authentication methods will be helpful (Phone, Facebook, Guest/Anonymous login).  
    
 * Weekly Cart suggestions for costumers according to their Buy history. 
   
