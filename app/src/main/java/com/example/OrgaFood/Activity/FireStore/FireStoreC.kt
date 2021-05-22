@@ -123,8 +123,9 @@ class FireStoreC {
     //creating collection cart adding document with name as product's document
     fun cart(activity: detailsActivity,addToCart :cart,addedPid:String)
     {
+        var productidBasedOnCustomer = addedPid + getCurrentUID()
         FS.collection("cart").
-        document(addedPid).set(addToCart, SetOptions.merge())   // adding the documents and if already present then merge
+        document(productidBasedOnCustomer).set(addToCart, SetOptions.merge())   // adding the documents and if already present then merge
             .addOnSuccessListener {
                 activity.addSucc() // addSucc is just a toast message this function is created in details activity
             }
@@ -133,6 +134,8 @@ class FireStoreC {
 
     //adding the cart item data into list fro using it in the recycle view
     fun cartList(activity: Activity){
+
+
         FS.collection("cart")
             .whereEqualTo("userId",getCurrentUID()) //getting the cart item for particular user
             .get()
