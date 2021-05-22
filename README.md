@@ -82,7 +82,7 @@ Thank you every one for collaboration, dedication and efforts. I am also thankfu
 ### **Screenshots**
 <table>
   <tr>
-    <td>Home Page</td>
+    <td>Loading Page</td>
     <td>Committee Page</td>
     <td>About Page</td>
     <td>Social Page</td>
