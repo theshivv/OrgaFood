@@ -1,7 +1,7 @@
 # **PROJECT NAME**
 ## OrgaFood
 
-## **Team members**
+### **Team members**
 * Shivam Pawar
 * Prathmesh Ghoghare
 * Nayan Taori
