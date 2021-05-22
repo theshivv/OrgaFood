@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/android-studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/edit/baseline_edit_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/image/baseline_image_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="34b7f1" />
-                            <entry key="outputName" value="ic_baseline_edit_24" />
+                            <entry key="color" value="abdaf1" />
+                            <entry key="outputName" value="ic_baseline_image_24" />
                             <entry key="sourceFile" value="E:\OrgaFood-pay" />
                           </map>
                         </option>
