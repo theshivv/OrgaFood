@@ -52,7 +52,7 @@ Tools and technologies that you learnt and used in the project:
 
 ### 👨‍🎓🚀**What did you learn from this project**
 
-* Shivam Pawar - 
+* Shivam Pawar -    
 Hello,I leart following points during SkillUp 2.0  
    1. Different XML layouts   
    2. Modern UI for android   
