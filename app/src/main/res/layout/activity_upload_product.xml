@@ -4,41 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Activity.UploadProductActivity">
 
-    <ImageView
-        android:id="@+id/upProductImage"
-        android:layout_width="148dp"
-        android:layout_height="139dp"
+
+    <FrameLayout
+        android:id="@+id/frameid"
+        android:layout_width="414dp"
+        android:layout_height="223dp"
+        android:background="#81b214"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.128"
-        app:srcCompat="@drawable/ic_baseline_image_24" />
+        app:layout_constraintVertical_bias="0.001">
+
+        <ImageView
+            android:id="@+id/upProductImage"
+            android:layout_width="148dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="130dp"
+            app:srcCompat="@drawable/ic_baseline_image_24" />
+    </FrameLayout>
 
     <EditText
         android:id="@+id/enterProductName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/product_name"
         android:inputType="textPersonName"
-      android:hint="@string/product_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/upProductImage"
-        app:layout_constraintVertical_bias="0.11" />
+        app:layout_constraintTop_toBottomOf="@+id/frameid"
+        app:layout_constraintVertical_bias="0.09" />
 
     <EditText
         android:id="@+id/enterQuantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/quantity"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.572"
@@ -52,8 +63,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/price_of_product"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.572"
@@ -66,8 +77,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/seller_name"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.572"
