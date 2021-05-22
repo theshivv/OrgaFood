@@ -53,7 +53,7 @@ Tools and technologies that you learnt and used in the project:
 ### 👨‍🎓🚀**What did you learn from this project**
 
 * Shivam Pawar -  
-* Hello! I learnt following points during SkillUp 2.0  
+Hello! I learnt following points during SkillUp 2.0  
    1. Different XML layouts   
    2. Modern UI for android   
    3. Firebase, Firestore  
