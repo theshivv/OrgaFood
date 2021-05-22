@@ -6,9 +6,10 @@
 * Prathmesh Ghoghare
 * Nayan Taori
 * Rishabh Jain
-Mentors
-Palak Mantry
-Azeez Dandawala
+ 
+### **Mentors**
+* Palak Mantry
+* Azeez Dandawala
 
 
 Description
