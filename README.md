@@ -25,13 +25,19 @@ Along with this, add the link of the drive folder that contains the app APK/Scre
 * Website link: Website link here
 
 ### **Technology stack**
-Tools and technologies that you learnt and used in the project.
+Tools and technologies that you learnt and used in the project:
+1. Android Studio 
+2. Firebase (Backend)
+3. Kotlin (Language)
+4. Git and Github
+5. RazorPay
 
 Kotlin
 Language-2
 Framework-1
 Framework-2 (Add or remove as required)
-Applications
+
+### **Applications**
 How can your project do its part in solving a real-life problem? What are its possible applications? Decribe here.
 
 What did you learn from this project
