@@ -16,7 +16,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
         android:paddingTop="20dp">
 
         <LinearLayout
@@ -28,20 +30,19 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <TextView
                     style="@style/viewParent.headerText.NoMode"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="Already\n have an \n Account ?"
-                    />
+                    android:text="Already\n have an \n Account ?" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
-                    android:src="@drawable/ic_register_hero"
-                    />
+                    android:src="@drawable/ic_register_hero" />
             </RelativeLayout>
 
 
@@ -55,7 +56,7 @@
                     style="@style/modifiedEditText"
                     android:hint="@string/login_email_hint"
                     android:inputType="textEmailAddress"
-                    android:maxLines="1"/>
+                    android:maxLines="1" />
 
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -71,13 +72,14 @@
                     style="@style/modifiedEditText"
                     android:hint="@string/login_password_hint"
                     android:inputType="textPassword"
-                    android:maxLines="1"/>
+                    android:maxLines="1" />
 
 
             </com.google.android.material.textfield.TextInputLayout>
 
 
             <TextView
+                android:id="@+id/forgot_passw"
                 style="@style/viewParent"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"
@@ -89,37 +91,36 @@
 
             <Button
                 android:id="@+id/LoginButton"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/loginViewsMargin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
                 android:elevation="2dp"
-                />
+
+                android:text="Login" />
 
             <TextView
                 style="@style/parent"
                 android:layout_marginTop="@dimen/loginViewsMargin"
+                android:onClick="onRegisterClick"
                 android:text="New User? Register Now"
                 android:textAlignment="center"
-                android:onClick="onRegisterClick"
                 android:textColor="@color/themeColor"
                 android:textSize="17sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="30dp"
                 android:weightSum="12">
 
                 <View
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="3"
-                    android:background="@color/colorPrimaryDark"/>
+                    android:background="@color/colorPrimaryDark" />
 
                 <TextView
                     style="@style/viewParent.headerText.NoMode"
@@ -128,14 +129,13 @@
                     android:layout_weight="6"
                     android:text="Use Other Methods"
                     android:textAlignment="center"
-                    android:textSize="12sp"
-                    />
+                    android:textSize="12sp" />
 
                 <View
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="3"
-                    android:background="@color/colorPrimaryDark"/>
+                    android:background="@color/colorPrimaryDark" />
 
 
             </LinearLayout>
@@ -147,16 +147,18 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center">
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/other"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_google_plus"/>
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/go"
+                    android:visibility="visible"
+                    android:onClick="onOtherClick"
+                    android:src="@drawable/ic_google_plus"
+                    android:background="@color/white"/>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:src="@drawable/ic_facebook"/>
 
             </LinearLayout>
         </LinearLayout>
