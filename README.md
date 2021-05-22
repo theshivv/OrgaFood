@@ -20,7 +20,7 @@ Don't forget to replace the link here with your own Github repository link.
 Along with this, add the link of the drive folder that contains the app APK/Screenshots/Screen Recordings. If you have hosted your project on the web, add that link as well.
 
 * GitHub repo link: https://github.com/theshivv/OrgaFood
-* Drive link: Drive link here
+* Drive link: https://drive.google.com/drive/folders/1jS2JoIdL4KaQh7tXmGu9-ZdhpMf_nlCs?usp=sharing
 * Website link: Website link here
 
 ### **Project Setup**  
