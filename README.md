@@ -11,8 +11,7 @@
 * Palak Mantry
 * Azeez Dandawala
 
-
-Description
+### **Description**
 Add your project description here. Your project description should cover how your project works. That way you can convey what your project is without the need for anyone to view the code. A more detailed readme in your project repository is encouraged, which can include build and use instructions etc.
 
 Use bullet points for any feature descriptions you may want to add
@@ -21,7 +20,7 @@ Don't forget to replace the link here with your own Github repository link.
 
 Along with this, add the link of the drive folder that contains the app APK/Screenshots/Screen Recordings. If you have hosted your project on the web, add that link as well.
 
-GitHub repo link: https://github.com/theshivv/OrgaFood
+* GitHub repo link: https://github.com/theshivv/OrgaFood
 Drive link: Drive link here
 Website link: Website link here
 
