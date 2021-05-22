@@ -61,7 +61,7 @@ Each team member and mentor can briefly describe what they learnt during Skill U
 * Prathamesh Ghogare - Description
 
 * Nayan Taori -  
- I have learnt the use of Kotlin language in app making and also learnt more functioning of Android Studio. I have also learnt about how to add more beautiful UI to a page of an app. Also learnt a bit about Firebase and enjoyed working with the team where I learnt to be more patient when the app was getting crashed due to some errors in code.
+ I have learnt the use of Kotlin language in app making and also learnt more functioning of Android Studio. I have also learnt about how to add more beautiful UI to a page of an app. Also learnt a bit about Firebase and enjoyed working with the team where I learnt to be more patient when the app was getting crashed due to some errors in code. It was fun how we tried to debug the code and succeeded.
 
 * Rishabh Jain - Description
 
