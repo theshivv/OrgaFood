@@ -11,7 +11,11 @@
 * Azeez Dandawala
 
 ### **Description**  
-OrgaFood is bridge between Farmers and Customers also we are encouraging organic food.So, It is a platform where you can get pure organic edibles.In this tough time of pendamic health is the most important factor in someones life.so,its important to eat nutritious food and we are helping people to get this in this tough time.
+OrgaFood is bridge between Farmers and Customers also we are encouraging organic food.So, It is a platform where you can get pure organic edibles.In this tough time of pendamic health is the most important factor in someones life.so,its important to eat nutritious food and we are helping people to get this in this tough time.  
+
+We are using Kotlin as programming language XML for designing and Firebase as backend.  
+Email and Google Authentication is done using Firebase Authentication.  
+Firestore is  used for storing data.
 
 Add your project description here. Your project description should cover how your project works. That way you can convey what your project is without the need for anyone to view the code. A more detailed readme in your project repository is encouraged, which can include build and use instructions etc.
 
@@ -57,11 +61,13 @@ How can your project do its part in solving a real-life problem? What are its po
 ### **What did you learn from this project**
 Each team member and mentor can briefly describe what they learnt during Skill Up 2.0, how they applied it to their project and what challenges they faced.
 
-* Shivam Pawar -   
+* Shivam Pawar - 
+Hello,I leart following points during SkillUp 2.0  
    1. Different XML layouts   
    2. Modern UI for android   
    3. Firebase, Firestore  
-   4. GIT & GITHUB in Android Studio   
+   4. GIT & GITHUB in Android Studio  
+Merging branches, solving conflicts were major problems faced by me and my team members.   
 
 * Prathamesh Ghogare -  
 Hi team!  
@@ -75,11 +81,18 @@ Thank you every one for collaboration, dedication and efforts. I am also thankfu
 
 ### **Future scope**
 
-* Real-Time Payment functionality can be added.
+* More Authentication methods will be helpful (Phone, Facebook, Guest/Anonymous login).  
+  
+* Delivery System + Map   
+
+* Weekly Cart suggestions for costumers according to their Buy history.  
+
+* Real-Time Payment functionality can be added.  
   
 * More Authentication methods will be helpful (Phone, Facebook, Guest/Anonymous login).
 
-* Also, delivery system would be helpful.
+   
+* Weekly Cart suggestions for costumers according to their Buy history. 
   
 ### **Screenshots**
 <table>
