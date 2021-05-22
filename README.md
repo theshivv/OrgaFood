@@ -45,16 +45,20 @@ Framework-2 (Add or remove as required)
 ### **Applications**
 How can your project do its part in solving a real-life problem? What are its possible applications? Decribe here.
 
-What did you learn from this project
+### **What did you learn from this project**
 Each team member and mentor can briefly describe what they learnt during Skill Up 2.0, how they applied it to their project and what challenges they faced.
 
-Member 1 name - Description
-Member 2 name - Description
+Shivam Pawar - Description
+Prathamesh Ghogare - Description
+Nayan Taori - Description
+Rishabh Jain - Description
+Palak Mantry - Description
+Azeez Dandawala - Description
 
-Future scope
+### **Future scope**
 Mention ways in which the project can be improved and built upon in the future.
 
-Screenshots
+### **Screenshots**
 Add a few screenshots here to give the viewer a quick idea of what your project looks like. After all, a picture speaks a thousand words.
 
 You'll have to link the screenshots from your drive folder here.
