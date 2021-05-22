@@ -13,7 +13,7 @@
     <string name="register"><u>Register</u></string>
     <string name="products_page">Products Page</string>
     <string name="add_to_cart">Add to Cart</string>
-    <string name="add">ADD TO CART</string>
+    <string name="add">add</string>
     <string name="title_activity_bottom_nevi">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -50,11 +50,5 @@
 
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
-    <string name="sign_in_with_Google">Sign in with Google</string>
-    <string name="sign_in_with_email">Sign in with Phone</string>
-    <string name="other_sign_in_methods">"Other Sign-in Methods"</string>
-    <string name="go">Go</string>
-    <string name="product_title">Product Title</string>
-    <string name="seller">Seller:</string>
 
 </resources>

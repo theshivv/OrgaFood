@@ -5,7 +5,7 @@ import java.util.*
 class User (
     val id: String ="",
     val fName: String = "",
-    val lName: String = "",
+   val  lname : String = "",
     val email : String = "",
     val pno : String = "",
     val address : String = "",
