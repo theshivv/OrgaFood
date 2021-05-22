@@ -40,13 +40,13 @@ class LoginActivity2 : AppCompatActivity() {
                 false
             }
             TextUtils.isEmpty(lPassword.text.toString().trim{ it <= ' '}) ->{
-                Toast.makeText(this,"Invalid password " ,Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Invalid password" ,Toast.LENGTH_SHORT).show()
                 false
             }
 
             else -> {
 
-                Toast.makeText(this,"successfulll1 " ,Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Logging In" ,Toast.LENGTH_SHORT).show()
                 val email : String = editTextEmail.text.toString().trim { it <= ' ' }
                 val password : String = editTextPassword.text.toString().trim{ it <= ' '}
 
