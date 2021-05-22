@@ -24,6 +24,12 @@ Along with this, add the link of the drive folder that contains the app APK/Scre
 * Drive link: Drive link here
 * Website link: Website link here
 
+### **Project Setup**  
+This project has made use of Android Studio software software , in which Kotlin language been used and also firebase has been used to store data.Also there are various courses for learning various things about app making using Kotlin and Android Studio.
+To see the code , one can download Android Studio. Then copy the link of the repository given above and open the option of Version Control.Then you can paste the link of repository and open it from 'Existing Android Studio Projects' option.The code will open and then you can run it on a virtual emulator created by you or on your phone itself.
+
+### **Usage**
+
 ### **Technology stack**
 Tools and technologies that you learnt and used in the project:
 1. Android Studio 
