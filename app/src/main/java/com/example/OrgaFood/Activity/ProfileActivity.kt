@@ -36,7 +36,7 @@ class ProfileActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
             .commit()
 
-            supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
+//            supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
 
 
         editProfileIcon.setOnClickListener {
