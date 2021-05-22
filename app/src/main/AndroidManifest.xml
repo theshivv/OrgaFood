@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.OrgaFood">
+    package="com.example.OrgaFood" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,6 +15,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:theme="@style/Theme.Vegan">
+        <activity android:name=".Activity.DashboardHomeScreen"/>
+
         android:theme="@style/Theme.Vegan">
         <activity android:name=".Activity.model.UploadProductActivity"></activity>
         <activity android:name=".RegisterActivity2"></activity>
@@ -46,8 +49,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <!-- android:theme="@style/AppTheme.NoActionBar" -->
-            <!--  -->
+
+
 
         </activity>
         <activity

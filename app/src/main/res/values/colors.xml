@@ -22,4 +22,18 @@
     <color name="whiteTextColor">#fff</color>
     <color name="primaryTextColor">#11CFC5</color>
     <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#75cfb8</color>
+
+
+    <!--DashBoard color    -->
+    <color name="home_background">#f2f5f8</color>
+    <color name="banner_background">#F1E9CE</color>
+    <color name="banner_background_light">#56F1E9CE</color>
+    <color name="coloraccent_dashboard">#272727</color>
+
+    <!-- Card Color    -->
+    <color name="card1">#d4cbe5</color>
+    <color name="card2">#7adccf</color>
+    <color name="card3">#f7c59f</color>
+    <color name="card4">#9dadce</color>
+
 </resources>
