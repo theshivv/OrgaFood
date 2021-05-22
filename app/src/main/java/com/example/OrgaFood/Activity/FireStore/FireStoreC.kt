@@ -156,7 +156,17 @@ class FireStoreC {
             }
     }
 
+    fun uploadPoduct(userdata: Product, nameDocument : String){
 
+        FS.collection("products").
+        document(nameDocument)
+            .set(userdata, SetOptions.merge()).addOnSuccessListener {
+
+            }
+            .addOnFailureListener {
+
+            }
+    }
 
 
 }
