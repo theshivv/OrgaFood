@@ -49,11 +49,11 @@ How can your project do its part in solving a real-life problem? What are its po
 Each team member and mentor can briefly describe what they learnt during Skill Up 2.0, how they applied it to their project and what challenges they faced.
 
 Shivam Pawar - Description
-Prathamesh Ghogare - Description
-Nayan Taori - Description
-Rishabh Jain - Description
-Palak Mantry - Description
-Azeez Dandawala - Description
+* Prathamesh Ghogare - Description
+* Nayan Taori - Description
+* Rishabh Jain - Description
+* Palak Mantry - Description
+* Azeez Dandawala - Description
 
 ### **Future scope**
 Mention ways in which the project can be improved and built upon in the future.
