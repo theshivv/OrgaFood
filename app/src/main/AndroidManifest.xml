@@ -19,8 +19,10 @@
         <activity android:name=".Activity.DashboardHomeScreen"/>
 
         android:theme="@style/Theme.Vegan">
-        <activity android:name=".Activity.model.UploadProductActivity"></activity>
-        <activity android:name=".RegisterActivity2"></activity>
+        <activity android:name=".Activity.model.UploadProductActivity" />
+
+
+        <activity android:name=".Activity.RegisterActivity2" />
         <activity
             android:name=".Activity.LoginActivity2"
             android:theme="@style/AppTheme.NoActionBar" />
