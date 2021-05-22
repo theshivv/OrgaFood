@@ -73,10 +73,12 @@ Thank you every one for collaboration, dedication and efforts. I am also thankfu
 * Azeez Dandawala - Description
 
 ### **Future scope**
-Mention ways in which the project can be improved and built upon in the future.
-• Real-Time Payment functionality can be added.
-• More Authentication methods will be helpful (Phone, Facebook, Guest/Anonymous login).
-• Also, delivery system would be helpful.
+
+  • Real-Time Payment functionality can be added.
+  
+  • More Authentication methods will be helpful (Phone, Facebook, Guest/Anonymous login).
+
+  • Also, delivery system would be helpful.
 ### **Screenshots**
 <table>
   <tr>
