@@ -3,21 +3,14 @@
 package com.example.OrgaFood.Activity
 
 import android.content.Intent
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
 import android.view.View
-import android.view.WindowInsets
-import android.view.WindowManager
 import android.widget.EditText
 import android.widget.Toast
 import com.example.OrgaFood.R
-import com.example.OrgaFood.RegisterActivity2
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_login2.*
 
 class LoginActivity2 : AppCompatActivity() {
@@ -47,13 +40,13 @@ class LoginActivity2 : AppCompatActivity() {
                 false
             }
             TextUtils.isEmpty(lPassword.text.toString().trim{ it <= ' '}) ->{
-                Toast.makeText(this,"Invalid password " ,Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Invalid password" ,Toast.LENGTH_SHORT).show()
                 false
             }
 
             else -> {
 
-                Toast.makeText(this,"successfulll1 " ,Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Logging In" ,Toast.LENGTH_SHORT).show()
                 val email : String = editTextEmail.text.toString().trim { it <= ' ' }
                 val password : String = editTextPassword.text.toString().trim{ it <= ' '}
 
@@ -63,7 +56,7 @@ class LoginActivity2 : AppCompatActivity() {
                         if (task.isSuccessful) {
 //                             val firebaseUser: FirebaseUser = task.result!!.user!!
 
-                            startActivity(Intent(this, ProductsActivity :: class.java ))
+                            startActivity(Intent(this, DashboardHomeScreen :: class.java ))
                             finish()
                         }
                         else{
