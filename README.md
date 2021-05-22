@@ -58,10 +58,9 @@ Each team member and mentor can briefly describe what they learnt during Skill U
 
 * Shivam Pawar - Description
 
-* Prathamesh Ghogare - 
+* Prathamesh Ghogare -  
 Hi team!  
-Thank you every one for colabration, dedication and effors. I am also thankfull to all the mentors for helping us in making 
-Organic Food App it was a geat Experience to work with you all, I have learn lot of new teck and android development skills while working making this project.
+Thank you every one for collaboration, dedication and efforts. I am also thankful to all the mentors for helping us in making Organic Food App. It was a great experience to work with you all, I have learnt a lot of new tech and android development skills while working on this project. I have learned about fragments files and how to use them in our project. I have worked on backend and learnt quite a lot on Firebase.
 
 * Nayan Taori -  
  I have learnt the use of Kotlin language in app making and also learnt more functioning of Android Studio. I have also learnt about how to add more beautiful UI to a page of an app. Also learnt a bit about Firebase and enjoyed working with the team where I learnt to be more patient when the app was getting crashed due to some errors in code. It was fun how we tried to debug the code and succeeded.
@@ -77,6 +76,19 @@ Organic Food App it was a geat Experience to work with you all, I have learn lot
 Mention ways in which the project can be improved and built upon in the future.
 
 ### **Screenshots**
-Add a few screenshots here to give the viewer a quick idea of what your project looks like. After all, a picture speaks a thousand words.
-
-You'll have to link the screenshots from your drive folder here.
+<table>
+  <tr>
+    <td>Home Page</td>
+    <td>Committee Page</td>
+    <td>About Page</td>
+    <td>Social Page</td>
+    <td>Committee Members Page</td>
+  </tr>
+  <tr>
+    <td> <img src="https://drive.google.com/uc?export=view&id=1fXze_Lb78PHM9jtqPT5LkZ6pVR2dmo4z" width="200" height="350"></td>
+    <td> <img src="https://drive.google.com/uc?export=view&id=18kTMMu7jqQCi2GE1NZL_6jiqPA-jmG8m" width="200" height="350"></td>
+    <td> <img src="https://drive.google.com/uc?export=view&id=1givzHYgsQmqHs-sI_9HtxynrH2QMKKBJ" width="200" height="350"></td>
+    <td> <img src="https://drive.google.com/uc?export=view&id=1DAuOgR7epcyqOy_P15VgeuNz7Y946v-w" width="200" height="350"></td>
+    <td> <img src="https://drive.google.com/uc?export=view&id=1EqcuKllVsDzhxlTT60aviY4FUnU_BHWW" width="200" height="350"></td>
+  </tr>
+</table>
