@@ -54,8 +54,8 @@
 
     <FrameLayout
         android:id="@+id/editFragment"
-        android:layout_width="match_parent"
-        android:layout_height="664dp"
+        android:layout_width="407dp"
+        android:layout_height="659dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

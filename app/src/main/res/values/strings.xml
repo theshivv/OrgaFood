@@ -31,16 +31,25 @@
     <string name="_1">1</string>
     <string name="decrement">-</string>
     <string name="increment">+</string>
-    <string name="profilep">profilep</string>
+    <string name="profilep">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="save">Save</string>
+    <string name="address">address</string>
+    <string name="phone_no">phone No</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="location">Location</string>
+    <string name="birthday">Birthday(DD/MM/YY)</string>
+
+    <string name="others">Others</string>
+    <string name="update">UPDATE</string>
 
 
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
-    <string name="sign_in_with_Google">Sign in with Google</string>
-    <string name="sign_in_with_email">Sign in with Phone</string>
-    <string name="other_sign_in_methods">"Other Sign-in Methods"</string>
-    <string name="go">Go</string>
-    <string name="product_title">Product Title</string>
-    <string name="seller">Seller:</string>
+    <string name="go">go</string>
 
 </resources>

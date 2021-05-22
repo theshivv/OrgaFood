@@ -32,6 +32,10 @@
     <style name="loginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
         <item name="boxStrokeColor">#75cfb8</item>
         <item name="boxStrokeWidth">3dp</item>
+        <item name ="boxBackgroundColor">#ceeddf</item>
+        <item name="hintTextColor">#75cfb8</item>
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintTextAppearance">@id/transition_current_scene</item>
     </style>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -60,7 +64,7 @@
         <item name="android:textColor">@color/darkTextColor</item>
     </style>
 
-    <style name="parent">
+    <style name="parent" >
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>

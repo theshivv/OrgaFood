@@ -197,7 +197,7 @@
                     android:layout_height="wrap_content"
                     android:clickable="true"
                     android:focusable="true"
-                    android:onClick="onOther1Click"
+
                     android:src="@drawable/ic_google_plus"
                     android:background="@color/register_bk_color"
                     android:visibility="visible"

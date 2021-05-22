@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Fragements.ProfileView"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+<FrameLayout
+    android:id="@+id/imageViewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#81b214">
+
+    <ImageView
+        android:id="@+id/profileimageView"
+        android:layout_width="165dp"
+        android:layout_height="134dp"
+        android:background="@color/white"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/products_page"
+        android:src="@drawable/ic_baseline_person_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</FrameLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="495dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/lUserName"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth"
+            android:gravity="center"
+            android:text="Full Name"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.012">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/viewGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Gender"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.918"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lUserName"
+            app:layout_constraintVertical_bias="0.0">
+
+        </TextView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lUserEmailId"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderwithblankupper"
+            android:gravity="center"
+            android:text="Email ID"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lUserName"
+            app:layout_constraintVertical_bias="0.331">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <TextView
+            android:id="@+id/viewPhoneNo"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="136dp"
+            android:background="@drawable/borderwithblankupper"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_baseline_call_24"
+            android:text="Mobile Number"
+
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lUserEmailId"
+            app:layout_constraintVertical_bias="0.0">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dateOfBirthView"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderwithblankupper"
+            android:gravity="center"
+            android:text="Birthday"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewPhoneNo"
+            app:layout_constraintVertical_bias="0.0">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/viewAddress"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderwithblankupper"
+            android:gravity="center"
+            android:text="@string/address"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:drawableStart="@drawable/ic_baseline_location_on_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateOfBirthView"
+            app:layout_constraintVertical_bias="0.0">
+
+        </TextView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+</LinearLayout>

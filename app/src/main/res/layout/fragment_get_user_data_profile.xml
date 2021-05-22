@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Fragements.GetUserDataProfile"
+    android:orientation="vertical">
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:background="#81b214"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/ProfileImageView"
+                android:layout_width="190dp"
+                android:layout_height="180dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_person_24" />
+
+
+            <TextView
+                android:id="@+id/showName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="191dp"
+                android:layout_toEndOf="@+id/ProfileImageView"
+                android:fontFamily="sans-serif-black"
+                android:includeFontPadding="false"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/showId"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/showName"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="191dp"
+                android:layout_marginBottom="84dp"
+                android:layout_toEndOf="@+id/ProfileImageView"
+                android:includeFontPadding="false"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mobile_number"
+                style="@style/loginTextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/cay"
+                android:hint="@string/mobile_number">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneNo"
+                    android:layout_width="match_parent"
+                    android:inputType="phone|number"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:drawableLeft="@drawable/ic_baseline_call_24"
+                    android:drawablePadding="5dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/full_name_profile"
+                style="@style/loginTextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/full_name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/firstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+                    android:drawablePadding="10dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_id"
+                style="@style/loginTextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailAddressOfUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/black"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/address_of_customer"
+                style="@style/loginTextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/location">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/addressOfUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:inputType="textPostalAddress"
+                    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                    android:drawablePadding="10dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/birthday_date"
+                style="@style/loginTextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/birthday">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/birthdayid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/black"
+                    android:inputType="date" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGender"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EmailAddressLayout"
+            app:layout_constraintVertical_bias="0.28">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/doNotWantToDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/others"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/saveChanges"
+            android:backgroundTint="#81b214"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:text="@string/update"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
