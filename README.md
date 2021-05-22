@@ -1,11 +1,11 @@
 # **PROJECT NAME**
 ## OrgaFood
-OrgaFood
-Team members
-Shivam Pawar
-Prathmesh Ghoghare
-Nayan Taori
-Rishabh Jain
+
+## **Team members**
+*Shivam Pawar
+*Prathmesh Ghoghare
+*Nayan Taori
+*Rishabh Jain
 Mentors
 Palak Mantry
 Azeez Dandawala
