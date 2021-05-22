@@ -28,6 +28,14 @@ This project has made use of Android Studio software software , in which Kotlin 
 To see the code , one can download Android Studio. Then copy the link of the repository given above and open the option of Version Control.Then you can paste the link of repository and open it from 'Existing Android Studio Projects' option.The code will open and then you can run it on a virtual emulator created by you or on your phone itself.
 
 ### **Usage**
+1. Click on the app first to open the app.
+2. Now you'll be landing on the login page.
+3. So, if you are a first time user then you can register with a new account or register using gmail account.
+4. So after registering, you have to again login and you'll land on the products page.
+5. On the Product's page, you can choose the item you want to buy and add it to the cart.
+6. On the Product page, there is also a option to view you profile. In the Profile page you also have a option to update your profile.
+7. To buy the products you have selected, go to the cart which has been shown in the top right corner.
+8. As you click on buy now button you will be lead to razor pay page where you have to pay using various payment options like UPI id and many more. 
 
 ### **Technology stack**
 Tools and technologies that you learnt and used in the project:
