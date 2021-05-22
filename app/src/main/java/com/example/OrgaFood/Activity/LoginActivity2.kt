@@ -22,7 +22,7 @@ import com.google.firebase.auth.*
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_forgot_password.*
-import kotlinx.android.synthetic.main.activity_google.*
+
 import kotlinx.android.synthetic.main.activity_login2.*
 
 import java.util.concurrent.TimeUnit
