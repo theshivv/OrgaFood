@@ -10,7 +10,8 @@
 * Palak Mantry
 * Azeez Dandawala
 
-### **Description**
+### **Description**  
+OrgaFood is bridge between Farmers and Customers also we are encouraging organic food.So, It is a platform where you can get pure organic edibles.In this tough time of pendamic health is the most important factor in someones life.so,its important to eat nutritious food and we are helping people to get this in this tough time.
 
 Add your project description here. Your project description should cover how your project works. That way you can convey what your project is without the need for anyone to view the code. A more detailed readme in your project repository is encouraged, which can include build and use instructions etc.
 
