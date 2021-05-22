@@ -1,5 +1,4 @@
-# **PROJECT NAME**
-## OrgaFood
+# **OrgaFood**
 
 ### **Team members**
 * Shivam Pawar
