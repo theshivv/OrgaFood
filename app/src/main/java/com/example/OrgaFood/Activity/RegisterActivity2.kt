@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
+import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import com.example.OrgaFood.Activity.FireStore.FireStoreC
 import com.example.OrgaFood.Activity.Info.User
@@ -22,12 +24,18 @@ class RegisterActivity2 : AppCompatActivity() {
         RegisterButton.setOnClickListener {
             register()
         }
-    }
+        val other1 = findViewById<ImageButton>(R.id.other1)
+
+
+
+        }
+
 
     fun onLoginClick(view: View) {
         startActivity(Intent(this, LoginActivity2 ::class.java))
 
     }
+
 
     private fun validateRegis() : Boolean {
         val fName = findViewById<EditText>(R.id.editTextName)
@@ -57,8 +65,7 @@ class RegisterActivity2 : AppCompatActivity() {
             }
         }
     }
-
-    private fun register (){
+        fun register (){
         val fName = findViewById<EditText>(R.id.editTextName)
         val lName = findViewById<EditText>(R.id.editTextLastName)
         val email = findViewById<EditText>(R.id.editEmailName)

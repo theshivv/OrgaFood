@@ -191,16 +191,17 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center">
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/other1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_google_plus"/>
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/ic_google_plus"
+                    android:background="@color/register_bk_color"
+                    android:visibility="visible"
+                    android:text="@string/go"/>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:src="@drawable/ic_facebook"/>
 
             </LinearLayout>
 
