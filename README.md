@@ -56,7 +56,11 @@ How can your project do its part in solving a real-life problem? What are its po
 ### **What did you learn from this project**
 Each team member and mentor can briefly describe what they learnt during Skill Up 2.0, how they applied it to their project and what challenges they faced.
 
-* Shivam Pawar - Description
+* Shivam Pawar - 
+1.Different XML layouts
+2.Modern UI for android
+3.Firebase, Firestore
+4.GIT GITHUB in Android Studio
 
 * Prathamesh Ghogare -  
 Hi team!  
@@ -79,7 +83,7 @@ Thank you every one for collaboration, dedication and efforts. I am also thankfu
 ### **Screenshots**
 <table>
   <tr>
-    <td>Loading Page</td>
+    <td>Splash Screen</td>
     <td>Login Page</td>
     <td>Home Page</td>
     <td>Product Page</td>
