@@ -62,8 +62,8 @@ Merging branches, solving conflicts were major one the problems faced by me and 
 
 * Prathamesh Ghogare -  
 Hi team!  
-Thank you every one for collaboration, dedication and efforts. I am also thankful to all the mentors for helping us in making Organic Food App. It was a great experience to work with you all, I have learnt a lot of new tech and android development skills while working on this project. I have learned about fragments files and how to use them in our project. I have worked on backend and learnt quite a lot on Firebase.
-
+Thank you every one for collaboration, dedication and efforts. I am also thankful to all the mentors for helping us in making Organic Food App. It was a great experience to work with you all, I have learnt a lot of new tech and android development skills while working on this project. I have learned about fragments files android libraries UI and also using GIT in Android Studio . I have worked on backend and learnt quite a lot about Firebase and Firestore.
+ 
 * Nayan Taori -  
  I have learnt the use of Kotlin language in app making and also learnt more functioning of Android Studio. I have also learnt about how to add more beautiful UI to a page of an app. Also learnt a bit about Firebase and enjoyed working with the team where I learnt to be more patient when the app was getting crashed due to some errors in code. It was fun how we tried to debug the code and succeeded.
 
