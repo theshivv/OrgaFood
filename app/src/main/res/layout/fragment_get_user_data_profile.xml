@@ -79,6 +79,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/phoneNo"
+                    app:hintTextColor="@color/cay"
                     android:layout_width="match_parent"
                     android:inputType="phone|number"
                     android:layout_height="match_parent"
