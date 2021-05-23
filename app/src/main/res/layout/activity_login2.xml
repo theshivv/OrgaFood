@@ -8,7 +8,6 @@
     android:layout_gravity="center"
     android:background="@color/login_bk_color"
     android:focusableInTouchMode="true"
-
     >
 
     <ScrollView
@@ -78,6 +77,7 @@
 
 
             <TextView
+                android:id="@+id/forgot_password"
                 style="@style/viewParent"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"
@@ -100,13 +100,12 @@
             <TextView
                 style="@style/parent"
                 android:layout_marginTop="@dimen/loginViewsMargin"
+                android:onClick="onRegisterClick"
                 android:text="New User? Register Now"
                 android:textAlignment="center"
-                android:onClick="onRegisterClick"
                 android:textColor="@color/themeColor"
                 android:textSize="17sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -147,16 +146,17 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center">
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/other"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_google_plus"/>
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    android:src="@drawable/ic_google_plus"
+                    android:background="@color/white"/>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:src="@drawable/ic_facebook"/>
+
 
             </LinearLayout>
         </LinearLayout>

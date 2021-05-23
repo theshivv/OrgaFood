@@ -240,8 +240,7 @@ onSNACK(xmlData)
     }
 
     fun checkUserData() : Boolean{
-
-return  true
+        return  true
     }
 
     fun onSNACK(view: View){

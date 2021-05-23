@@ -11,7 +11,7 @@ import com.example.OrgaFood.Activity.Info.constants
 import com.example.OrgaFood.Activity.ProductsActivity
 
 import com.example.OrgaFood.Activity.detailsActivity
-import com.example.OrgaFood.RegisterActivity2
+import com.example.OrgaFood.Activity.RegisterActivity2
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
@@ -123,8 +123,9 @@ class FireStoreC {
     //creating collection cart adding document with name as product's document
     fun cart(activity: detailsActivity,addToCart :cart,addedPid:String)
     {
+        var productidBasedOnCustomer = addedPid + getCurrentUID()
         FS.collection("cart").
-        document(addedPid).set(addToCart, SetOptions.merge())   // adding the documents and if already present then merge
+        document(productidBasedOnCustomer).set(addToCart, SetOptions.merge())   // adding the documents and if already present then merge
             .addOnSuccessListener {
                 activity.addSucc() // addSucc is just a toast message this function is created in details activity
             }
@@ -133,6 +134,8 @@ class FireStoreC {
 
     //adding the cart item data into list fro using it in the recycle view
     fun cartList(activity: Activity){
+
+
         FS.collection("cart")
             .whereEqualTo("userId",getCurrentUID()) //getting the cart item for particular user
             .get()
@@ -153,7 +156,17 @@ class FireStoreC {
             }
     }
 
+    fun uploadPoduct(userdata: Product, nameDocument : String){
 
+        FS.collection("products").
+        document(nameDocument)
+            .set(userdata, SetOptions.merge()).addOnSuccessListener {
+
+            }
+            .addOnFailureListener {
+
+            }
+    }
 
 
 }

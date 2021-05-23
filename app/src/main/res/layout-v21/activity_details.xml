@@ -23,6 +23,7 @@ android:id="@+id/scrollViewD"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginBottom="25dp"
+    android:layout_marginHorizontal="30dp"
     >
 
     <ImageView
@@ -36,24 +37,24 @@ android:id="@+id/scrollViewD"
         android:id="@+id/DNameOfProduct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black">
-
-    </TextView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/price_of_product"
         android:textColor="@color/black"
-        android:textSize="20sp">
+        android:paddingBottom="10dp"
+        android:textSize="24dp"
+        android:textStyle="normal">
 
     </TextView>
+
+
 
     <TextView
         android:id="@+id/dPriceOfProduct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black">
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        android:paddingBottom="10dp">
 
     </TextView>
 
@@ -61,7 +62,9 @@ android:id="@+id/scrollViewD"
         android:id="@+id/dSellerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black">
+        android:textColor="@color/black"
+        android:paddingBottom="10dp"
+        android:textStyle="normal">
 
     </TextView>
     <Button
@@ -85,7 +88,7 @@ android:id="@+id/scrollViewD"
         android:id="@+id/toolbar3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="#81b214"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
 

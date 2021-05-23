@@ -9,6 +9,6 @@ data class cart(
     var ProDid: String = "",
     var price: String = "",
     var sellerName: String = "",
-    var numOfItems:String = ""
-
+    var numOfItems:String = "",
+var customerPid : String = ""
 )

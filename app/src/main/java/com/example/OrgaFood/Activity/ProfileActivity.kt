@@ -25,28 +25,28 @@ class ProfileActivity : AppCompatActivity() {
         setContentView(R.layout.activity_profile)
 
 
-// loading the fragment
+            // loading the fragment
          var editProfileFragment = GetUserDataProfile()   //consturctor
-        var  getProfileFragment = ProfileView()      // Profile Constructor
+         var getProfileFragment = ProfileView()      // Profile Constructor
          var editProfileIcon =  findViewById<View>(R.id.profileEdit)
-        var profileText = findViewById<TextView>(R.id.profileH)
+         var profileText = findViewById<TextView>(R.id.profileH)
 
 
 
             supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
             .commit()
 
-            supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
+//            supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
 
 
-        editProfileIcon.setOnClickListener {
+            editProfileIcon.setOnClickListener {
                 supportFragmentManager.beginTransaction().replace(R.id.editFragment, editProfileFragment).commit()
-         }
+            }
 
-        profileText.setOnClickListener {
-            supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
-                .commit()
-        }
+            profileText.setOnClickListener {
+                supportFragmentManager.beginTransaction().replace(R.id.editFragment, getProfileFragment)
+                    .commit()
+            }
         }
 
         }

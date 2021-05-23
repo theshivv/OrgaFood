@@ -2,8 +2,13 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
 
+
         <item>@font/actor</item>
         <item>@font/amaranth</item>
+        <item>@font/amita</item>
+        <item>@font/athiti_medium</item>
+        <item>@font/baloo</item>
+        <item>@font/cairo</item>
 
     </array>
 </resources>
